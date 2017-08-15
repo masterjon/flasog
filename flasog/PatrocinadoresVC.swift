@@ -14,39 +14,39 @@ class PatrocinadoresVC: UIViewController, UITableViewDataSource, UITableViewDele
     let items = [["image":"1",
                   "title":"MEDIX",
                   "description":"Grupo Elite",
-                  "link":"https://www.medix.com.mx/"],
+                  "link":"www.medix.com.mx/"],
                 ["image":"2",
                   "title":"BAYER",
                   "description":"Grupo Elite",
-                  "link":"http://www.bayer.mx/"],
+                  "link":"www.bayer.mx/"],
                 ["image":"3",
                  "title":"SIEGFRIED RHEIN",
                  "description":"Grupo Elite",
-                 "link":"http://www.siegfried.com.mx/"],
+                 "link":"www.siegfried.com.mx/"],
                 ["image":"4",
                  "title":"ASOFARMA",
                  "description":"Grupo Elite",
-                 "link":"http://www.asofarma.com.mx/"],
+                 "link":"www.asofarma.com.mx/"],
                 ["image":"5",
                  "title":"IFA",
                  "description":"Grupo Elite",
-                 "link":"http://www.ifaonline.com.mx/"],
+                 "link":"www.ifaonline.com.mx/"],
                 ["image":"6",
                  "title":"LIOMONT",
                  "description":"Grupo Elite",
-                 "link":"http://liomont.com/"],
+                 "link":"liomont.com/"],
                 ["image":"7",
                  "title":"MSD",
                  "description":"Grupo Elite",
-                 "link":"http://www.corporativo.msd.com.mx/"],
+                 "link":"www.corporativo.msd.com.mx/"],
                 ["image":"8",
                  "title":"SMH",
                  "description":"Grupo Elite",
-                 "link":"http://www.smh.com.mx/"],
+                 "link":"www.smh.com.mx/"],
                 ["image":"9",
                  "title":"TAKEDA",
                  "description":"Grupo Elite",
-                 "link":"http://www.takedamexico.com/"],
+                 "link":"www.takedamexico.com/"],
                  ]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -77,7 +77,7 @@ class PatrocinadoresVC: UIViewController, UITableViewDataSource, UITableViewDele
         if let vc = segue.destination as? PatrocinadoresDetailVC{
             let index = self.tableView.indexPathForSelectedRow
             if let row = index?.row{
-                vc.url = items[row]["link"]!
+                vc.url = "http://\(items[row]["link"]!)"
             }
             
         }

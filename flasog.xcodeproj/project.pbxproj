@@ -22,7 +22,8 @@
 		FC456AFD1F33792C00CDDB44 /* PatrocinadoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC456AFC1F33792C00CDDB44 /* PatrocinadoresVC.swift */; };
 		FC456B011F337F4300CDDB44 /* PatrocinadoresDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC456B001F337F4300CDDB44 /* PatrocinadoresDetailVC.swift */; };
 		FC528DDC1F1C1060005931F0 /* StaticTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528DDB1F1C1060005931F0 /* StaticTabViewController.swift */; };
-		FC53AF321F4267230051A23E /* FillDescriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53AF311F4267230051A23E /* FillDescriptions.swift */; };
+		FC53AF321F4267230051A23E /* ScheduleContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53AF311F4267230051A23E /* ScheduleContent.swift */; };
+		FC53AF341F4296590051A23E /* InscripcionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53AF331F4296590051A23E /* InscripcionVC.swift */; };
 		FC57386C1F415F5A00FE1304 /* MiAgendaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57386B1F415F5A00FE1304 /* MiAgendaVC.swift */; };
 		FC57386F1F421E4900FE1304 /* ProfesoresInvitadosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57386E1F421E4900FE1304 /* ProfesoresInvitadosVC.swift */; };
 		FC58BD511F423A4E0061BB41 /* ProfesoresContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58BD501F423A4E0061BB41 /* ProfesoresContainerVC.swift */; };
@@ -65,7 +66,8 @@
 		FC456AFC1F33792C00CDDB44 /* PatrocinadoresVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatrocinadoresVC.swift; sourceTree = "<group>"; };
 		FC456B001F337F4300CDDB44 /* PatrocinadoresDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatrocinadoresDetailVC.swift; sourceTree = "<group>"; };
 		FC528DDB1F1C1060005931F0 /* StaticTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTabViewController.swift; sourceTree = "<group>"; };
-		FC53AF311F4267230051A23E /* FillDescriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillDescriptions.swift; sourceTree = "<group>"; };
+		FC53AF311F4267230051A23E /* ScheduleContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleContent.swift; sourceTree = "<group>"; };
+		FC53AF331F4296590051A23E /* InscripcionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscripcionVC.swift; sourceTree = "<group>"; };
 		FC57386B1F415F5A00FE1304 /* MiAgendaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiAgendaVC.swift; sourceTree = "<group>"; };
 		FC57386E1F421E4900FE1304 /* ProfesoresInvitadosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfesoresInvitadosVC.swift; sourceTree = "<group>"; };
 		FC58BD501F423A4E0061BB41 /* ProfesoresContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfesoresContainerVC.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				FC456AFA1F336EC900CDDB44 /* ExpoVC.swift */,
 				FC456AFC1F33792C00CDDB44 /* PatrocinadoresVC.swift */,
 				FC456B001F337F4300CDDB44 /* PatrocinadoresDetailVC.swift */,
+				FC53AF331F4296590051A23E /* InscripcionVC.swift */,
 				FCFDC5871F341B5E00C41F79 /* ICCVC.swift */,
 				FCFA542C1F363594007EC429 /* ProgramaContainerVC.swift */,
 				FCD579F21F34EED4004A311C /* ProgramaVC.swift */,
@@ -180,7 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				FC812BF11F04C85E004C406D /* ColorPalette.swift */,
-				FC53AF311F4267230051A23E /* FillDescriptions.swift */,
+				FC53AF311F4267230051A23E /* ScheduleContent.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -333,7 +336,7 @@
 				FCFDC5881F341B5E00C41F79 /* ICCVC.swift in Sources */,
 				FC17532C1F26FFB700806401 /* CancunVC.swift in Sources */,
 				FC528DDC1F1C1060005931F0 /* StaticTabViewController.swift in Sources */,
-				FC53AF321F4267230051A23E /* FillDescriptions.swift in Sources */,
+				FC53AF321F4267230051A23E /* ScheduleContent.swift in Sources */,
 				FCF644961F32AFD500E887B7 /* SalonesVC.swift in Sources */,
 				FCFA542B1F362C35007EC429 /* ProgramaFullVC.swift in Sources */,
 				FCFA54291F352E63007EC429 /* ProgramItemDetailVC.swift in Sources */,
@@ -341,6 +344,7 @@
 				FC17532E1F27098700806401 /* HotelesVC.swift in Sources */,
 				FC6B192B1F1E96D8003FF56F /* EventosVC.swift in Sources */,
 				FC2553AC1F24208600385411 /* ProfesoresVC.swift in Sources */,
+				FC53AF341F4296590051A23E /* InscripcionVC.swift in Sources */,
 				FCD579F31F34EED4004A311C /* ProgramaVC.swift in Sources */,
 				FC1270081F005A2A008624C3 /* AppDelegate.swift in Sources */,
 				FCFA54271F350303007EC429 /* ProgramItem.swift in Sources */,

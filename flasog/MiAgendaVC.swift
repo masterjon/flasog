@@ -109,61 +109,7 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
     func loadItems(){
         
-        let titles = [
-            "Cursos Precongreso", // 0
-            "Cursos Transcongreso", // 1
-            "Conferencias Magistrales", // 2
-            "Conferencias Especiales", // 3
-            "Encuentro Latinoamericano de residentes G.O.", // 4
-            "Simposios Especiales", // 5
-            "Simposios Simultaneos", // 6
-            "Foros de discusión" // 7
-        ]
-        
-        for (index,item) in titles.enumerated() {
-            let cat = ProgramCat()
-            cat.id = index
-            cat.title = item
-            cat.image = "pg\(index+1)"
-            self.items.append(cat)
-        }
-        items[0].schedule = "7:00 – 14:00 hrs"
-        items[1].schedule = "7:00 – 9:00 hrs."
-        items[2].schedule = "13:00 – 13:45 hrs."
-        items[3].schedule = "11:15 – 12:30 hrs."
-        items[4].schedule = "13:00 - 18:30 hrs"
-        items[5].schedule = "14:00 – 15:00 hrs."
-        items[6].schedule = "9:30 – 11:00 hrs."
-        items[7].schedule = "11:15 – 12:30 hrs."
-        
-        
-        //      Cursos Precongreso
-        
-        let item0_1 = ProgramItem()
-        item0_1.title = "Fortaleciendo competencias en manejo y capacitación ante la hemorragia obstétrica (Teórico-práctico)"
-        item0_1.room = "2"
-        item0_1.duration = 360
-        item0_1.schedule = "8:00 – 14:00 hrs."
-        item0_1.days = "5 de noviembre 2017"
-        
-        let item0_2 = ProgramItem()
-        item0_2.title = "Diagnóstico precoz del cáncer ginecológico."
-        
-        items[0].items.append(item0_1)
-        items[0].items.append(item0_2)
-        
-        
-        let cat_expo = ProgramCat()
-        cat_expo.title = "Receso Exposición Científico-Comercial"
-        cat_expo.schedule = "9:00 – 9:30 hrs."
-        
-        let cat_receso = ProgramCat()
-        cat_receso.title = "Receso"
-        cat_receso.schedule = "12:30 – 13:00 hrs."
-        
-        let cat_clausura = ProgramCat()
-        cat_clausura.title = "Clausura"
-        cat_clausura.schedule = "12:30 – 13:00 hrs."
+        items = loadSchedule()
         
         days = [
             [

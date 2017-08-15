@@ -35,10 +35,10 @@ class ComitesViewController: UIViewController {
                       ["name":"Dr. Juan de Dios Maldonado A.","image":"2JuanDeDiosM-P7.1","pos":"Vice-Presidente"],
                       ["name":"Dr. Francisco J. Bernárdez Z.","image":"3FranciscoBernardez-P7.1","pos":"Primer Secretario Propietario"],
                       ["name":"Dra. Paola Iturralde Rosas P.","image":"4PaolaIturralde-P7.1","pos":"Tesorero"],
-                      ["name":"Dr. Gilberto Tena Alavez","image":"4PaolaIturralde-P7.1","pos":"Segundo Secretario Propietario"],
-                      ["name":"Dr. Armando Montaño Uzcanga","image":"4PaolaIturralde-P7.1","pos":"Primer Secretario Suplente"],
-                      ["name":"Dr. Marcelino Hernández Valencia","image":"4PaolaIturralde-P7.1","pos":"Segundo Secretario Suplente"],
-                      ["name":"Dra. Miriam C. Negrín Pérez","image":"4PaolaIturralde-P7.1","pos":"Sub-Tesorero"]]
+                      ["name":"Dr. Gilberto Tena Alavez","image":"5GilbertoTena-SegundoSecretarioPropietario-P7.1","pos":"Segundo Secretario Propietario"],
+                      ["name":"Dr. Armando Montaño Uzcanga","image":"6ArmandoMontañoUzcanga-PrimerSecretarioSuplente-P7.1","pos":"Primer Secretario Suplente"],
+                      ["name":"Dr. Marcelino Hernández Valencia","image":"7MarcelinoHernandezValencia-SegundoSecretarioPropietario-P7.1","pos":"Segundo Secretario Suplente"],
+                      ["name":"Dra. Miriam C. Negrín Pérez","image":"8MiriamCNegrinPerezSub-Tesorero-P7.1","pos":"Sub-Tesorero"]]
         ],
         [
             "title": "Comité Organizador México",

@@ -273,21 +273,60 @@
                                     <constraint firstAttribute="width" constant="100" id="zoO-Rt-EAF"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQa-Dc-2dn">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQa-Dc-2dn">
                                 <rect key="frame" x="16" y="180" width="343" height="467"/>
-                                <string key="text">De acuerdo al libro “Historia de la Ginecología y Obstetricia en México” del Dr. José Manuel Septién; la primera agrupación de G.O. surgió en el país en 1945 siendo esta la “Asociación Mexicana de Ginecología y Obstetricia” (AMGO) teniendo como sede el Hospital Concepción Béistegui, en la CDMX. Con el tiempo surgieron agrupaciones similares en diferentes estados de la república Mexicana y se establecieron lazos con la AMGO, afiliándose a esta.
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <mutableString key="content">De acuerdo al libro “Historia de la Ginecología y Obstetricia en México” del Dr. José Manuel Septién; la primera agrupación de G.O. surgió en el país en 1945 siendo esta la “Asociación Mexicana de Ginecología y Obstetricia” (AMGO) teniendo como sede el Hospital Concepción Béistegui, en la CDMX. Con el tiempo surgieron agrupaciones similares en diferentes estados de la república Mexicana y se establecieron lazos con la AMGO, afiliándose a esta.
 
 Tomó tal relevancia que se convirtió en el punto de referencia de las especialidades y en 1950 se conformó el Instituto de Reuniones de Ginecología y Obstetricia. En 1958, México fue el país anfitrión del III Congreso Latinoamericano de Obstetricia y Ginecología (FLASOG) en la Ciudad de México del 8 al 14 de junio de 1958.
 
-Para 1959 y dada la necesidad de agrupar a un mayor número de asociaciones se creó la Federación Mexicana de asociaciones de Ginecología y Obstetricia desapareciendo al Instituto de Reuniones de G.O. La primera mesa directiva fue presidida por el Dr. Isidro Espinosa de los Reyes.
+Para 1959 y dada la necesidad de agrupar a un mayor número de asociaciones se creó la </mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Federación Mexicana de asociaciones de Ginecología y Obstetricia">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content"> desapareciendo al Instituto de Reuniones de G.O. La primera mesa directiva fue presidida por el Dr. Isidro Espinosa de los Reyes.
 
-En 1968 se aperturan las oficinas principales de la Federación en la calle de Baja California, Col. Hipódromo de la Ciudad de México, y posteriormente se cambiaron a la calle de Ámsterdam. En 1988, la Federación se dividió en siete regiones geográficas para promover el desarrollo continuo de la G.O en todo el país. En 1997 se inaugura el edificio que hasta hoy es la sede oficial de la Federación, en Calle Nueva York, Col. Nápoles de la CDMX.
-En Octubre del 2009 la FEMEGO pasó a llamarse FEMECOG (Federación Mexicana de Colegios de Obstetricia y Ginecología) la cuál hoy en día agrupa a 76 colegios en toda la república mexicana.
+En 1968 se aperturan las oficinas principales de la Federación en la calle de Baja California, Col. Hipódromo de la Ciudad de México, y posteriormente se cambiaron a la calle de Ámsterdam. En 1988, la Federación se dividió en siete regiones geográficas para promover el desarrollo continuo de la G.O en todo el país. En 1997 se inaugura el edificio que hasta hoy es la sede oficial de la Federación, en Calle Nueva York, Col. Nápoles de la CDMX. 
+En Octubre del 2009 la FEMEGO pasó a llamarse </mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="FEMECOG (Federación Mexicana de Colegios de Obstetricia y Ginecología)">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content"> la cuál hoy en día agrupa a 76 colegios en toda la república mexicana.
 
-Ese mismo año, con motivo del 50 aniversario de la FEMECOG se realizó una remodelación a las oficinas de la Federación inaugurándolas el 14 de Octubre del 2010.
-El 6 de Septiembre de 2011 durante la Presidencia del Dr. Alberto Kably Ambe en el marco del XX Congreso FLASOG de Managua, Nicaragua. México ganó la sede para organizar el XXII Congreso Latinoamericano de Gineco-Obstetricia, la cuál fue ratificada en el XXI Congreso FLASOG el 15 de Septiembre de 2015 en Guayaquil, Ecuador.</string>
-                                <color key="textColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+Ese mismo año, con motivo del 50 aniversario de la FEMECOG se realizó una remodelación a las oficinas de la Federación inaugurándolas el 14 de Octubre del 2010. 
+El 6 de Septiembre de 2011 durante la Presidencia del Dr. Alberto Kably Ambe en el marco del XX Congreso FLASOG de Managua, Nicaragua. México ganó la sede para organizar el XXII Congreso Latinoamericano de Gineco-Obstetricia, la cuál fue ratificada en el XXI Congreso FLASOG el 15 de Septiembre de 2015 en Guayaquil, Ecuador.</mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -332,16 +371,54 @@ El 6 de Septiembre de 2011 durante la Presidencia del Dr. Alberto Kably Ambe en 
                                     <constraint firstAttribute="width" secondItem="10u-BL-d8e" secondAttribute="height" multiplier="397:117" id="ZUU-5Y-glG"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUR-CL-i7e">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUR-CL-i7e">
                                 <rect key="frame" x="16" y="133" width="343" height="514"/>
-                                <string key="text">La Federación Latinoamericana de Sociedades de Obstetricia y Ginecología es una organización que tuvo sus inicios en el siglo XX, cuando comenzaron los primeros pasos para interesarse en una práctica especializada de la medicina dedicada a la mujer. En países como México, Brasil, Chile y Argentina se fue desarrollando la práctica tanto clínica como quirúrgica. Así se fueron creando las diferentes Sociedades de Ginecología y Obstetricia en Latinoamérica.
- En 1952 se llevó a cabo en Buenos Aires, Argentina, el primer Congreso de la Federación hasta llegar al pasado XXI Congreso Latinoamericano; realizado en Guayaquil, Ecuador en el 2014, hoy en #FLASOG2017 se refrenda su compromiso con el desarrollo de la Gineco-Obstetricia en Latinoamérica.
+                                <attributedString key="attributedText">
+                                    <fragment content="La ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Federación Latinoamericana de Sociedades de Obstetricia y Ginecología">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content"> es una organización que tuvo sus inicios en el siglo XX, cuando comenzaron los primeros pasos para interesarse en una práctica especializada de la medicina dedicada a la mujer. En países como México, Brasil, Chile y Argentina se fue desarrollando la práctica tanto clínica como quirúrgica. Así se fueron creando las diferentes Sociedades de Ginecología y Obstetricia en Latinoamérica.
+ En 1952 se llevó a cabo en Buenos Aires, Argentina, el primer Congreso de la Federación hasta llegar al pasado XXI Congreso Latinoamericano; realizado en Guayaquil, Ecuador en el 2014, hoy en </mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="#FLASOG2017">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content"> se refrenda su compromiso con el desarrollo de la Gineco-Obstetricia en Latinoamérica.
 
 Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Ginecología de Latinoamérica un modelo de gestión, que busque la plena integración Regional. Servir de apoyo para el diseño y ejecución de proyectos que atiendan las necesidades de la salud integral de la mujer, el desarrollo del ejercicio profesional, la educación médica continua y la investigación. Así como basar su actividad en la ética, transparencia, creatividad, en búsqueda de la equidad y con una perspectiva global, que se apoye en nuestra cultura y en el trabajo en equipo. Y su visión hacia el 2020 es ser la organización líder y referente en Latinoamérica reconocida por sus valores, profesionalismo y excelencia en el apoyo a todas las Agrupaciones Federadas de Obstetricia y Ginecología. Su labor redundará en el desarrollo, formación y ejercicio profesional de los especialistas para beneficio de la salud integral de la mujer. Sus valores que hacen a la rectitud con que se piensa recorrer este camino son el Profesionalismo, el Liderazgo, la Transparencia, el Trabajo en Equipo y la Excelencia, entre otros.
  Para poder llevar adelante este propósito realizó por primera vez un ejercicio de Planeación Estratégica de este Comité Ejecutivo donde ha establecido una serie de Objetivos, metas y proyectos que están llevando adelante sus Comités, apoyados por una nueva estructura administrativa y con la adquisición de una sede, ubicada en la Ciudad de Panamá, inaugurada en septiembre del pasado año.
-</string>
-                                <color key="textColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+</mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -749,7 +826,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
                                             <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="XXII Congreso Latinoamericano de Gineco-Obstetricia FLASOG 2017">
@@ -757,7 +834,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
                                             <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" es el resultado de un esfuerzo en conjunto de la ">
@@ -765,7 +842,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
                                             <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Federación Latinoamericana de Sociedades de Obstetricia y Ginecología (FLASOG)">
@@ -773,7 +850,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
                                             <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" con la ">
@@ -781,7 +858,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
                                             <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Federación Mexicana de Colegios de Obstetricia y Ginecología (FEMECOG)">
@@ -789,13 +866,29 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
                                             <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> y representa el refrendo del compromiso hecho por las naciones miembro de la FLASOG: el continuo desarrollo de la especialidad en Latinoamérica.
+                                        <string key="content"> y representa el refrendo del compromiso hecho por las naciones miembro de la FLASOG: el continuo desarrollo de la especialidad en Latinoamérica.
 
-Este magno evento que se lleva a cabo cada tres años, no era organizado en México desde 1958 y tendrá a Cancún, el destino más visitado de Latinoamérica como escenario, siendo un lugar que maravilla por sus colores y se vuelve inolvidable para cualquier visitante.
+Este magno evento que se lleva a cabo cada tres años, no era organizado en México desde 1958 y tendrá </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="como escenario ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686" green="0.16471" blue="0.40783999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">a Cancún, el destino más visitado de Latinoamérica, siendo un lugar que maravilla por sus colores y se vuelve inolvidable para cualquier visitante.
 
 Se han integrado nuevas modalidades académicas de gran atractivo y valor para los asistentes además de que se realizó un extraordinario esfuerzo para hacer de este evento, un referente internacional gracias a que el programa académico será plural y estará a cargo de más de 200 reconocidos profesores latinoamericanos y de otras partes del mundo, los cuales compartirán sus experiencias para enriquecer el conocimiento profesional de los asistentes.
 
@@ -804,8 +897,18 @@ En ésta, la vigésima segunda edición, por primera vez se realiza el 1er. Encu
 El recinto sede; el Cancún International Convention Center (Cancún ICC) es un espacio con infraestructura de primer mundo que ha sido testigo de eventos de talla mundial; nuestros hoteles sede fueron elegidos estratégicamente para brindar comodidad y facilidad a nuestros congresistas.
 
 Este congreso es tuyo colega, esperamos lo disfrutes y te puedas llevar grandes experiencias y conocimientos en beneficio de tu práctica profesional. Estamos seguros que te sorprenderemos y superaremos tus expectativas.
-
 </mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
@@ -879,13 +982,20 @@ Este congreso es tuyo colega, esperamos lo disfrutes y te puedas llevar grandes 
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">
-
-Después de un arduo trabajo de tres años, en mi calidad de Presidente del Comité Ejecutivo de la </string>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Después de un arduo trabajo de tres años, en mi calidad de Presidente del Comité Ejecutivo de la ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Federación Latinoamericana de Obstetricia y Ginecología - FLASOG">
@@ -893,14 +1003,14 @@ Después de un arduo trabajo de tres años, en mi calidad de Presidente del Comi
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
                                             <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=", estamos presentando a Ustedes el programa científico del ">
                                         <attributes>
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="XXII Congreso Latinoamericano de Obstetricia y Ginecología">
@@ -908,7 +1018,7 @@ Después de un arduo trabajo de tres años, en mi calidad de Presidente del Comi
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
                                             <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -926,7 +1036,7 @@ Esto solo es posible gracias al trabajo en equipo, sin el apoyo de mis compañer
                                         <attributes>
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Federación Mexicana de Colegios de Obstetricia y Ginecología">
@@ -934,14 +1044,23 @@ Esto solo es posible gracias al trabajo en equipo, sin el apoyo de mis compañer
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
                                             <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content">, no lo hubiésemos logrado. 
 
 Esta obra es el resultado del esfuerzo de todos, es nuestra gran fiesta. Te esperamos, compartirla con nosotros es un derecho que te asiste como Obstetra y Ginecólogo de nuestra querida América Latina.
-
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
@@ -2011,7 +2130,7 @@ Atracciones del destino:
         <!--Inscripción-->
         <scene sceneID="dGD-zF-VdW">
             <objects>
-                <viewController id="2yj-GN-xgO" customClass="StaticTabViewController" customModule="flasog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2yj-GN-xgO" customClass="InscripcionVC" customModule="flasog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gy7-41-Mgv"/>
                         <viewControllerLayoutGuide type="bottom" id="zes-3X-1zz"/>
@@ -2020,16 +2139,66 @@ Atracciones del destino:
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FondoP11" translatesAutoresizingMaskIntoConstraints="NO" id="kuC-IL-drF">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U7r-Ec-SLP">
+                                <rect key="frame" x="62" y="320" width="250" height="125"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YkZ-Kp-PbU">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="YkZ-Kp-PbU" secondAttribute="height" multiplier="1:1" id="Zh5-nh-wMf"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="BotonDepositoP11"/>
+                                        <connections>
+                                            <action selector="depositoButton:" destination="2yj-GN-xgO" eventType="touchUpInside" id="Qcf-K0-Mpr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Noh-aK-xCi">
+                                        <rect key="frame" x="125" y="0.0" width="125" height="125"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Noh-aK-xCi" secondAttribute="height" multiplier="1:1" id="9f3-xg-fDP"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="BotonLineaP11"/>
+                                        <connections>
+                                            <action selector="pagoButton:" destination="2yj-GN-xgO" eventType="touchUpInside" id="TB0-qz-g0a"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Rcd-a9-sB2"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TablaImagen" translatesAutoresizingMaskIntoConstraints="NO" id="Wx3-3k-7iC">
+                                <rect key="frame" x="16" y="8" width="343" height="209"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Wx3-3k-7iC" secondAttribute="height" multiplier="23:14" id="1ef-8K-PEW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InscripcionesTexto" translatesAutoresizingMaskIntoConstraints="NO" id="cZG-Zs-O7Y">
+                                <rect key="frame" x="87.5" y="236" width="200" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="bmK-gC-mhy"/>
+                                    <constraint firstAttribute="width" secondItem="cZG-Zs-O7Y" secondAttribute="height" multiplier="25:8" id="gFN-ba-11K"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TextoAbajo" translatesAutoresizingMaskIntoConstraints="NO" id="8s8-Uy-STg">
+                                <rect key="frame" x="38.5" y="467" width="298" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8s8-Uy-STg" secondAttribute="height" multiplier="46:21" id="Cow-Lq-rfI"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kuC-IL-drF" firstAttribute="leading" secondItem="ekU-KE-HAs" secondAttribute="leading" id="7Qy-Bz-bag"/>
-                            <constraint firstItem="kuC-IL-drF" firstAttribute="top" secondItem="ekU-KE-HAs" secondAttribute="top" id="8OD-Sj-3gK"/>
-                            <constraint firstAttribute="trailing" secondItem="kuC-IL-drF" secondAttribute="trailing" id="9q0-Pr-ieO"/>
-                            <constraint firstItem="zes-3X-1zz" firstAttribute="top" secondItem="kuC-IL-drF" secondAttribute="bottom" id="n0c-2q-82L"/>
+                            <constraint firstItem="8s8-Uy-STg" firstAttribute="top" secondItem="U7r-Ec-SLP" secondAttribute="bottom" constant="22" id="Bsm-An-GFb"/>
+                            <constraint firstItem="Wx3-3k-7iC" firstAttribute="top" secondItem="gy7-41-Mgv" secondAttribute="bottom" constant="8" id="Cxv-Sj-LmS"/>
+                            <constraint firstItem="Wx3-3k-7iC" firstAttribute="leading" secondItem="ekU-KE-HAs" secondAttribute="leading" constant="16" id="FIf-Ir-Dem"/>
+                            <constraint firstItem="8s8-Uy-STg" firstAttribute="centerX" secondItem="ekU-KE-HAs" secondAttribute="centerX" id="KDR-yF-fiv"/>
+                            <constraint firstAttribute="trailing" secondItem="Wx3-3k-7iC" secondAttribute="trailing" constant="16" id="MQ0-zj-Sgt"/>
+                            <constraint firstItem="cZG-Zs-O7Y" firstAttribute="centerX" secondItem="ekU-KE-HAs" secondAttribute="centerX" id="ckl-nN-MBa"/>
+                            <constraint firstAttribute="bottom" secondItem="8s8-Uy-STg" secondAttribute="bottom" id="f1h-mI-fYm"/>
+                            <constraint firstItem="U7r-Ec-SLP" firstAttribute="centerX" secondItem="ekU-KE-HAs" secondAttribute="centerX" id="lfY-O7-Crt"/>
+                            <constraint firstItem="U7r-Ec-SLP" firstAttribute="top" secondItem="cZG-Zs-O7Y" secondAttribute="bottom" constant="20" id="qeV-XY-d48"/>
+                            <constraint firstItem="cZG-Zs-O7Y" firstAttribute="top" secondItem="Wx3-3k-7iC" secondAttribute="bottom" constant="19" id="tnJ-0b-mCa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Inscripción" id="Pe0-UD-o7N">
@@ -2043,7 +2212,7 @@ Atracciones del destino:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gz2-fX-glR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="244" y="6711"/>
+            <point key="canvasLocation" x="244" y="6710.1949025487265"/>
         </scene>
         <!--CancunICCVC-->
         <scene sceneID="Uc0-50-78Q">
@@ -2455,10 +2624,11 @@ Atracciones del destino:
                                 <color key="textColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmH-lB-Qaa">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmH-lB-Qaa">
                                 <rect key="frame" x="16" y="84" width="343" height="427"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <attributedString key="attributedText"/>
+                                <color key="textColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3y-wG-MHf">
@@ -2472,6 +2642,13 @@ Atracciones del destino:
                                     <action selector="addToSchedule:" destination="Jyp-X4-T3m" eventType="touchUpInside" id="xSv-xB-AyE"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ece-0w-SZe">
+                                <rect key="frame" x="16" y="511" width="343" height="1"/>
+                                <color key="backgroundColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="tYc-M8-ISG"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NZ8-X3-nnu">
                                 <rect key="frame" x="16" y="519" width="343" height="80"/>
                                 <subviews>
@@ -2538,11 +2715,14 @@ Atracciones del destino:
                             <constraint firstAttribute="trailing" secondItem="VmH-lB-Qaa" secondAttribute="trailing" constant="16" id="HWx-M5-noC"/>
                             <constraint firstItem="sVU-xt-EgV" firstAttribute="leading" secondItem="Bd8-au-TmN" secondAttribute="leading" constant="16" id="Oep-bq-ruu"/>
                             <constraint firstItem="NZ8-X3-nnu" firstAttribute="top" secondItem="VmH-lB-Qaa" secondAttribute="bottom" constant="8" id="PHc-hZ-by8"/>
+                            <constraint firstItem="ece-0w-SZe" firstAttribute="top" secondItem="VmH-lB-Qaa" secondAttribute="bottom" id="Pd2-Je-spg"/>
                             <constraint firstAttribute="trailing" secondItem="sVU-xt-EgV" secondAttribute="trailing" constant="16" id="XIB-cD-ZIS"/>
+                            <constraint firstItem="ece-0w-SZe" firstAttribute="leading" secondItem="Bd8-au-TmN" secondAttribute="leading" constant="16" id="Xde-fz-sWX"/>
                             <constraint firstItem="sVU-xt-EgV" firstAttribute="top" secondItem="Sis-5p-aZG" secondAttribute="bottom" constant="20" id="f8H-Pw-cx4"/>
                             <constraint firstItem="VmH-lB-Qaa" firstAttribute="top" secondItem="sVU-xt-EgV" secondAttribute="bottom" constant="20" id="kKW-bW-xxh"/>
                             <constraint firstItem="o3y-wG-MHf" firstAttribute="top" secondItem="NZ8-X3-nnu" secondAttribute="bottom" constant="8" id="ojw-Er-fng"/>
                             <constraint firstAttribute="trailing" secondItem="NZ8-X3-nnu" secondAttribute="trailing" constant="16" id="r76-xh-qsa"/>
+                            <constraint firstAttribute="trailing" secondItem="ece-0w-SZe" secondAttribute="trailing" constant="16" id="rfW-so-WlM"/>
                             <constraint firstItem="o3y-wG-MHf" firstAttribute="centerX" secondItem="Bd8-au-TmN" secondAttribute="centerX" id="tLj-Ny-fFB"/>
                             <constraint firstItem="cPi-Go-27c" firstAttribute="top" secondItem="o3y-wG-MHf" secondAttribute="bottom" constant="20" id="xrj-xa-JZM"/>
                         </constraints>
@@ -3189,18 +3369,20 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
         <image name="Banner3" width="694" height="125"/>
         <image name="Banner8.3Programa" width="750" height="300"/>
         <image name="BotonComparte" width="154" height="154"/>
+        <image name="BotonDepositoP11" width="200" height="200"/>
+        <image name="BotonLineaP11" width="200" height="200"/>
         <image name="BotonMiAgenda8.2" width="265" height="90"/>
         <image name="BotonQR" width="154" height="154"/>
         <image name="BotonUbicacion" width="154" height="154"/>
         <image name="CancunBoton" width="154" height="154"/>
         <image name="F1CUNP10" width="690" height="435"/>
-        <image name="FondoP11" width="749" height="1191"/>
         <image name="FondoP5" width="748" height="1088"/>
         <image name="FondoP6" width="748" height="1089"/>
         <image name="FondoP9" width="749" height="1091"/>
         <image name="IconoPlace" width="40" height="40"/>
         <image name="IconoReserva" width="40" height="40"/>
         <image name="IconoWeb" width="40" height="40"/>
+        <image name="InscripcionesTexto" width="250" height="80"/>
         <image name="LOGO-CANCUN-CENTER" width="409" height="300"/>
         <image name="Logo-Congreso-6.3" width="80" height="110"/>
         <image name="LogoCancunP10" width="405" height="115"/>
@@ -3211,16 +3393,18 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
         <image name="PdteFEMECOG-P(6.2)" width="300" height="300"/>
         <image name="PdteFLASOG-(6.1)" width="300" height="300"/>
         <image name="Plano_Expo" width="720" height="540"/>
+        <image name="TablaImagen" width="690" height="420"/>
+        <image name="TextoAbajo" width="690" height="315"/>
         <image name="mapa_cun" width="1000" height="579"/>
         <image name="menu" width="25" height="18"/>
         <image name="profile-generic-1" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="kYL-i7-40w"/>
-        <segue reference="XPj-Ia-lJY"/>
         <segue reference="0Ra-bE-UhO"/>
         <segue reference="S0H-Mg-ucE"/>
         <segue reference="Ses-Zr-3WC"/>
         <segue reference="tHc-W2-AF6"/>
+        <segue reference="Wxf-Kg-WX6"/>
     </inferredMetricsTieBreakers>
 </document>
