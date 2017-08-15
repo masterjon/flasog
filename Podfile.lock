@@ -1,12 +1,15 @@
 PODS:
+  - Segmentio (2.1.2)
   - SideMenu (2.3.2)
 
 DEPENDENCIES:
+  - Segmentio
   - SideMenu
 
 SPEC CHECKSUMS:
+  Segmentio: f85114993e305bd9c522952eef8c2c4db732fd17
   SideMenu: 3fa07dd05d4bade2b6f9889fb1877e312e1ba319
 
-PODFILE CHECKSUM: 47d7783d3ccba74b8ee39b8fe2560bcf4e5ac5cc
+PODFILE CHECKSUM: 32f8bac5352587faee32a30a6fdfc49745f8452f
 
 COCOAPODS: 1.2.1

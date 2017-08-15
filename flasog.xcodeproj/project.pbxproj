@@ -13,6 +13,36 @@
 		FC12700D1F005A2A008624C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC12700B1F005A2A008624C3 /* Main.storyboard */; };
 		FC12700F1F005A2A008624C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC12700E1F005A2A008624C3 /* Assets.xcassets */; };
 		FC1270121F005A2A008624C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1270101F005A2A008624C3 /* LaunchScreen.storyboard */; };
+		FC17532C1F26FFB700806401 /* CancunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17532B1F26FFB600806401 /* CancunVC.swift */; };
+		FC17532E1F27098700806401 /* HotelesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17532D1F27098700806401 /* HotelesVC.swift */; };
+		FC2553AC1F24208600385411 /* ProfesoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2553AB1F24208600385411 /* ProfesoresVC.swift */; };
+		FC2553AE1F242BFF00385411 /* ProfesoresDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2553AD1F242BFF00385411 /* ProfesoresDetailVC.swift */; };
+		FC38B1041F3E68FB008F1B11 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC38B1031F3E68FA008F1B11 /* MenuTableViewController.swift */; };
+		FC456AFB1F336EC900CDDB44 /* ExpoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC456AFA1F336EC900CDDB44 /* ExpoVC.swift */; };
+		FC456AFD1F33792C00CDDB44 /* PatrocinadoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC456AFC1F33792C00CDDB44 /* PatrocinadoresVC.swift */; };
+		FC456B011F337F4300CDDB44 /* PatrocinadoresDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC456B001F337F4300CDDB44 /* PatrocinadoresDetailVC.swift */; };
+		FC528DDC1F1C1060005931F0 /* StaticTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC528DDB1F1C1060005931F0 /* StaticTabViewController.swift */; };
+		FC53AF321F4267230051A23E /* FillDescriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53AF311F4267230051A23E /* FillDescriptions.swift */; };
+		FC57386C1F415F5A00FE1304 /* MiAgendaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57386B1F415F5A00FE1304 /* MiAgendaVC.swift */; };
+		FC57386F1F421E4900FE1304 /* ProfesoresInvitadosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57386E1F421E4900FE1304 /* ProfesoresInvitadosVC.swift */; };
+		FC58BD511F423A4E0061BB41 /* ProfesoresContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58BD501F423A4E0061BB41 /* ProfesoresContainerVC.swift */; };
+		FC6B192B1F1E96D8003FF56F /* EventosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B192A1F1E96D8003FF56F /* EventosVC.swift */; };
+		FC6B192D1F1EBF0F003FF56F /* ComitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B192C1F1EBF0E003FF56F /* ComitesViewController.swift */; };
+		FC6B192F1F1EF559003FF56F /* ComiteCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B192E1F1EF559003FF56F /* ComiteCollectionVC.swift */; };
+		FC812BEF1F04C5F2004C406D /* OrganizadoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC812BEE1F04C5F2004C406D /* OrganizadoresVC.swift */; };
+		FC812BF21F04C85E004C406D /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC812BF11F04C85E004C406D /* ColorPalette.swift */; };
+		FC931C331F2D243600E449C6 /* LugaresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC931C321F2D243600E449C6 /* LugaresVC.swift */; };
+		FCD579F31F34EED4004A311C /* ProgramaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD579F21F34EED4004A311C /* ProgramaVC.swift */; };
+		FCF644941F329FE500E887B7 /* CancunICCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF644931F329FE500E887B7 /* CancunICCVC.swift */; };
+		FCF644961F32AFD500E887B7 /* SalonesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF644951F32AFD500E887B7 /* SalonesVC.swift */; };
+		FCF644981F32B8FC00E887B7 /* SalonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF644971F32B8FC00E887B7 /* SalonDetailVC.swift */; };
+		FCFA54231F34FAB8007EC429 /* ProgramCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA54221F34FAB8007EC429 /* ProgramCategory.swift */; };
+		FCFA54251F34FF80007EC429 /* ProgramaCatDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA54241F34FF80007EC429 /* ProgramaCatDetailVC.swift */; };
+		FCFA54271F350303007EC429 /* ProgramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA54261F350303007EC429 /* ProgramItem.swift */; };
+		FCFA54291F352E63007EC429 /* ProgramItemDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA54281F352E62007EC429 /* ProgramItemDetailVC.swift */; };
+		FCFA542B1F362C35007EC429 /* ProgramaFullVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA542A1F362C35007EC429 /* ProgramaFullVC.swift */; };
+		FCFA542D1F363594007EC429 /* ProgramaContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA542C1F363594007EC429 /* ProgramaContainerVC.swift */; };
+		FCFDC5881F341B5E00C41F79 /* ICCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFDC5871F341B5E00C41F79 /* ICCVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +56,36 @@
 		FC12700E1F005A2A008624C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1270111F005A2A008624C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1270131F005A2A008624C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC17532B1F26FFB600806401 /* CancunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancunVC.swift; sourceTree = "<group>"; };
+		FC17532D1F27098700806401 /* HotelesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelesVC.swift; sourceTree = "<group>"; };
+		FC2553AB1F24208600385411 /* ProfesoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfesoresVC.swift; sourceTree = "<group>"; };
+		FC2553AD1F242BFF00385411 /* ProfesoresDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfesoresDetailVC.swift; sourceTree = "<group>"; };
+		FC38B1031F3E68FA008F1B11 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		FC456AFA1F336EC900CDDB44 /* ExpoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpoVC.swift; sourceTree = "<group>"; };
+		FC456AFC1F33792C00CDDB44 /* PatrocinadoresVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatrocinadoresVC.swift; sourceTree = "<group>"; };
+		FC456B001F337F4300CDDB44 /* PatrocinadoresDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatrocinadoresDetailVC.swift; sourceTree = "<group>"; };
+		FC528DDB1F1C1060005931F0 /* StaticTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTabViewController.swift; sourceTree = "<group>"; };
+		FC53AF311F4267230051A23E /* FillDescriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillDescriptions.swift; sourceTree = "<group>"; };
+		FC57386B1F415F5A00FE1304 /* MiAgendaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiAgendaVC.swift; sourceTree = "<group>"; };
+		FC57386E1F421E4900FE1304 /* ProfesoresInvitadosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfesoresInvitadosVC.swift; sourceTree = "<group>"; };
+		FC58BD501F423A4E0061BB41 /* ProfesoresContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfesoresContainerVC.swift; sourceTree = "<group>"; };
+		FC6B192A1F1E96D8003FF56F /* EventosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventosVC.swift; sourceTree = "<group>"; };
+		FC6B192C1F1EBF0E003FF56F /* ComitesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComitesViewController.swift; sourceTree = "<group>"; };
+		FC6B192E1F1EF559003FF56F /* ComiteCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComiteCollectionVC.swift; sourceTree = "<group>"; };
+		FC812BEE1F04C5F2004C406D /* OrganizadoresVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizadoresVC.swift; sourceTree = "<group>"; };
+		FC812BF11F04C85E004C406D /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		FC931C321F2D243600E449C6 /* LugaresVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LugaresVC.swift; sourceTree = "<group>"; };
+		FCD579F21F34EED4004A311C /* ProgramaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramaVC.swift; sourceTree = "<group>"; };
+		FCF644931F329FE500E887B7 /* CancunICCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancunICCVC.swift; sourceTree = "<group>"; };
+		FCF644951F32AFD500E887B7 /* SalonesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalonesVC.swift; sourceTree = "<group>"; };
+		FCF644971F32B8FC00E887B7 /* SalonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalonDetailVC.swift; sourceTree = "<group>"; };
+		FCFA54221F34FAB8007EC429 /* ProgramCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramCategory.swift; sourceTree = "<group>"; };
+		FCFA54241F34FF80007EC429 /* ProgramaCatDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramaCatDetailVC.swift; sourceTree = "<group>"; };
+		FCFA54261F350303007EC429 /* ProgramItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramItem.swift; sourceTree = "<group>"; };
+		FCFA54281F352E62007EC429 /* ProgramItemDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramItemDetailVC.swift; sourceTree = "<group>"; };
+		FCFA542A1F362C35007EC429 /* ProgramaFullVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramaFullVC.swift; sourceTree = "<group>"; };
+		FCFA542C1F363594007EC429 /* ProgramaContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramaContainerVC.swift; sourceTree = "<group>"; };
+		FCFDC5871F341B5E00C41F79 /* ICCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICCVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,14 +138,60 @@
 		FC1270061F005A2A008624C3 /* flasog */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA54211F34F7D2007EC429 /* Models */,
+				FC812BF01F04C83A004C406D /* Utils */,
 				FC1270071F005A2A008624C3 /* AppDelegate.swift */,
 				FC1270091F005A2A008624C3 /* ViewController.swift */,
+				FC38B1031F3E68FA008F1B11 /* MenuTableViewController.swift */,
 				FC12700B1F005A2A008624C3 /* Main.storyboard */,
 				FC12700E1F005A2A008624C3 /* Assets.xcassets */,
 				FC1270101F005A2A008624C3 /* LaunchScreen.storyboard */,
 				FC1270131F005A2A008624C3 /* Info.plist */,
+				FC812BEE1F04C5F2004C406D /* OrganizadoresVC.swift */,
+				FC6B192A1F1E96D8003FF56F /* EventosVC.swift */,
+				FC528DDB1F1C1060005931F0 /* StaticTabViewController.swift */,
+				FC6B192C1F1EBF0E003FF56F /* ComitesViewController.swift */,
+				FC6B192E1F1EF559003FF56F /* ComiteCollectionVC.swift */,
+				FC58BD501F423A4E0061BB41 /* ProfesoresContainerVC.swift */,
+				FC57386E1F421E4900FE1304 /* ProfesoresInvitadosVC.swift */,
+				FC2553AB1F24208600385411 /* ProfesoresVC.swift */,
+				FC2553AD1F242BFF00385411 /* ProfesoresDetailVC.swift */,
+				FC17532B1F26FFB600806401 /* CancunVC.swift */,
+				FC17532D1F27098700806401 /* HotelesVC.swift */,
+				FC931C321F2D243600E449C6 /* LugaresVC.swift */,
+				FCF644931F329FE500E887B7 /* CancunICCVC.swift */,
+				FCF644951F32AFD500E887B7 /* SalonesVC.swift */,
+				FCF644971F32B8FC00E887B7 /* SalonDetailVC.swift */,
+				FC456AFA1F336EC900CDDB44 /* ExpoVC.swift */,
+				FC456AFC1F33792C00CDDB44 /* PatrocinadoresVC.swift */,
+				FC456B001F337F4300CDDB44 /* PatrocinadoresDetailVC.swift */,
+				FCFDC5871F341B5E00C41F79 /* ICCVC.swift */,
+				FCFA542C1F363594007EC429 /* ProgramaContainerVC.swift */,
+				FCD579F21F34EED4004A311C /* ProgramaVC.swift */,
+				FCFA54241F34FF80007EC429 /* ProgramaCatDetailVC.swift */,
+				FCFA54281F352E62007EC429 /* ProgramItemDetailVC.swift */,
+				FCFA542A1F362C35007EC429 /* ProgramaFullVC.swift */,
+				FC57386B1F415F5A00FE1304 /* MiAgendaVC.swift */,
 			);
 			path = flasog;
+			sourceTree = "<group>";
+		};
+		FC812BF01F04C83A004C406D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FC812BF11F04C85E004C406D /* ColorPalette.swift */,
+				FC53AF311F4267230051A23E /* FillDescriptions.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		FCFA54211F34F7D2007EC429 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA54221F34FAB8007EC429 /* ProgramCategory.swift */,
+				FCFA54261F350303007EC429 /* ProgramItem.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +229,7 @@
 				TargetAttributes = {
 					FC1270031F005A2A008624C3 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X8G464WQ9L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -211,8 +318,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC456AFD1F33792C00CDDB44 /* PatrocinadoresVC.swift in Sources */,
+				FCF644941F329FE500E887B7 /* CancunICCVC.swift in Sources */,
+				FC931C331F2D243600E449C6 /* LugaresVC.swift in Sources */,
+				FC6B192F1F1EF559003FF56F /* ComiteCollectionVC.swift in Sources */,
+				FC57386F1F421E4900FE1304 /* ProfesoresInvitadosVC.swift in Sources */,
+				FC2553AE1F242BFF00385411 /* ProfesoresDetailVC.swift in Sources */,
+				FC6B192D1F1EBF0F003FF56F /* ComitesViewController.swift in Sources */,
+				FC812BEF1F04C5F2004C406D /* OrganizadoresVC.swift in Sources */,
 				FC12700A1F005A2A008624C3 /* ViewController.swift in Sources */,
+				FC38B1041F3E68FB008F1B11 /* MenuTableViewController.swift in Sources */,
+				FC456B011F337F4300CDDB44 /* PatrocinadoresDetailVC.swift in Sources */,
+				FCF644981F32B8FC00E887B7 /* SalonDetailVC.swift in Sources */,
+				FCFDC5881F341B5E00C41F79 /* ICCVC.swift in Sources */,
+				FC17532C1F26FFB700806401 /* CancunVC.swift in Sources */,
+				FC528DDC1F1C1060005931F0 /* StaticTabViewController.swift in Sources */,
+				FC53AF321F4267230051A23E /* FillDescriptions.swift in Sources */,
+				FCF644961F32AFD500E887B7 /* SalonesVC.swift in Sources */,
+				FCFA542B1F362C35007EC429 /* ProgramaFullVC.swift in Sources */,
+				FCFA54291F352E63007EC429 /* ProgramItemDetailVC.swift in Sources */,
+				FCFA542D1F363594007EC429 /* ProgramaContainerVC.swift in Sources */,
+				FC17532E1F27098700806401 /* HotelesVC.swift in Sources */,
+				FC6B192B1F1E96D8003FF56F /* EventosVC.swift in Sources */,
+				FC2553AC1F24208600385411 /* ProfesoresVC.swift in Sources */,
+				FCD579F31F34EED4004A311C /* ProgramaVC.swift in Sources */,
 				FC1270081F005A2A008624C3 /* AppDelegate.swift in Sources */,
+				FCFA54271F350303007EC429 /* ProgramItem.swift in Sources */,
+				FC812BF21F04C85E004C406D /* ColorPalette.swift in Sources */,
+				FC58BD511F423A4E0061BB41 /* ProfesoresContainerVC.swift in Sources */,
+				FC57386C1F415F5A00FE1304 /* MiAgendaVC.swift in Sources */,
+				FCFA54231F34FAB8007EC429 /* ProgramCategory.swift in Sources */,
+				FC456AFB1F336EC900CDDB44 /* ExpoVC.swift in Sources */,
+				FCFA54251F34FF80007EC429 /* ProgramaCatDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +473,9 @@
 			baseConfigurationReference = F31D82B10C0C3C98A800F6D0 /* Pods-flasog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8G464WQ9L;
 				INFOPLIST_FILE = flasog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iddeas.flasog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -349,7 +488,9 @@
 			baseConfigurationReference = 569BA8A1CAE2EA6E2F933493 /* Pods-flasog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8G464WQ9L;
 				INFOPLIST_FILE = flasog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iddeas.flasog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +517,7 @@
 				FC1270181F005A2A008624C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

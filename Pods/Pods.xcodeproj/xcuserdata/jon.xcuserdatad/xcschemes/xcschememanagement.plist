@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Segmentio-Segmentio.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Segmentio.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1CB7100D9F73B6C2DCC092825365A55A</key>
+		<key>0B606A87F19A36506978ACA2F5B26CEF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>957C0BFC007FC60787F522C7C3EEE4B8</key>
+		<key>63D6D1C8AC46DE2967087AC230041045</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F062E38B4FA8D3063981468FA4A416C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B15F9BE156D8B84FB83B6ABB001827DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,18 +7,24 @@
 //
 
 import UIKit
-
+import SideMenu
 class ViewController: UIViewController {
 
 
     @IBOutlet weak var counterLabel: UILabel!
     
+    @IBOutlet weak var ubicacionButton: UIButton!
     var days=0,hours=0, minutes=0, seconds=0
     var secondsLeft = 0
     var timer:Timer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let menuLeftNavigationController = storyboard!.instantiateViewController(withIdentifier: "SideMenuNav") as! UISideMenuNavigationController
+        menuLeftNavigationController.leftSide = true
+        SideMenuManager.menuLeftNavigationController = menuLeftNavigationController
+
         
         let dateString = "04-11-2017 08:00:00"
         let dateFormatter = DateFormatter()
@@ -49,7 +55,7 @@ class ViewController: UIViewController {
 
     }
     @objc func updateCounter() {
-        print("timeer")
+        //print("timeer")
         if(secondsLeft > 0 ) {
         secondsLeft = secondsLeft-1
         //        days = secondsLeft /
@@ -64,6 +70,21 @@ class ViewController: UIViewController {
         secondsLeft = 0;
         }
     }
+    @IBAction func ubicacionAction(_ sender: UIButton) {
+        let url = URL(string: "https://www.google.com.mx/maps/place/CANCUN+ICC/@21.1385675,-86.7505158,19.2z/data=!4m5!3m4!1s0x8f4c2c09dc820c41:0x2f257685e799c209!8m2!3d21.1386758!4d-86.7503051?hl=es-419")!
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        } else {
+            UIApplication.shared.openURL(url)
+        }
+    }
+    
+    
+    @IBAction func ProfesoresButton(_ sender: UIButton) {
+        let vc = self.storyboard!.instantiateViewController(withIdentifier: "TTT")
+        self.present(vc, animated: false, completion: nil)
+    }
+    
 
 }
 

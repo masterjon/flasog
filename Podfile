@@ -6,5 +6,5 @@ target 'flasog' do
   use_frameworks!
 
   pod 'SideMenu'
-
+  pod 'Segmentio'
 end
