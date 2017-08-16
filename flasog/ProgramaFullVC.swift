@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProgramaFullVC: UIViewController, UITableViewDataSource {
+class ProgramaFullVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var items :[ProgramCat] = []
     var days : [[String:Any]] = []
     
@@ -40,6 +40,13 @@ class ProgramaFullVC: UIViewController, UITableViewDataSource {
         }
         return ""
     }
+    
+    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        if let title = view as? UITableViewHeaderFooterView{
+            title.textLabel?.textColor =  ColorPallete.BlueColor
+        }
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         if let rows = days[indexPath.section]["cats"] as? [ProgramCat]{

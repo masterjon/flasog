@@ -117,17 +117,17 @@ class LugaresVC: UITableViewController {
 
         return cell
     }
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let link = items[indexPath.row]["link"]{
-            
-            let url = URL(string: link)!
-            if #available(iOS 10.0, *) {
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-            } else {
-                UIApplication.shared.openURL(url)
-            }
-        }
-    }
+//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        if let link = items[indexPath.row]["link"]{
+//
+//            let url = URL(string: link)!
+//            if #available(iOS 10.0, *) {
+//                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+//            } else {
+//                UIApplication.shared.openURL(url)
+//            }
+//        }
+//    }
  
     @IBAction func websiteBtn(_ sender: UIButton) {
         let view = self.view as! UITableView
@@ -149,6 +149,25 @@ class LugaresVC: UITableViewController {
         }
     }
 
+    @IBAction func locationBtn(_ sender: UIButton) {
+        let view = self.view as! UITableView
+        let touchPoint = sender.convert(CGPoint.zero, to: self.view)
+        
+        let clickedButtonIndexPath = view.indexPathForRow(at: touchPoint)
+        if let row = clickedButtonIndexPath?.row{
+            if let webLink = items[row]["link"]{
+                if let url = URL(string: webLink){
+                    if #available(iOS 10.0, *) {
+                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                    } else {
+                        UIApplication.shared.openURL(url)
+                    }
+                }
+            }
+            
+            
+        }
+    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

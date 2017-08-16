@@ -94,6 +94,9 @@ class HotelesVC: UITableViewController {
         if let loc = cell.viewWithTag(2) as? UILabel{
             loc.text = items[indexPath.row]["direccion"]
         }
+        if let locBtn = cell.viewWithTag(4) as? UIButton{
+            locBtn.titleLabel?.text = items[indexPath.row]["direccion"]
+        }
 //        if let loc = cell.viewWithTag(3) as? UILabel{
 //            loc.text = items[indexPath.row]["direccion"]
 //        }
@@ -129,24 +132,39 @@ class HotelesVC: UITableViewController {
                 UIApplication.shared.openURL(url)
             }
         }
-        
-        
-       
-        
     }
 
+    @IBAction func locationButton(_ sender: UIButton) {
 
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let link = items[indexPath.row]["link"]{
-            
-            let url = URL(string: link)!
+        let view = self.view as! UITableView
+        let touchPoint = sender.convert(CGPoint.zero, to: self.view)
+        
+        let clickedButtonIndexPath = view.indexPathForRow(at: touchPoint)
+        if let row = clickedButtonIndexPath?.row{
+            let url = URL(string: items[row]["link"]!)!
             if #available(iOS 10.0, *) {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             } else {
                 UIApplication.shared.openURL(url)
             }
         }
+        
     }
+    
+
+//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        if let link = items[indexPath.row]["link"]{
+//
+//            let url = URL(string: link)!
+//            if #available(iOS 10.0, *) {
+//                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+//            } else {
+//                UIApplication.shared.openURL(url)
+//            }
+//        }
+//    }
+
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

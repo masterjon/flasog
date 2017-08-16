@@ -37,6 +37,11 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         }
         return ""
     }
+    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        if let title = view as? UITableViewHeaderFooterView{
+            title.textLabel?.textColor =  ColorPallete.BlueColor
+        }
+    }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         if let rows = days[indexPath.section]["cats"] as? [ProgramCat]{
@@ -148,6 +153,17 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         
     }
     func loadStoredItems(){
+//        let titles = [
+//            "Cursos Precongreso", // 0
+//            "Cursos Transcongreso", // 1
+//            "Conferencias Magistrales", // 2
+//            "Conferencias Especiales", // 3
+//            "Encuentro Latinoamericano de residentes G.O.", // 4
+//            "Simposios Especiales", // 5
+//            "Simposios Simultaneos", // 6
+//            "Foros de discusión" // 7
+//        ]
+        
         if let schedule_ids = userDefaults.object(forKey: "my_schedule") as? [Int]{
             print(schedule_ids)
             for cat_idx in schedule_ids{
@@ -156,14 +172,10 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
                     cats.append(items[cat_idx])
                     days[1]["cats"] = cats
                 }
-                if cat_idx == 1{
+                else if cat_idx == 1{
                     var cats = days[2]["cats"] as! [ProgramCat]
                     cats.append(items[cat_idx])
                     days[2]["cats"] = cats
-                    
-                    cats = days[3]["cats"] as! [ProgramCat]
-                    cats.append(items[cat_idx])
-                    days[3]["cats"] = cats
                     
                     cats = days[3]["cats"] as! [ProgramCat]
                     cats.append(items[cat_idx])
@@ -177,6 +189,92 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
                     cats.append(items[cat_idx])
                     days[5]["cats"] = cats
                     
+                    
+                }
+                else if  cat_idx == 2{
+                    var cats = days[2]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[2]["cats"] = cats
+                    
+                    cats = days[3]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[3]["cats"] = cats
+                    
+                    cats = days[4]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[4]["cats"] = cats
+ 
+                }
+                else if  cat_idx == 3{
+                    var cats = days[2]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[2]["cats"] = cats
+                    
+                    cats = days[3]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[3]["cats"] = cats
+                    
+                    cats = days[4]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[4]["cats"] = cats
+                    
+                    cats = days[5]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[5]["cats"] = cats
+                }
+                else if  cat_idx == 4{
+                    var cats = days[0]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[0]["cats"] = cats
+                }
+                else if  cat_idx == 5{
+                    var cats = days[1]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[1]["cats"] = cats
+                    
+                    cats = days[2]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[2]["cats"] = cats
+                    
+                    cats = days[3]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[3]["cats"] = cats
+                    
+                }
+                else if  cat_idx == 6{
+                    var cats = days[2]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[2]["cats"] = cats
+                    
+                    cats = days[3]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[3]["cats"] = cats
+                    
+                    cats = days[4]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[4]["cats"] = cats
+                    
+                    cats = days[5]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[5]["cats"] = cats
+                    
+                }
+                else if  cat_idx == 7{
+                    var cats = days[2]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[2]["cats"] = cats
+                    
+                    cats = days[3]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[3]["cats"] = cats
+                    
+                    cats = days[4]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx]) 
+                    days[4]["cats"] = cats
+                    
+                    cats = days[5]["cats"] as! [ProgramCat]
+                    cats.append(items[cat_idx])
+                    days[5]["cats"] = cats
                     
                 }
             }
