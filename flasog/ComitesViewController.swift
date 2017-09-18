@@ -25,6 +25,7 @@ class ComitesViewController: UIViewController {
                       ["name":"Dr. Ricardo Fescina","image":"7RicardoFescina-P7","pos":"Director Ejecutivo"],
                       ["name":"Dr. Rubén Darío Mora","image":"8RubenDario-P7","pos":"Director Administrativo"],
                       ["name":"Dr. Paulino Vigil De Gracia","image":"9PaulinoVigil-P7","pos":"Director Científico"],
+                      ["name":"Dr. Pío Iván Gómez","image":"10PioIvanGomez-P7","pos":"Coordinador del Comité de Derechos Sexuales y Reproductivos"],
                       
                     ]
         ],
@@ -37,13 +38,13 @@ class ComitesViewController: UIViewController {
                       ["name":"Dra. Paola Iturralde Rosas P.","image":"4PaolaIturralde-P7.1","pos":"Tesorero"],
                       ["name":"Dr. Gilberto Tena Alavez","image":"5GilbertoTena-SegundoSecretarioPropietario-P7.1","pos":"Segundo Secretario Propietario"],
                       ["name":"Dr. Armando Montaño Uzcanga","image":"6ArmandoMontañoUzcanga-PrimerSecretarioSuplente-P7.1","pos":"Primer Secretario Suplente"],
-                      ["name":"Dr. Marcelino Hernández Valencia","image":"7MarcelinoHernandezValencia-SegundoSecretarioPropietario-P7.1","pos":"Segundo Secretario Suplente"],
+                      ["name":"Dr. Marcelino Hernández V.","image":"7MarcelinoHernandezValencia-SegundoSecretarioPropietario-P7.1","pos":"Segundo Secretario Suplente"],
                       ["name":"Dra. Miriam C. Negrín Pérez","image":"8MiriamCNegrinPerezSub-Tesorero-P7.1","pos":"Sub-Tesorero"]]
         ],
         [
             "title": "Comité Organizador México",
             "image":"Logo-Congreso-6.3",
-            "items": [["name":"Dr. Jorge C. Méndez Trujeque","image":"1JorgeCMendez-P7.2","pos":"Presidente"],["name":"","image":"RecorteComite","pos":""],
+            "items": [["name":"Dr. Jorge Méndez Trujeque","image":"1JorgeCMendez-P7.2","pos":"Presidente"],["name":"","image":"RecorteComite","pos":""],
                       ["name":"Dr. Luis Castillo Zapata","image":"2LuisCastillo-P7.2","pos":"Secretario"],
                       ["name":"Dr. Ariel Marrufo Soda","image":"3ArielMarrufo-P7.2","pos":"Tesorero"]]
         ],

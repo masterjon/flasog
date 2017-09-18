@@ -28,7 +28,7 @@ class ProfesoresInvitadosVC: UIViewController, UITableViewDataSource {
         ["name":"ARTURO MARÍA CECILIA","country":"COLOMBIA"],
         ["name":"AURIOLES LÓPEZ GERARDO","country":"MEXICO"],
         ["name":"AYALA MÉNDEZ JOSÉ ANTONIO","country":"MEXICO"],
-        ["name":"AYROZA PABLO","country":"BRASIL"],
+        ["name":"MARCELO KILAR","country":"ARGENTINA"],
         ["name":"BARRAGÁN CURIEL EDUARDO","country":"MEXICO"],
         ["name":"BARRERA GONZÁLEZ LUIS ALBERTO","country":"MEXICO"],
         ["name":"BARRIOS PRIETO ERNESTO","country":"MEXICO"],
@@ -95,6 +95,7 @@ class ProfesoresInvitadosVC: UIViewController, UITableViewDataSource {
         ["name":"GONZÁLEZ NAVARRO JOSÉ VICENTE","country":"ESPANA"],
         ["name":"GORBEA CHÁVEZ VIRIDIANA","country":"MEXICO"],
         ["name":"GRIMALDO VALENZUELA PEDRO MARIO","country":"MEXICO"],
+        ["name":"GUADARRAMA SÁNCHEZ FRANCISCO RAFAEL","country":"MEXICO"],
         ["name":"GUTIÉRREZ ESCOTO PABLO","country":"MEXICO"],
         ["name":"HABICH DIEGO","country":"ARGENTINA"],
         ["name":"HERNÁNDEZ MARÍN IMELDA","country":"MEXICO"],
@@ -161,6 +162,7 @@ class ProfesoresInvitadosVC: UIViewController, UITableViewDataSource {
         ["name":"PURANDARE NARAHARI CHITTARANJAN","country":"INDIA"],
         ["name":"QUESNEL BENÍTEZ CARLOS","country":"MEXICO"],
         ["name":"RAMÍREZ POLO ISABEL","country":"ESPANA"],
+        ["name":"REYES PAREDES NORBERTO","country":"MEXICO"],
         ["name":"ROA MÓNICA","country":"ESPANA"],
         ["name":"ROBLES ELÍAS FRANCISCO JAVIER","country":"MEXICO"],
         ["name":"RODRÍGUEZ COLORADO SILVIA","country":"MEXICO"],
@@ -209,8 +211,6 @@ class ProfesoresInvitadosVC: UIViewController, UITableViewDataSource {
         ["name":"YU CHONG VICENTE ","country":"ECUADOR"],
         ["name":"ZAMORA ESCUDERO RODRIGO","country":"MEXICO"],
         ["name":"ZAMORA ANDRÉS","country":"COSTA RICA"],
-        ["name":"REYES PAREDES NORBERTO","country":"MEXICO"],
-        ["name":"GUADARRAMA SÁNCHEZ FRANCISCO RAFAEL","country":"MEXICO"],
         
     ]
     @IBOutlet weak var tableView: UITableView!

@@ -18,6 +18,7 @@
 		FC2553AC1F24208600385411 /* ProfesoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2553AB1F24208600385411 /* ProfesoresVC.swift */; };
 		FC2553AE1F242BFF00385411 /* ProfesoresDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2553AD1F242BFF00385411 /* ProfesoresDetailVC.swift */; };
 		FC38B1041F3E68FB008F1B11 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC38B1031F3E68FA008F1B11 /* MenuTableViewController.swift */; };
+		FC41EBBB1F6F618D00FF9CF9 /* MyScheduleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41EBBA1F6F618D00FF9CF9 /* MyScheduleItem.swift */; };
 		FC456AFB1F336EC900CDDB44 /* ExpoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC456AFA1F336EC900CDDB44 /* ExpoVC.swift */; };
 		FC456AFD1F33792C00CDDB44 /* PatrocinadoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC456AFC1F33792C00CDDB44 /* PatrocinadoresVC.swift */; };
 		FC456B011F337F4300CDDB44 /* PatrocinadoresDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC456B001F337F4300CDDB44 /* PatrocinadoresDetailVC.swift */; };
@@ -34,6 +35,7 @@
 		FC812BF21F04C85E004C406D /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC812BF11F04C85E004C406D /* ColorPalette.swift */; };
 		FC931C331F2D243600E449C6 /* LugaresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC931C321F2D243600E449C6 /* LugaresVC.swift */; };
 		FCD579F31F34EED4004A311C /* ProgramaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD579F21F34EED4004A311C /* ProgramaVC.swift */; };
+		FCDC736F1F4A08140065BF25 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC736E1F4A08140065BF25 /* ContainerViewController.swift */; };
 		FCF644941F329FE500E887B7 /* CancunICCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF644931F329FE500E887B7 /* CancunICCVC.swift */; };
 		FCF644961F32AFD500E887B7 /* SalonesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF644951F32AFD500E887B7 /* SalonesVC.swift */; };
 		FCF644981F32B8FC00E887B7 /* SalonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF644971F32B8FC00E887B7 /* SalonDetailVC.swift */; };
@@ -62,6 +64,7 @@
 		FC2553AB1F24208600385411 /* ProfesoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfesoresVC.swift; sourceTree = "<group>"; };
 		FC2553AD1F242BFF00385411 /* ProfesoresDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfesoresDetailVC.swift; sourceTree = "<group>"; };
 		FC38B1031F3E68FA008F1B11 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		FC41EBBA1F6F618D00FF9CF9 /* MyScheduleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScheduleItem.swift; sourceTree = "<group>"; };
 		FC456AFA1F336EC900CDDB44 /* ExpoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpoVC.swift; sourceTree = "<group>"; };
 		FC456AFC1F33792C00CDDB44 /* PatrocinadoresVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatrocinadoresVC.swift; sourceTree = "<group>"; };
 		FC456B001F337F4300CDDB44 /* PatrocinadoresDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatrocinadoresDetailVC.swift; sourceTree = "<group>"; };
@@ -78,6 +81,7 @@
 		FC812BF11F04C85E004C406D /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		FC931C321F2D243600E449C6 /* LugaresVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LugaresVC.swift; sourceTree = "<group>"; };
 		FCD579F21F34EED4004A311C /* ProgramaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramaVC.swift; sourceTree = "<group>"; };
+		FCDC736E1F4A08140065BF25 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		FCF644931F329FE500E887B7 /* CancunICCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancunICCVC.swift; sourceTree = "<group>"; };
 		FCF644951F32AFD500E887B7 /* SalonesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalonesVC.swift; sourceTree = "<group>"; };
 		FCF644971F32B8FC00E887B7 /* SalonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalonDetailVC.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 				FC812BF01F04C83A004C406D /* Utils */,
 				FC1270071F005A2A008624C3 /* AppDelegate.swift */,
 				FC1270091F005A2A008624C3 /* ViewController.swift */,
+				FCDC736E1F4A08140065BF25 /* ContainerViewController.swift */,
 				FC38B1031F3E68FA008F1B11 /* MenuTableViewController.swift */,
 				FC12700B1F005A2A008624C3 /* Main.storyboard */,
 				FC12700E1F005A2A008624C3 /* Assets.xcassets */,
@@ -193,6 +198,7 @@
 			children = (
 				FCFA54221F34FAB8007EC429 /* ProgramCategory.swift */,
 				FCFA54261F350303007EC429 /* ProgramItem.swift */,
+				FC41EBBA1F6F618D00FF9CF9 /* MyScheduleItem.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -324,6 +330,7 @@
 				FC456AFD1F33792C00CDDB44 /* PatrocinadoresVC.swift in Sources */,
 				FCF644941F329FE500E887B7 /* CancunICCVC.swift in Sources */,
 				FC931C331F2D243600E449C6 /* LugaresVC.swift in Sources */,
+				FC41EBBB1F6F618D00FF9CF9 /* MyScheduleItem.swift in Sources */,
 				FC6B192F1F1EF559003FF56F /* ComiteCollectionVC.swift in Sources */,
 				FC57386F1F421E4900FE1304 /* ProfesoresInvitadosVC.swift in Sources */,
 				FC2553AE1F242BFF00385411 /* ProfesoresDetailVC.swift in Sources */,
@@ -349,6 +356,7 @@
 				FC1270081F005A2A008624C3 /* AppDelegate.swift in Sources */,
 				FCFA54271F350303007EC429 /* ProgramItem.swift in Sources */,
 				FC812BF21F04C85E004C406D /* ColorPalette.swift in Sources */,
+				FCDC736F1F4A08140065BF25 /* ContainerViewController.swift in Sources */,
 				FC58BD511F423A4E0061BB41 /* ProfesoresContainerVC.swift in Sources */,
 				FC57386C1F415F5A00FE1304 /* MiAgendaVC.swift in Sources */,
 				FCFA54231F34FAB8007EC429 /* ProgramCategory.swift in Sources */,

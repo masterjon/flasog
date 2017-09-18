@@ -119,22 +119,22 @@ func loadSchedule()->[ProgramCat]{
     item0_10.schedule = "8:00 – 14:00 hrs."
     item0_10.days = "5 de noviembre 2017"
     
-    items[0].items.append(item0_1)
-    items[0].items.append(item0_2)
-    items[0].items.append(item0_3)
-    items[0].items.append(item0_4)
-    items[0].items.append(item0_5)
-    items[0].items.append(item0_6)
-    items[0].items.append(item0_7)
-    items[0].items.append(item0_8)
-    items[0].items.append(item0_9)
-    items[0].items.append(item0_10)
+    items[0].items.append(item0_3) //0
+    items[0].items.append(item0_1) //1
+    items[0].items.append(item0_4) //2
+    items[0].items.append(item0_5) //3
+    items[0].items.append(item0_6) //4
+    items[0].items.append(item0_9) //5
+    items[0].items.append(item0_7) //6
+    items[0].items.append(item0_8) //7
+    items[0].items.append(item0_10) //8
+    items[0].items.append(item0_2) //9
     
     
     //****************      Cursos Transcongreso  ********************
     let item1_1 = ProgramItem()
     item1_1.catId = 1
-    item1_1.title = "Ultrasonido Obstétrico"
+    item1_1.title = "Ultrasonido en obstetricia"
     item1_1.room = "Gran Cancún 1"
     item1_1.duration = 480
     item1_1.schedule = "7:00 – 9:00 hrs."
@@ -201,7 +201,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item1_9 = ProgramItem()
     item1_9.catId = 1
-    item1_9.title = "Pre-eclampsia y Eclampsia"
+    item1_9.title = "Preeclampsia y Eclampsia"
     item1_9.room = "Costa Maya A"
     item1_9.duration = 480
     item1_9.schedule = "7:00 – 9:00 hrs."
@@ -216,16 +216,16 @@ func loadSchedule()->[ProgramCat]{
     item1_10.schedule = "7:00 – 9:00 hrs."
     item1_10.days = "6 al 9 de noviembre 2017"
     
-    items[1].items.append(item1_1)
-    items[1].items.append(item1_2)
-    items[1].items.append(item1_3)
-    items[1].items.append(item1_4)
-    items[1].items.append(item1_5)
-    items[1].items.append(item1_6)
-    items[1].items.append(item1_7)
-    items[1].items.append(item1_8)
-    items[1].items.append(item1_9)
-    items[1].items.append(item1_10)
+    items[1].items.append(item1_1) //0
+    items[1].items.append(item1_9) //1
+    items[1].items.append(item1_3) //2
+    items[1].items.append(item1_7) //3
+    items[1].items.append(item1_4) //4
+    items[1].items.append(item1_2) //5
+    items[1].items.append(item1_5) //6
+    items[1].items.append(item1_6) //7
+    items[1].items.append(item1_10) //8
+    items[1].items.append(item1_8) //9
     
     
     //****************      Conferencias Magistrales  ********************
@@ -247,7 +247,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item2_3 = ProgramItem()
     item2_3.catId = 2
-    item2_3.title = "Retos en la practica ginecoobstetrica en Latinoamérica."
+    item2_3.title = "Estrategias de prevención del aborto inseguro en Latinoamérica: Pasado, presente y futuro"
     item2_3.room = "Gran Cancún"
     item2_3.duration = 45
     item2_3.schedule = "3:00 – 13:45 hrs."
@@ -324,14 +324,14 @@ func loadSchedule()->[ProgramCat]{
     item3_8.schedule = "11:50 – 12:30 hrs."
     item3_8.days = "Jueves, 9 de noviembre 2017"
     
-    items[3].items.append(item3_1)
-    items[3].items.append(item3_2)
-    items[3].items.append(item3_3)
-    items[3].items.append(item3_4)
-    items[3].items.append(item3_5)
-    items[3].items.append(item3_6)
-    items[3].items.append(item3_7)
-    items[3].items.append(item3_8)
+    items[3].items.append(item3_1) //0
+    items[3].items.append(item3_2) //1
+    items[3].items.append(item3_3) //2
+    items[3].items.append(item3_4) //3
+    items[3].items.append(item3_5) //4
+    items[3].items.append(item3_6) //5
+    items[3].items.append(item3_7) //6
+    items[3].items.append(item3_8) //7
     
     //****************      Encuentro Latinoamericano de residentes G.O.   ********************
     let item4_1 = ProgramItem()
@@ -454,7 +454,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item6_6 = ProgramItem()
     item6_6.catId = 6
-    item6_6.title = "Simposio derechos sexuales y reproductivos en Latinoamérica."
+    item6_6.title = "Derechos sexuales y reproductivos en Latinoamérica."
     item6_6.room = "Costa Maya B"
     item6_6.duration = 90
     item6_6.schedule = "9:30 – 11:00 hrs."
@@ -502,7 +502,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item6_12 = ProgramItem()
     item6_12.catId = 6
-    item6_12.title = "Anticoncepción y calidad de vida. (S.E.G)"
+    item6_12.title = "Sociedad española de contracepción: Anticoncepción y calidad de vida"
     item6_12.room = "Auditorio"
     item6_12.duration = 90
     item6_12.schedule = "9:30 – 11:00 hrs."
@@ -535,7 +535,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item6_16 = ProgramItem()
     item6_16.catId = 6
-    item6_16.title = "FIGO: Hiperglucemia en el embarazo: iniciativa global"
+    item6_16.title = "Hiperglucemia en el embarazo: iniciativa global"
     item6_16.room = "Salones Cozumel"
     item6_16.duration = 90
     item6_16.schedule = "9:30 – 11:00 hrs."
@@ -605,30 +605,30 @@ func loadSchedule()->[ProgramCat]{
     item6_24.schedule = "9:30 – 11:00 hrs."
     item6_24.days = "Jueves, 9 de noviembre 2017"
 
-    items[6].items.append(item6_1)
-    items[6].items.append(item6_2)
-    items[6].items.append(item6_3)
-    items[6].items.append(item6_4)
-    items[6].items.append(item6_5)
-    items[6].items.append(item6_6)
-    items[6].items.append(item6_7)
-    items[6].items.append(item6_8)
-    items[6].items.append(item6_9)
-    items[6].items.append(item6_10)
-    items[6].items.append(item6_11)
-    items[6].items.append(item6_12)
-    items[6].items.append(item6_13)
-    items[6].items.append(item6_14)
-    items[6].items.append(item6_15)
-    items[6].items.append(item6_16)
-    items[6].items.append(item6_17)
-    items[6].items.append(item6_18)
-    items[6].items.append(item6_19)
-    items[6].items.append(item6_20)
-    items[6].items.append(item6_21)
-    items[6].items.append(item6_22)
-    items[6].items.append(item6_23)
-    items[6].items.append(item6_24)
+    items[6].items.append(item6_1) //0
+    items[6].items.append(item6_5) //1
+    items[6].items.append(item6_3) //2
+    items[6].items.append(item6_4) //3
+    items[6].items.append(item6_2) //4
+    items[6].items.append(item6_6) //5
+    items[6].items.append(item6_7) //6
+    items[6].items.append(item6_9) //7
+    items[6].items.append(item6_8) //8
+    items[6].items.append(item6_12)//9
+    items[6].items.append(item6_10)//10
+    items[6].items.append(item6_11)//11
+    items[6].items.append(item6_15)//12
+    items[6].items.append(item6_18)//13
+    items[6].items.append(item6_16)//14
+    items[6].items.append(item6_14)//15
+    items[6].items.append(item6_17)//16
+    items[6].items.append(item6_13)//17
+    items[6].items.append(item6_21)//18
+    items[6].items.append(item6_19)//19
+    items[6].items.append(item6_22)//20
+    items[6].items.append(item6_20)//21
+    items[6].items.append(item6_24)//22
+    items[6].items.append(item6_23)//23
     
     
     //****************      Foros de discusión  ********************
@@ -722,7 +722,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item7_12 = ProgramItem()
     item7_12.catId = 7
-    item7_12.title = "Vía de nacimiento en el siglo xxi"
+    item7_12.title = "Vía de nacimiento en el siglo XXI"
     item7_12.room = "Auditorio"
     item7_12.duration = 75
     item7_12.schedule = "11:15 – 12:30 hrs."
@@ -730,7 +730,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item7_13 = ProgramItem()
     item7_13.catId = 7
-    item7_13.title = "Diagnóstico y tratamiento del cáncer ginecológico."
+    item7_13.title = "Diagnóstico y tratamiento del cáncer ginecológico de FLASOG"
     item7_13.room = "Costa Maya B"
     item7_13.duration = 75
     item7_13.schedule = "11:15 – 12:30 hrs."
@@ -792,27 +792,26 @@ func loadSchedule()->[ProgramCat]{
     item7_20.schedule = "11:15 – 12:30 hrs."
     item7_20.days = "Jueves, 9 de noviembre 2017"
 
-    
-    items[7].items.append(item7_1)
-    items[7].items.append(item7_2)
-    items[7].items.append(item7_3)
-    items[7].items.append(item7_4)
-    items[7].items.append(item7_5)
-    items[7].items.append(item7_6)
-    items[7].items.append(item7_7)
-    items[7].items.append(item7_8)
-    items[7].items.append(item7_9)
-    items[7].items.append(item7_10)
-    items[7].items.append(item7_11)
-    items[7].items.append(item7_12)
-    items[7].items.append(item7_13)
-    items[7].items.append(item7_14)
-    items[7].items.append(item7_15)
-    items[7].items.append(item7_16)
-    items[7].items.append(item7_17)
-    items[7].items.append(item7_18)
-    items[7].items.append(item7_19)
-    items[7].items.append(item7_20)
+    items[7].items.append(item7_3) //0
+    items[7].items.append(item7_2) //1
+    items[7].items.append(item7_1) //2
+    items[7].items.append(item7_5) //3
+    items[7].items.append(item7_4) //4
+    items[7].items.append(item7_9) //5
+    items[7].items.append(item7_7) //6
+    items[7].items.append(item7_6) //7
+    items[7].items.append(item7_8) //8
+    items[7].items.append(item7_10)//9
+    items[7].items.append(item7_14)//10
+    items[7].items.append(item7_15)//11
+    items[7].items.append(item7_12)//12
+    items[7].items.append(item7_11)//13
+    items[7].items.append(item7_13)//14
+    items[7].items.append(item7_17)//15
+    items[7].items.append(item7_18)//16
+    items[7].items.append(item7_19)//17
+    items[7].items.append(item7_16)//18
+    items[7].items.append(item7_20)//19
     
     
     items = fillDesc(items: items)
@@ -825,7 +824,7 @@ func loadSchedule()->[ProgramCat]{
 func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     //****************      Cursos Precongreso  ********************
-    items[0].items[0].desc = """
+    items[0].items[1].desc = """
     » Objetivo General:
     Clarificar y exponer conceptos basados en evidencia con aplicabilidad inmediata al afrontar una emergencia secundaria a hemorragia obstétrica.
     
@@ -884,7 +883,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Preguntas y Conclusiones
     """
     
-    items[0].items[1].desc = """
+    items[0].items[9].desc = """
     » Objetivo General:
     En las últimas dos décadas en el área de oncología ginecológica ha habido un avance importante en el conocimiento de la biología de los tumores, actualmente han madurado conceptos hasta convertirse en un área de oportunidad para desarrollar disciplinas y destrezas amplias y diversas, para poder suministrar una mejor salud a nuestras pacientes.
      
@@ -894,10 +893,10 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     • Tener un amplio panorama en las diferentes opciones actuales en la cirugía reconstructiva y nuevas terapias blanco.
     
     » Profesor Titular:
-    Dr. Carlos Aranda flores 
+    Dr. Carlos Aranda Flores 
     
     » Profesores Adjuntos:
-     Dr. Juan Carlos Cantón
+    Dr. Juan Carlos Cantón Romero
     Dr. Diego Habich
     
     » PROGRAMA
@@ -912,7 +911,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     8:30 - 9:00 hrs.
     Traquelectomía: Indicaciones y resultados
-    Dr. Juan Carlos Cantón
+    Dr. Juan Carlos Cantón Romero
     
     9:00 - 9:30 hrs.
     Marcadores tumorales en cáncer ginecológico ¿Cuándo y a quién?
@@ -948,7 +947,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     RECESO 
     12:30 – 13:00 hrs.
     Ganglio centinela en cáncer ginecológico. Mito o realidad
-    Dr. Juan Carlos cantón
+    Dr. Juan Carlos Cantón Romero
     
     13:00 – 13:30 hrs.
     Cirugía residual tumoral
@@ -960,10 +959,10 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     13:50 – 14:00 hrs.
     Mesa de discusión
-    Dr. Juan Carlos Cantón
+    Dr. Juan Carlos Cantón Romero
     
     """
-    items[0].items[2].desc = """
+    items[0].items[0].desc = """
     » Objetivo General:
     Actualizar los conceptos, el diagnóstico y manejo de vanguardia para la mejor atención de las mujeres en las etapas de transición a la menopáusica, perimenopausia y posmenopausia.
     
@@ -1035,7 +1034,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     """
     
-    items[0].items[3].desc = """
+    items[0].items[2].desc = """
     » Objetivo General:
     Proporcionar a los Gineco-Obstetras una revisión de la incidencia, factores de riesgo sintomatología, manejo médico, implicaciones materno-fetales y aspectos educativos para las pacientes de las principales complicaciones médicas que afectan a las mujeres durante los periodos anteparto, intraparto y postparto.
     
@@ -1055,7 +1054,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     8:00 – 8:10 hrs.
     Introducción y objetivos
-    Dr. Rodrigo Zamora Escudero Dr. Ernesto barrios prieto
+    Dr. Rodrigo Zamora Escudero Dr. Ernesto Barrios Prieto
     
     8:10 – 8:40 hrs.
     Diagnóstico y manejo de diabetes gestacional
@@ -1063,7 +1062,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     8:40 – 9:10 hrs.
     Manejo interdisciplinario de zika y embarazo
-    Dr. Norberto reyes paredes
+    Dr. Norberto Reyes Paredes
     
     9:10 – 9:40 hrs.
     Perlas en el manejo de la obesidad y embarazo
@@ -1081,8 +1080,8 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dr. Rodrigo Zamora Escudero
     
     11:10 – 11:40 hrs.
-    Hipertensión crónica en el embarazo: hacer o no hacer
-    Dr. Baha M. Sibai
+    Hipertensión crónica en el embarazo: Hacer o no hacer
+    Dr. James N. Martin Jr.
     
     11:40 – 12:10 hrs.
     Manejo de las embarazadas con preeclampsia sin datos de gravedad
@@ -1105,7 +1104,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     """
     
-    items[0].items[4].desc = """
+    items[0].items[3].desc = """
     » Objetivo General:
     Revisar conceptos actuales de problemas que, en nuestra práctica, representan de suyo un reto diagnóstico y/o terapéutico
     
@@ -1118,7 +1117,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dr. Francisco Bernárdez zapata
     
     » Profesores Adjuntos:
-    Dr.  Gilberto Tena Alavés
+    Dr.  Gilberto Tena Alavez
     Dr.  Francisco Ruiloba Madero
     
     » PROGRAMA
@@ -1133,9 +1132,8 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     8:40 – 9:10 hrs.
     Síndrome de inflamación fetal. De la teoría a la práctica.
-    Dr. Ernesto Castelazo Morales
-    
-    
+    Dr. Felipe Gonzalez Serrano
+
     9:10 – 9:40 hrs.
     Parálisis cerebral infantil. ¿Es posible su prevención?
     Dr.  Haywood Brown
@@ -1146,9 +1144,10 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     10:10 – 10:40 hrs.
     RECESO 
+
     10:40 – 11:10 hrs.
     Trombocitopenia en el embarazo. Actualidades
-    Dr. Gilberto tena Alavés
+    Dr. Gilberto Tena Alavez
     
     11:10 – 11:40 hrs.
     Vulvodinea en la práctica clínica. ¿Qué hacer?
@@ -1167,7 +1166,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     13:10 - 13:40 hrs.
     Terapia hormonal y las probabilidades de cáncer.
-    Dr. Verda Hiks
+    Dr. Verda Hicks
     
     13:40 – 14:00 hrs.
     Preguntas y conclusiones
@@ -1175,21 +1174,21 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     """
     
-    items[0].items[5].desc = """
+    items[0].items[4].desc = """
     » Objetivo General:
     Revisar y manejar las causas más comunes asociadas a morbilidad y mortalidad materna
     
     » Objetivos Específicos:
     • Evaluar las intervenciones más efectivas en la reducción de la mortalidad materna
     • Insistir en el concepto de near miss y su importancia en muertes maternas
-    • Hacer una descripción sobre la realidad en muertes maternas y morbilidad severa en latino américa.
+    • Hacer una descripción sobre la realidad en muertes maternas y morbilidad severa en Latinoamérica.
     
     » Profesor Titular:
     Dr. Douglas Jarquin
     
     » Profesores Adjuntos:
-    Dra. María Fernanda Escobar 
-    Dra. Wendy Cárcamo.
+    Dra. María Fernanda Escobar
+    Dra. Wendy Cárcamo
     
     8:00 a 8:10 hrs.
     Introducción y objetivos
@@ -1213,13 +1212,14 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     10:10 – 10:40 hrs.
     RECESO 
+
     10:40 a 11:10 hrs.
-    Modelo de seguridad para la atención de las emergencias obstétricas
-    Dr. Edgar Iván Ortiz
+    Mortalidad materna: Documento Tehuacán, su historia
+    Dr. Antonio Peralta Sánchez
     
     11:10 a 11:40 hrs.
     Estrategias efectivas para la reducción de la tasa de cesárea
-    Dr. Sergio Fajardo
+    Dr. Sergio Fajardo Dueñas
     
     11:40 a 12:10 hrs.
     Morbilidad y mortalidad perinatal en américa latina: ¿Dónde estamos?
@@ -1234,12 +1234,10 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     13:10 a 13:40 hrs.
     Estrategias exitosas para la reducción de la mortalidad materna FLASOG: Manejo de la HPP, experiencia exitosa: Alto - Bolivia - Guatemala
-    Dr. Carlos Fütchner
+    Dr. Carlos Füchtner
     
     13:40 a 14:00 hrs.
     Preguntas y conclusiones
-    Dr. Pendiente
-    
     """
     
     items[0].items[6].desc = """
@@ -1277,7 +1275,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     9:40 – 10:10 hrs.
     Miomatosis e infertilidad. Evidencia actual.
-    Dr. Miguel Ángel mancera Reséndiz 
+    Dr. Miguel Ángel Mancera Reséndiz 
     10:10 – 10:40 hrs.
     RECESO
      
@@ -1321,7 +1319,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dr. Pio Iván Gómez
     
     » Profesores Adjuntos:
-    Dr. Leonel Briozzo 
+    Dr. Leonel Briozzo
     Dr. Octavio Miranda
     
     » PROGRAMA 
@@ -1372,7 +1370,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     """
     
-    items[0].items[8].desc = """
+    items[0].items[5].desc = """
     » Objetivo General:
     Revisar las causas más comunes de consulta en ginecología del adolescente.
      
@@ -1399,7 +1397,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dr. Jorge Peláez 
     8:40 – 9:10 hrs.
     Embarazo en la adolescencia. Del afecto a la maternidad.
-    Dr. José Vidal Sáenz
+    Dr. José Vidal Saénz
     
     9:10 – 9:40 hrs.
     Infecciones de transmisión sexual en adolescentes.
@@ -1433,7 +1431,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     13:10 – 13:40 hrs.
     Patología mamaria en la adolescencia.
-    Dra. María mercedes Pérez
+    Dra. María Mercedes Pérez
     
     13:40 – 14:00 hrs.
     Adolescencia y obesidad
@@ -1441,10 +1439,10 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     14:00 hrs.
     Preguntas y conclusiones
-    Dra. Margarita castro
+    Dra. Margarita Castro
     """
     
-    items[0].items[9].desc = """
+    items[0].items[8].desc = """
     » Objetivo General:
     Evaluación sobre el impacto, el diagnóstico y manejo de la prematuridad
     
@@ -1458,15 +1456,16 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     » Profesores Adjuntos:
     Dra. Catalina Valencia
-    Dr. Renato Moreira Sá
+    Dr. Renato Moreira De Sá
     
     » PROGRAMA
     
     8:00 – 8:10 hrs.
-    Introducción y objetivos Dr. Eduardo Da Fonseca 
+    Introducción y objetivos Dr. Eduardo Da Fonseca
+    
     8:10 – 8:40 hrs.
     Epidemiología y factores de riesgo
-    Dr. Gilberto Tena A.
+    Dr. Gilberto Tena Alavez
     
     8:40 – 9:10 hrs.
     Definición y fisiopatología
@@ -1476,24 +1475,24 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     El cuello uterino y la progesterona Dr. Eduardo Da Fonseca
     
     9:40 – 10:10 hrs.
-    Cercalge vs progesterona para prevenir parto prematuro
-    Dr. Vicenzo Berguella
+    Pesario cervical para prevenir el parto prematuro en singleton y gemelos: ¿Dónde estamos?
+    Dra. Catalina Valencia
     
     10:10 – 10:40 hrs.
-    Pesario cervical para prevenir el parto prematuro en singleton y gemelos: ¿Dónde estamos?
-    Dra. Catalina Valencia 
-    10:40 – 11:10 hrs.
     RECESO
     
+    10:40 – 11:10 hrs.
+    Cercalje vs progesterona para prevenir parto prematuro
+    Dr. Vicenzo Berghella
+
     11:10 – 11:40 hrs.
     Diagnóstico clínico: Nuevas herramientas para evitar intervenciones innecesarias Dra. Juliana Esteves
     
     11:40 – 12:10 hrs.
-    Tocolísis y esteroides repetidos: Evaluación crítica Dr. Renato Moreira Sá
+    Tocolísis y esteroides repetidos: Evaluación crítica Dr. Renato Moreira De Sá
     
     12:10 – 12:40 hrs.
     RECESO
-    
     
     12:40 – 13:10 hrs.
     Sulfato de magnesio para la neuroprotección fetal y SGB: Control y conducta
@@ -1502,7 +1501,6 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     13:10 – 13:40 hrs.
     Mesa de discusión
     Todos los profesores
-    
     
     13:40 – 14:00 hrs.
     Preguntas y conclusiones
@@ -1526,8 +1524,8 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dr. José Antonio Ayala Méndez
     
     » Profesores Adjuntos:
-    Dra. Ana Nianchi
-    Dra. Yolitzma Muciño Rodríguez
+    Dra. Ana Bianchi
+    Dra. Yolitzma Muciño Manjarerz
     
     ▼ Primer día (lunes, 6 de noviembre) ▼
     “La ventana diagnóstica de primer trimestre”
@@ -1537,7 +1535,9 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:05 – 7:30 hrs. Predicción de complicaciones del embarazo - Dr. Salvador Espino
     
-    7:30 – 7:55 hrs. Predicción de parto pretérmino – Dr. Vincenzo Berghella 7:55 – 8:20 hrs.  Uso práctico del US Doppler en obstetricia – Dr. Giancarlo Mari
+    7:30 – 7:55 hrs. Predicción de parto pretérmino – Dr. Vincenzo Berghella
+    
+    7:55 – 8:20 hrs.  Uso práctico del US Doppler en obstetricia – Dr. Giancarlo Mari
     
     8:20 – 8:45 hrs. Pruebas alternativas y confirmatorias en el primer trimestre – Dr. Mónica Aguinaga Ríos
     
@@ -1584,12 +1584,12 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:55 – 8:20 hrs. Restricción en el crecimiento intrauterino: diagnóstico y vigilancia – Dra. Olivia Sánchez Rodríguez
     
-    8:20 – 8:45 hrs. Embarazo múltiple: lineamientos de diagnóstico y vigilancia – Dr. Antonio Briseño Sainz
+    8:20 – 8:45 hrs. Embarazo múltiple: lineamientos de diagnóstico y vigilancia – Dr. Antonio De Jesús Briseño Sainz
     
     8:45 – 9:00 hrs. Preguntas y conclusiones – Dr. José Antonio Ayala Méndez
     
     """
-    items[1].items[1].desc = """
+    items[1].items[5].desc = """
     » Objetivo General:
     Mejorar las competencias del alumno en la práctica colposcópico y establecer uniformidad en las normas nacionales e internacionales de la práctica colposcópica.
     
@@ -1615,7 +1615,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:30 – 7:55 hrs. Nuevos marcadores moleculares en histología – Dr. Gustavo Ferriro
     
-    7:55 – 8:20 hrs. Indicaciones clínicas para la prueba de VPH y vacunación – Dr. Lara Barragán
+    7:55 – 8:20 hrs. Indicaciones clínicas para la prueba de VPH y vacunación – Dr. Rafael Bedoya Torres
     
     8:20 – 8:45 hrs. Inmunomoduladores, ¿vigentes? – Dr. Víctor Vargas Hernández
     
@@ -1626,7 +1626,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:00 – 7:05 hrs. Introducción y bienvenida – Dr. David E. Muñoz González.
     
-    7:05 – 7:30 hrs. Adenocarcinoma in situ – Dr.  Juan Carlos Cantón
+    7:05 – 7:30 hrs. Adenocarcinoma in situ – Dr.  Juan Carlos Cantón Romero
     
     7:30 – 7:55 hrs. Carcinoma microinvasor – Dr. Gustavo Ferriro
     
@@ -1641,7 +1641,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:00 – 7:05 hrs. Introducción – Dr. David E. Muñoz González
     
-    7:05 – 7:30 hrs.  NIC ii “observar vs tratar” – Dr. Manuel Saenz Cabrera
+    7:05 – 7:30 hrs.  NIC ii “observar vs tratar” – Dr. Manuel Saénz Cabrera
     
     7:30 – 7:55 hrs. NIVA, manejo quirúrgico vs láser – Dra. Elsa Díaz López
     
@@ -1690,7 +1690,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:05 – 7:30 hrs. Nuevas tecnologías en el tamiz prenatal no invasivo: incorporación del DNA fetal en la práctica diaria – Dr. Juan Manuel Acuña
     
-    7:30 – 7:55 hrs. Contribución del tamizaje bioquímico al ultrasonido en el resultado del tamiz de aneuploidias. – Dr. Gabriel Villagómez Martínez
+    7:30 – 7:55 hrs. Contribución del tamizaje bioquímico al ultrasonido en el resultado del tamiz de aneuploidias. – Dr. Antonio De Jesús Briseño Sainz
     
     7:55 – 8:20 hrs. Detección precoz de factores de riesgo pronósticos y de desarrollo anormal en     el embarazo múltiple. – Dra. Olivia Sánchez Rodríguez
     
@@ -1741,7 +1741,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Preguntas y conclusiones – Dr. Pedro Grimaldo Valenzuela
     
     """
-    items[1].items[3].desc = """
+    items[1].items[4].desc = """
     » Objetivo General:
     Que el sub especialista presente al ginecólogo un análisis de los trastornos uroginecológicos más frecuentes que enfrentará en su práctica clínica y como abordarlos a la luz de la evidencia científica disponible y de su experiencia.
     
@@ -1771,7 +1771,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     8:20 – 8:45 hrs. Cistoscopia – Dra. Erika Torres Valdez
     
-    8:45 – 9:00 hrs. Preguntas y conclusiones – Doctor
+    8:45 – 9:00 hrs. Preguntas y conclusiones – Dra. Erika Torres Valdez
     
     ▼ Segundo día (martes, 7 de noviembre) ▼
     PROBLEMAS RECURRENTES EN UROGINECOLOGÍA Y SU TRATAMIENTO
@@ -1808,7 +1808,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:00 – 7:05 hrs. Introducción y presentación – Dra. Viridiana Gorbea Chávez
     
-    7:05 – 7:30 hrs. El uroginecólogo en la decisión de la vía del nacimiento – Dr. Heriberto Lizaola Díaz de León
+    7:05 – 7:30 hrs. El uroginecólogo en la decisión de la vía del nacimiento – Dr. Heriberto Lizaola Díaz De León
     
     7:30 – 7:55 hrs. Cuidados del piso pélvico durante el embarazo y el parto – Dra. Patricia Velázquez Castellanos
     
@@ -1816,10 +1816,10 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     8:20 – 8:45 hrs. Rehabilitación del piso pélvico – Dra. Silvia Rodríguez Colorado
     
-    8:45 – 9:00 hrs. Preguntas y conclusiones – Doctor
+    8:45 – 9:00 hrs. Preguntas y conclusiones
     
     """
-    items[1].items[4].desc = """
+    items[1].items[6].desc = """
     » Objetivo General:
     Mostrar al médico la importancia de la administración y proyección de su ejercicio profesional en el aspecto ético, social, laboral, administrativo y mercadológico.
     
@@ -1854,7 +1854,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:00 – 7:05 hrs. Introducción - Dr. Álvaro Erramuspe
 
-    7:05 – 7:30 hrs. Decálogo básico fiscal para gestión del consultorio del Gineco-obstetra – C.P. Rogelio Torres
+    7:05 – 7:30 hrs. Decálogo básico fiscal para gestión del consultorio del Gineco-obstetra – C.P. Rogelio Cortéz Herrera
     
     7:30 – 7:55 hrs. Prevención del fraude en el consultorio – Dra. Elsa Díaz López
     
@@ -1874,7 +1874,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:55 – 8:20 hrs. Comunicación efectiva y relacionamiento con los pacientes y el público objetivo – Dr. Miguel Ruoti
     
-    8:20 – 8:45 hrs. ¿Qué tan a largo plazo he visualizado mi futuro profesional? – Dr. Paulino Vigil de Gracia
+    8:20 – 8:45 hrs. ¿Qué tan a largo plazo he visualizado mi futuro profesional? – Dr. Paulino Vigil De Gracia
     
     8:45 – 9:00 hrs. Preguntas – Dra. Elsa Díaz López
     
@@ -1894,7 +1894,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Conclusiones – Dr. Álvaro Erramuspe
     
     """
-    items[1].items[5].desc = """
+    items[1].items[7].desc = """
     » Objetivo General:
     El asistente conocerá los recursos electrónicos que tiene a su alcance para eficientar su práctica clínica.
     
@@ -1907,8 +1907,8 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dr. Salvador Espino y Sosa
     
     » Profesores Adjuntos:
-    Dra. Paola Iturralde Rosas Priego
-    Dr. Christian Navarro
+    Dr. Emilio Valerio Castro
+    Dr. Kristian Navarro Salomón
     
     ▼ Primer día (lunes, 6 de noviembre) ▼
     “RECURSOS ELECTRÓNICOS EN EL CONSULTORIO”
@@ -1919,7 +1919,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:40 – 8:10 hrs. La imagenología y los medios digitales – Dr. Gerardo Aurioles López
     
-    8:10 – 8:45 hrs. Realidades y perspectiva de la enseñanza médica y los medios digitales – Dr. José Roberto Ahued Ahued
+    8:10 – 8:45 hrs. Realidades y perspectiva de la enseñanza médica y los medios digitales – Dr. Emilio Valerio Castro
     
     8:45 – 9:00 hrs. Preguntas y conclusiones – Dr. Salvador Espino y Sosa
     
@@ -1956,16 +1956,18 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:05 – 7:30 hrs. Las carpetas virtuales en la nube como herramienta de enseñanza – Dr. Miguel Ruoti
     
-    7:30 – 7:55 hrs. Auto monitoreo compartido con Google Drive – Dr. Salvador Espino y Sosa
+    7:30 – 7:55 hrs. 
+        Ventajas y desventajas de aplicar medios digitales – Dr. Álvaro Erramuspe
     
     7:55 – 8:20 hrs. Riesgos legales de las redes sociales y medios digitales – Dr. Robles Elías
     
-    8:20 – 8:45 hrs. Ventajas y desventajas de aplicar medios digitales – Dr. Álvaro Erramuspe
+    8:20 – 8:45 hrs.
+        Auto monitoreo compartido con Google Drive – Dr. Salvador Espino y Sosa
     
     8:45 – 9:00 hrs. Preguntas y conclusiones – Dr. Salvador Espino y Sosa
     
     """
-    items[1].items[6].desc = """
+    items[1].items[3].desc = """
     » Objetivo General:
     Actualizar los conocimientos respecto a la anticoncepción para mejorar la asesoría anticonceptiva a la luz de la evidencia científica y las necesidades de la población.
     
@@ -1986,7 +1988,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:00 – 7:05 hrs. Introducción y objetivos – Dr. Pio Iván Gómez
     
-    7:05 – 7:30 hrs. Que hay de nuevo en anticoncepción de larga duración reversible (LARCS) – Dra.  Vivian Drache
+    7:05 – 7:30 hrs. Que hay de nuevo en anticoncepción de larga duración reversible (LARCS) – Dra.  Vivian Brache
     
     7:30 – 7:55 hrs. ¿Por qué es importante ofrecer anticoncepción moderna de larga duración a adolescentes? – Dr. Rodolfo Gómez Ponce de León
     
@@ -2042,7 +2044,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Preguntas y conclusiones – Doctor
     
     """
-    items[1].items[7].desc = """
+    items[1].items[9].desc = """
     » Objetivo General
     Revisión integral de los conceptos necesarios para iniciar un desempeño eficiente en la cirugía mínimamente invasiva.
     
@@ -2069,7 +2071,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:45 – 8:05 hrs. Energía en cirugía mínimamente invasiva – Dr. Estuardo Carrera
     
-    8:05 – 8:25 hrs. Suturas – Dr. Pablo Ayroza
+    8:05 – 8:25 hrs. Suturas – Dr. Marcelo Kolar
     
     8:25 – 8:45 hrs. Seguridad en CMI – Dr. Rafael Padrón
     
@@ -2119,14 +2121,14 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:45 – 8:05 hrs. Endometriosis profunda – Dr. Marco A. López Zepeda
     
-    8:05 – 8:25 hrs. Complicaciones en laparoscopia – Dr. Pablo Ayroza
+    8:05 – 8:25 hrs. Complicaciones en laparoscopia – Dr. Marcelo Kolar
     
     8:25 – 8:45 hrs. Complicaciones en histeroscopia – Dr. Alfonso Arias
     
     8:45 – 9:00 hrs. Preguntas y conclusiones (POSTEST) – Doctor
     
     """
-    items[1].items[8].desc = """
+    items[1].items[1].desc = """
     » Objetivo General
     Mejorar las habilidades clínicas y competencias no técnicas en el manejo integral de preeclampsia.
     
@@ -2140,20 +2142,20 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     » Profesores Adjuntos:
     Dr. Jack Ludmir
-    Dr. Hector Bollati
+    Dr. Héctor Bollatti
     
     ▼ Primer día (lunes, 6 de noviembre) ▼
     “CONDICIONANTES DEL MANEJO EN PREECLAMPSIA SEVERA”
     
-    7:00 – 7:05 hrs. Introducción y presentación – Dr. Paulino Vigil-de Gracia
+    7:00 – 7:05 hrs. Introducción y presentación – Dr. Paulino Vigil De Gracia
     
     7:05 – 7:30 hrs. Morbilidad y mortalidad asociado a preeclampsia – Dr. Jack Ludmir
     
-    7:30 – 7:55 hrs. Criterios de severidad en preeclampsia – Dr. Paulino Vigil-de Gracia
+    7:30 – 7:55 hrs. Criterios de severidad en preeclampsia – Dr. Paulino Vigil De Gracia
     
     7:55 – 8:20 hrs. Evidencia para el manejo de preeclampsia por edades gestacionales – Dr. Jack Ludmir
     
-    8:20 – 8:45 hrs. Condiciones para el manejo expectante lejos del termino con preeclampsia severa – Dr. Paulino Vigil-de Gracia
+    8:20 – 8:45 hrs. Condiciones para el manejo expectante lejos del termino con preeclampsia severa – Dr. Paulino Vigil De Gracia
     
     8:45 – 9:00 hrs. Preguntas y conclusiones – Doctor
     
@@ -2162,11 +2164,11 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:00 – 7:05 hrs. Introducción y presentación – Dra. Wendy Carcamo
     
-    7:05 – 7:30 hrs. Fisiopatología de la placenta en preeclampsia – Dr. Fredy Gonzáles
+    7:05 – 7:30 hrs. Fisiopatología de la placenta en preeclampsia – Dr. Fredy González
     
     7:30 – 7:55 hrs. Manejo del RCIU asociado a preeclampsia – Dra. Wendy Carcamo
     
-    7:55 – 8:20 Pruebas de bienestar fetal en pacientes con preeclampsia en manejo expectante – Dr. Fredy Gonzáles
+    7:55 – 8:20 Pruebas de bienestar fetal en pacientes con preeclampsia en manejo expectante – Dr. Fredy González
     
     8:20 – 8:45 hrs. Tiempo y vía de finalización del embarazo en preeclampsia – Dra. Wendy Carcamo
     
@@ -2177,7 +2179,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:00 – 7:05 hrs. Introducción y presentación – Dr. Héctor Bollati
     
-    7:05 – 7:30 hrs. Modelos predictivos en preeclampsia – Dr. Paulo Meade
+    7:05 – 7:30 hrs. Modelos predictivos en preeclampsia – Dr. José Alfredo Fernández Lára
     
     7:30 – 7:55 hrs. Estrategias efectivas de prevención de preeclampsia – Dr. Héctor Bollati
     
@@ -2203,7 +2205,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9: 00 hrs. Preguntas y conclusiones – Dra. María Fernanda Escobar
     
     """
-    items[1].items[9].desc = """
+    items[1].items[8].desc = """
     » Objetivo general:
     Mejorar las habilidades clínicas y competencias no técnicas en el manejo integral de las patologías infecciosas.
     
@@ -2229,7 +2231,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:55 – 8:20 hrs. Síndrome de respuesta inflamatoria fetal – Dr. Juan Pérez Wulff
     
-    8:20 – 8:45 hrs. Manifestaciones ecográficas en las infecciones – Dr. Luis Fernando acosta Alfaro
+    8:20 – 8:45 hrs. Manifestaciones ecográficas en las infecciones – Dr. Luis Fernando Acosta Alfaro
     
     8:45 – 9:00 hrs. Preguntas – Doctor
     
@@ -2282,16 +2284,18 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
 Presidente de la Federación Mexicana de Ginecología y obstetricia 2015-2017
 
 Presidente: Dr. Miguel Ángel Mancera Reséndiz
+Secretario: Dr. Dency Lorenzo Díaz Cervera
 
-Impartida por: Dr. Sergio Fajardo Dueñas
+Impartida por: Dr. Sergio Fajardo Dueñas, Dr. Haywood Brown y Dra. Jennifer Blake
 """
     items[2].items[1].desc = """
 » Dr. Chittaranjan N.
 Presidente FIGO 2015 - 2018
 
-Presidente: Dr. Juan Carlos Hinojosa Cruz
+Presidente: Francisco Bernárdez Zapata
+Secretario: Dr. Juan Carlos Hinojosa Cruz
 
-Impartida por: Dr. Chittaranjan N
+Impartida por: Dr. Chittaranjan N.
 
 """
     items[2].items[2].desc = """
@@ -2299,14 +2303,17 @@ Impartida por: Dr. Chittaranjan N
 Presidente de la Federación Latinoamericana de Sociedades de Obstetricia y
 Ginecología 2014-2017
 
-Impartida por: Dr. Edgar Iván Ortíz Lizcano
+Presidente: Dr. Samuel Karchmer K.
+    Secretario: Dr. Carlos Füchtner
+
+Impartida por: Dr. Edgar Iván Ortíz Lizcano y Dra. Padilla de Gil
 
 """
     
     //****************      Conferencias Especiales  ********************
 items[3].items[0].desc = """
 » Dr. Andrea Genazzani
-Presidente: Horacio Ortega Clavero
+Presidente: Dr. Horacio Ortega Clavero
 
 Impartido por: Dr. Andrea Genazzani 
 """
@@ -2318,13 +2325,13 @@ Impartido por: Dra. Karin Huysner
 """
 items[3].items[2].desc = """
 » Dra. Alexandra Grazziotin
-Presidente: Dr. Rafael Bedolla torres
+Presidente: Dr. Rafael Bedolla Torres
 
 Impartido por: Dra. Alexandra Grazziotin
 """
 items[3].items[3].desc = """
 » Dra. Cynthia Stuenkel 
-Presidente: Dr. Manuel Sainz cabrera
+Presidente: Dr. Manuel Saénz cabrera
 
 Impartido por: Dra. Cynthia Stuenkel 
 """
@@ -2344,7 +2351,7 @@ items[3].items[6].desc = """
 » Dr. Samuel Karchmer K.
 Presidente: Dr. Luis Alberto Barrera González
 
-Impartido por: Dr. Dr. Samuel Karchmer K.
+Impartido por: Dr. Samuel Karchmer K.
 """
 items[3].items[7].desc = """
 » Dra. Jeanne Conry
@@ -2430,14 +2437,16 @@ MSD
 """
 items[5].items[2].desc = """
 14:00 – 15:00 hrs.
-GEDEON RICHTER
+Gedeon Richter
 
 14:00 – 15:00 hrs.
-Pendiente
+Roche
 
-14:00 – 15:00 hrs.
+15:00 – 16:00 hrs.
 IPAS
-
+    
+16:00 – 17:00 hrs.
+Exeltis
 """
     
     //****************      Simposios simultáneos   ********************
@@ -2449,7 +2458,7 @@ items[6].items[0].desc = """
 
 9:55 – 10:15 hrs. Prevención del nacimiento pretérmino en países de bajos y altos ingresos: un mandato de FIGO – Dr. Ernesto Castelazo Morales
 
-10:15 – 10:35 hrs. Nacimiento pretérmino: predicción, prevención y necesidades insatisfechas – Prof. Gian Carlo Di Renzo
+10:15 – 10:35 hrs. Nacimiento pretérmino: predicción, prevención y necesidades insatisfechas – Dr. Gian Carlo Di Renzo
 
 10:35 – 10:55 hrs. Evidencias de progesterona en embarazo múltiple – Dr. Eduardo da Fonseca
 
@@ -2457,7 +2466,7 @@ items[6].items[0].desc = """
     
 """
 
-items[6].items[1].desc = """
+items[6].items[4].desc = """
     9:30 – 9:35 hrs. Introducción y presentación – Dr. Emilio José Olaya guzmán
     
     9:35 – 9:55 hrs. Cáncer de ovario: abordaje de mínima invasión. – Dr. Alfredo Antonio Santillán Gómez
@@ -2468,7 +2477,7 @@ items[6].items[1].desc = """
     
     10:35 – 10:55 hrs. Ganglio centinela en cáncer ginecológico. – Dr. Alfredo Antonio Santillán Gómez
     
-    10:55 – 11:00 hrs. Conclusiones – Dr. Emilio José Olaya guzmán
+    10:55 – 11:00 hrs. Conclusiones – Dr. Emilio José Olaya Guzmán
     """
 
 items[6].items[2].desc = """
@@ -2480,7 +2489,7 @@ items[6].items[2].desc = """
 
 10:15 – 10:35 hrs. El manejo farmacológico y la vigilancia fetal: ¿mejoran el resultado del embarazo? – Dr. Cesar Favela Heredia
 
-10:35 – 10:55 hrs. Programación metabólica fetal y el futuro despues de la DMG – Dr. José Antonio Ayala méndez
+10:35 – 10:55 hrs. Programación metabólica fetal y el futuro despues de la DMG – Dr. José Antonio Ayala Méndez
 
 10:55 – 11:00 hrs. Conclusiones – Dr. Sergio Fajardo Dueñas
 
@@ -2501,7 +2510,7 @@ items[6].items[3].desc = """
 
 """
 
-items[6].items[4].desc = """
+items[6].items[1].desc = """
 9:30 – 9:35 hrs. Introducción – Dr. Jorge Peláez
 
 9:35 – 9:55 hrs. Ambigüedad sexual: uso de los recursos diagnósticos. – Dra. María Mercedes Pérez
@@ -2512,7 +2521,7 @@ items[6].items[4].desc = """
 
 10:35 – 10:55 hrs. Patología vulvar en la niña. – Dra. Gricel Valerio
 
-10:55 – 11:00 hrs. Conclusiones – Dr. Jorge Peláez (cuba)
+10:55 – 11:00 hrs. Conclusiones – Dr. Jorge Peláez
 """
 
 items[6].items[5].desc = """
@@ -2524,7 +2533,7 @@ items[6].items[5].desc = """
 
 10:15 – 10:35 hrs. La anticoncepción dentro del marco integral de los derechos reproductivos. – Dra. Mónica Roa
 
-10:35 – 10:55 hrs. Necesidades insatisfechas de anticoncepción en tiempos de zika en América latina y el Caribe. – Dr. Rodolfo Gómez Ponce de León.
+10:35 – 10:55 hrs. Necesidades insatisfechas de anticoncepción en tiempos de zika en América latina y el Caribe. – Dr. Rodolfo Gómez Ponce De León.
 
 10:55 – 11:00 hrs. Conclusiones – Dr. Leonel Briozzo y Dr. Pio Iván Gómez
 """
@@ -2532,7 +2541,7 @@ items[6].items[5].desc = """
 items[6].items[6].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dr. Ernesto Castelazo Morales
 
-9:35 – 9:55 hrs. Más allá de la prevención: nuevas estrategias usando misoprostol para el manejo de hemorragia postpart. – Jill Durocher, GYNUITY Health Projects
+9:35 – 9:55 hrs. Más allá de la prevención: nuevas estrategias usando misoprostol para el manejo de hemorragia postpart. – Dr. Jill Durocher, GYNUITY Health Projects
 
 9:55 – 10:15 hrs. ¿Qué tan importante es la vía de administración de oxitocina para reducir el sangrado postparto? – Dr. Guillermo Carroli
 
@@ -2543,25 +2552,25 @@ items[6].items[6].desc = """
 10:55 – 11:00 hrs. Conclusiones - Doctor
 """
 
-items[6].items[7].desc = """
-9:30 – 9:35 hrs. Introducción y presentación – Dr. Paulino Vigil de Gracia
+items[6].items[8].desc = """
+9:30 – 9:35 hrs. Introducción y presentación – Dr. Paulino Vigil De Gracia
 
 9:35 – 9:55 hrs. Prevención de preeclampsia: mitos y realidades – Dr. Fernando Romero Arauz
 
 9:55 – 10:15 hrs. Nuevas terapias en preeclampsia – Dr. Andres Sánchez Domínguez
 
-10:15 – 10:35 hrs. Puntos criticos en el manejo del sindrome de HELLP – Dr. Baha M. Sibai
+10:15 – 10:35 hrs. Puntos criticos en el manejo del sindrome de HELLP – Dr. James N. Martin Jr.
 
-10:35 – 10:55 hrs. Avances en el manejo de la eclampsia – Dr. Paulino Vigil de Gracia
+10:35 – 10:55 hrs. Avances en el manejo de la eclampsia – Dr. Paulino Vigil De Gracia
 
 10:55 – 11:00 hrs. Conclusiones – Doctor
 
 """
 
-items[6].items[8].desc = """
+items[6].items[7].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dr. José Tiran
 
-9:35 – 9:55 hrs. Implicaciones en la reproducción de las parejas infectadas con zika, dengue, chinkinguya y malaria – Dra. Karyn Huyser
+9:35 – 9:55 hrs. Implicaciones en la reproducción de las parejas infectadas con zika, dengue, chinkinguya y malaria – Dra. Karin Huyser
 
 9:55 – 10:15 hrs. Diagnóstico y manejo de la mujer embarazada residente en zona endémica o con historia de viaje a zonas endémicas. – Dr. José Tiran
 
@@ -2572,7 +2581,7 @@ items[6].items[8].desc = """
 10:55 – 11:00 hrs. Conclusiones – Dr. José Tiran
 """
 
-items[6].items[9].desc = """
+items[6].items[10].desc = """
 9:30 – 9:35 hrs. Introducción – Dr. Juan Diego Villegas Echeverri
 
 9:35 – 9:55 hrs. Transición de dolor agudo a crónico: lo que todo cirujano debe saber acerca de la biología del dolor persistente. – Dr. Juan Diego Villegas Echeverri
@@ -2587,7 +2596,7 @@ items[6].items[9].desc = """
 
 """
 
-items[6].items[10].desc = """
+items[6].items[11].desc = """
 9:30 – 9:35 hrs. Introducción – Dr. Carlos Füchtner
 
 9:35 – 9:55 hrs. Utilizacion de traje antichoque no neumatico en hemorragia obstetrica.  – Dr. Carlos Füchtner
@@ -2601,7 +2610,7 @@ items[6].items[10].desc = """
 10:55 – 11:00 hrs. Conclusiones – Dr. Carlos Füchtner
 """
 
-items[6].items[11].desc = """
+items[6].items[9].desc = """
 9:30 – 9:35 hrs. Introducción – Dr. José Ramón Serrano Navarro
 
 9:35 – 9:55 hrs. Escala de calidad de vida – Dr. Ezequiel Pérez Campos
@@ -2615,21 +2624,21 @@ items[6].items[11].desc = """
 10:55 – 11:00 hrs. Conclusiones – Dr. José Ramón Serrano Navarro
 """
 
-items[6].items[12].desc = """
+items[6].items[17].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dr. Ignacio Lara Barragán
 
 9:35 – 9:55 hrs. Nutrición y grasa corporal: lo que toda mujer debe saber. – Dra. Jenifer Blake
 
-9:55 – 10:15 hrs. Entrenamiento en ginecologia oncologica. Un relación integral entre canada y paises en vías de desarrollo – Dr. De Pretillo
+9:55 – 10:15 hrs. Entrenamiento en ginecologia oncologica. Un relación integral entre canada y paises en vías de desarrollo – Dr. Dennis Pretillo
 
 10:15 – 10:35 hrs.  El envejecimiento del médico y la importancia de su actualización. – Dra. Jenifer Blake
 
-10:35 – 10:55 hrs. Anatomía pélvica practica para el ginecólogo. – Dr. De Pretillo
+10:35 – 10:55 hrs. Anatomía pélvica practica para el ginecólogo. – Dr. Dennis Pretillo
 
 10:55 – 11:00 hrs. Conclusiones – Dr. Ignacio Lara Barragán
 """
 
-items[6].items[13].desc = """
+items[6].items[15].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dr. Emilio Valerio Castro
 
 9:35 – 9:55 hrs. Experiencia en México – Dr. Carlos Salazar López
@@ -2643,7 +2652,7 @@ items[6].items[13].desc = """
 10:55 – 11:00 hrs. Conclusiones – Doctor
 """
 
-items[6].items[14].desc = """
+items[6].items[12].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dra. Nancy Sierra Lozada
 
 9:35 – 9:55 hrs. Complicaciones en los embarazos gemelares monocoriales – Dr. Yves Ville
@@ -2658,10 +2667,10 @@ items[6].items[14].desc = """
 
 """
 
-items[6].items[15].desc = """
+items[6].items[14].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dr. Luis Cabero R.
 
-9:35 – 9:55 hrs. Circulo vicioso de las complicaciones de los embarazos y las enfermedades no comunicables – Dr. Cn Purandare
+9:35 – 9:55 hrs. Circulo vicioso de las complicaciones de los embarazos y las enfermedades no comunicables – Dr. Chittaranjan N. Purandare
 
 9:55 – 10:15 hrs. Pandemia de la diabetes e hiperglucemia en Latinoamérica – Dr. Moshe Hod
 
@@ -2687,7 +2696,7 @@ items[6].items[16].desc = """
 
 """
 
-items[6].items[17].desc = """
+items[6].items[13].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dr. José de Jesús Montoya R.
 
 9:35 – 9:55 hrs. Disfunción del piso pélvico en la menopausia, un problema diario – Dr. Alejandro Paradas
@@ -2701,7 +2710,7 @@ items[6].items[17].desc = """
 10:55 – 11:00 hrs. Conclusiones – Dr. José de Jesús Montoya R.
 """
 
-items[6].items[18].desc = """
+items[6].items[19].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dra. Paola Iturralde Rosas Priego
 
 9:35 – 9:55 hrs. Potencial evolutivo de las lesiones Hiperplasicas – Dr. Néstor Garello
@@ -2710,19 +2719,19 @@ items[6].items[18].desc = """
 
 10:15 – 10:35 hrs. Neoplasia Ductual INSITU – Dr. Javier Gómezpedroso Rea
 
-10:35 – 10:55 hrs. Efectos del estetrol en el cáncer de mama: Migración e invasión – Prof. Andrea Gennazzani
+10:35 – 10:55 hrs. Efectos del estetrol en el cáncer de mama: Migración e invasión – Dr. Andrea Gennazzani
 
 10:55 – 11:00 hrs. Conclusiones – Dra. Paola Iturralde Rosas Priego
 """
 
-items[6].items[19].desc = """
+items[6].items[21].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dr. Gerardo Aurioles López
 
 9:35 – 9:55 hrs. Epidemiologia de la enfermedad pélvica. Un status quo al año 2017 – Dr. Alfredo Celis
 
 9:55 – 10:15 hrs. Enfermedad pélvica subclínica e infertilidad. – Dr. Juan Carlos Hinojosa Cruz
 
-10:15 – 10:35 hrs. De la tinción de gram a la biología molecular, en el diagnóstico etiológico de la enfermedad pélvica. – Dr. Xavier Ortiz Ibarra
+10:15 – 10:35 hrs. De la tinción de gram a la biología molecular, en el diagnóstico etiológico de la enfermedad pélvica. – Dr. Federico Javier Ortiz Ibarra
 
 10:35 – 10:55 hrs. Actualidades en el tratamiento de la enfermedad pélvica. – Dr. Emilio Valerio Castro
 
@@ -2730,22 +2739,24 @@ items[6].items[19].desc = """
 
 """
 
-items[6].items[20].desc = """
-9:30 – 9:35 hrs. Introducción y presentación – Dra. Miriam Negrín
+items[6].items[18].desc = """
+9:30 – 9:35 hrs. Introducción y presentación – Dra. Miriam C. Negrín
 
-9:35 – 9:55 hrs. La paciente peregrina: vulvovaginitis recurrente y mal tratada – Dra. Miriam Negrín
+9:35 – 9:55 hrs. La paciente peregrina: vulvovaginitis recurrente y mal tratada – Dra. Atziri Negrín
 
-9:55 – 10:15 hrs. Mitos y realidades en la salud vulvovaginal – Dr. Xavier Ortiz Ibarra
+9:55 – 10:15 hrs. 
+    Galería de imágenes: Dermatosis inflamatorias y vulvares – Dra. Elsa Díaz
 
 10:15 – 10:35 hrs. El círculo vicioso del prurito vulvar – Dra. Alessandra Grazziotin
 
-10:35 – 10:55 hrs. Galería de imágenes: dermatosis inflamatorias y vulvares – Dra. Elsa Díaz
+10:35 – 10:55 hrs.
+    Mitos y realidades en la salud vulvovaginal – Dr. Federico Javier Ortiz Ibarra 
 
-10:55 – 11:00 hrs. Conclusiones – Dra. Miriam Negrín
+10:55 – 11:00 hrs. Conclusiones – Dra. Miriam C. Negrín
 
 """
 
-items[6].items[21].desc = """
+items[6].items[20].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dra. Margarita Castro
 
 9:35 – 9:55 hrs. Consejería anticonceptiva en adolescentes. – Dra. Juana Serret
@@ -2760,14 +2771,14 @@ items[6].items[21].desc = """
 
 """
 
-items[6].items[22].desc = """
+items[6].items[23].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dr. Douglas Jarquín
 
 9:35 – 9:55 hrs. Implementacion de listas de chequeo en emergencia obstetricas – Dr. Paulo Meade
 
 9:55 – 10:15 hrs. Manejo avanzados en acretismo placentario – Dr. Wendy Carcamo
 
-10:15 – 10:35 hrs. Preeclampsia severa lejos del termino – Dr. Hector Bollati
+10:15 – 10:35 hrs. Preeclampsia severa lejos del termino – Dr. Héctor Bollatti
 
 10:35 – 10:55 hrs. Trauma obstétrico: implicaciones del cuidado intraparto – Dr. Cesar Favela Heredia
 
@@ -2775,12 +2786,12 @@ items[6].items[22].desc = """
 
 """
 
-items[6].items[23].desc = """
+items[6].items[22].desc = """
 9:30 – 9:35 hrs. Introducción – Dr. Jimmy Castañeda
 
 9:35 – 9:55 hrs. ¿cuál debe ser la vía de la histerectomía en nuestra región? – Dr. Jimmy Castañeda
 
-9:55 – 10:15 hrs. El manejo de la endometriosis profunda: ¿Quirúrgico o médico? – Dr. Pablo Ayroza
+9:55 – 10:15 hrs. El manejo de la endometriosis profunda: ¿Quirúrgico o médico? – Dr. Marcelo Kolar
 
 10:15 – 10:35 hrs. El legrado/raspado/curetaje. ¿se justifican? – Dr. Rafael Padrón
 
@@ -2793,7 +2804,7 @@ items[6].items[23].desc = """
     
     //****************      Foros de discusión  ********************
     
-    items[7].items[0].desc = """
+    items[7].items[2].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Juan De Dios Maldonado
     
     11:20 – 11:40 hrs. Criterios de selección para rutas de suministro – Dra. Imelda Hernández Marín
@@ -2802,21 +2813,21 @@ items[6].items[23].desc = """
     
     12:00 – 12:25 hrs. Foro de discusión coordinada – Doctor
     
-    12:25 – 12:30 hrs. Conclusiones – Dr. Juan de Dios Maldonado
+    12:25 – 12:30 hrs. Conclusiones – Dr. Juan De Dios Maldonado
     
     """
     
     items[7].items[1].desc = """
-    11:15 – 11:20 hrs. Introducción y presentación – Dr. Juan f. Romero Arauz
+    11:15 – 11:20 hrs. Introducción y presentación – Dr. Juan F. Romero Arauz
     
-    11:20 – 11:40 hrs. Manejo conservador de preclampsia severa: se justifica – Dr. Baha Sibai
+    11:20 – 11:40 hrs. Manejo conservador de preclampsia severa: se justifica – Dr. James N. Martin Jr.
     
     11:40 – 12:00 hrs. Manejo conservador de preclampsia severa: no se justifica – Dr. Jack Ludmir
     
     12:00 – 12:30 hrs. Preguntas y conclusiones – Dr. Vicente Yu Chong y Dr. Juan F. Romero Arauz 
     """
     
-    items[7].items[2].desc = """
+    items[7].items[0].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dra. María Fernanda Escobar
     
     11:20 – 11:40 hrs. Reanimación hemostática en hemorragia obstétrica – Dr. Mauricio Vasco
@@ -2829,19 +2840,19 @@ items[6].items[23].desc = """
     
     """
     
-    items[7].items[3].desc = """
+    items[7].items[4].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Rafael Padrón
     
     11:20 – 11:40 hrs. Corrección de prolapso apical: vaginal vs laparoscópico – Dr. Eduardo Carrera
     
     11:40 – 12:00 hrs. Miomectomía abierta o por laparoscopia. ¿Cuál es la vía adecuada? – Dr. Jimmy Castañeda
     
-    12:00 – 12:25 hrs. Foro de discusión coordinada – Dr. Pablo Aayroza y Dr. Jorge Sarrouf
+    12:00 – 12:25 hrs. Foro de discusión coordinada – Dr. Pablo Aayroza
     
-    12:25 – 12:30 hrs. Conclusiones – Doctor 
+    12:25 – 12:30 hrs. Conclusiones – Dr. Jorge Sarrouf
     """
     
-    items[7].items[4].desc = """
+    items[7].items[3].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Miguel Ruoti
     
     11:20 – 11:40 hrs. Cesárea porque si: justificaciones – Dr. Ricardo Fescina
@@ -2854,7 +2865,7 @@ items[6].items[23].desc = """
     
     """
     
-    items[7].items[5].desc = """
+    items[7].items[7].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Miguel Ángel Mancera Reséndiz
     
     11:20 – 11:40 hrs. Cirugía reproductiva, ¿el fin se acerca o permanece vigente? – Dr. Enrique Soto Medina
@@ -2883,7 +2894,7 @@ items[6].items[23].desc = """
     
     """
     
-    items[7].items[7].desc = """
+    items[7].items[8].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Héctor Bollati
     
     11:20 – 11:40 hrs. Monitoreo y seguimiento de “Near Miss” como indicador de la calidad de atención obstétrica. – Dr. Douglas Jarquín
@@ -2896,7 +2907,7 @@ items[6].items[23].desc = """
     
     """
     
-    items[7].items[8].desc = """
+    items[7].items[5].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Freddy González A.
     
     11:20 – 11:40 hrs. Biopsia de vellosidades coriales y amniocentesis – Dr. Juan Pérez Wulff
@@ -2922,23 +2933,23 @@ items[6].items[23].desc = """
     
     """
     
-    items[7].items[10].desc = """
+    items[7].items[13].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Eduardo Sirahuen Neri Ruz
     
     11:20 – 11:40 hrs. Pros de la cirugia tradicional y riesgos de las mallas – Dr. Pablo Gutierrez Escoto
     
     11:40 – 12:00 hrs. Ventajas de las mallas y contras de la cirugia tradicional – Dr. Willy Davila
     
-    12:00 – 12:25 hrs. Foro de discusión coordinada – Doctor
+    12:00 – 12:25 hrs. Foro de discusión coordinada
     
     12:25 – 12:30 hrs. Conclusiones – Dr. Eduardo Sirahuen Neri Ruz
     
     """
     
-    items[7].items[11].desc = """
-    11:15 – 11:20 hrs. Introducción y presentación – Dr. Carlos Quesnel
+    items[7].items[12].desc = """
+    11:15 – 11:20 hrs. Introducción y presentación – Dr. Carlos Quesnel García Benítez
     
-    11:20 – 11:40 hrs. Vía vaginal el error de la naturaleza – Dr. Miguel Ambas
+    11:20 – 11:40 hrs. Vía vaginal el error de la naturaleza – Dr. Miguel Ambás Argüelles
     
     11:40 – 12:00 hrs. Vía abdominal el acierto del hombre – Dr. Samuel Karchmer K.
     
@@ -2948,7 +2959,7 @@ items[6].items[23].desc = """
     
     """
     
-    items[7].items[12].desc = """
+    items[7].items[14].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Francisco Gago
     
     11:20 – 11:40 hrs. Prevención del cáncer ginecológico y mamario – Dr. Gustavo Ferriro Delgado
@@ -2959,7 +2970,7 @@ items[6].items[23].desc = """
     
     """
     
-    items[7].items[13].desc = """
+    items[7].items[10].desc = """
     11:15 – 11:20 hrs. Introducción y presentación del foro – Dr. Juan Diego Villegas Echeverri
     
     11:20 – 11:40 hrs. Caso clínico interactivo – Dr. Jorge Carrillo y Dr. Juan Diego Villegas
@@ -2970,20 +2981,20 @@ items[6].items[23].desc = """
     
     """
     
-    items[7].items[14].desc = """
-    11:15 – 11:20 hrs. Introducción y presentación – Dr. Henry Mateo Sanz
+    items[7].items[11].desc = """
+    11:15 – 11:20 hrs. Introducción y presentación – Dr. Henry Mateo Sánez
     
     11:20 – 11:40 hrs. Escrutinio para la selección de los anticonceptivos en mujeres  de 35 años y más.  – Dr. Marcelino Hernandez Valencia
     
     11:40 – 12:00 hrs. Criterios médicos de elegibilidad en pacientes con condiciones de riesgo más frecuentes – Dra. Josefina Lira Plascencia
     
-    12:00 – 12:25 hrs. Foro de discusión coordinada – Doctor
+    12:00 – 12:25 hrs. Foro de discusión coordinada
     
-    12:25 – 12:30 hrs. Conclusiones – Dr. Henry Mateo Sanz
+    12:25 – 12:30 hrs. Conclusiones – Dr. Henry Mateo Sánez
     
     """
     
-    items[7].items[15].desc = """
+    items[7].items[18].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Carlos Salazar
     
     11:20 – 11:40 hrs. Preservación de tejido ovárico – Dr. Alberto Kably Ambe
@@ -2996,20 +3007,20 @@ items[6].items[23].desc = """
     
     """
     
-    items[7].items[16].desc = """
+    items[7].items[15].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dra. Tere Leis Márquez
     
     11:20 – 11:40 hrs. Resultado de las investigaciones que dice la evidencia – Dr. Salvador Espino y Sosa
     
     11:40 – 12:00 hrs. Aplicación clínica de los avances en nuestro medio – Dra. Sandra Acevedo Gallegos
     
-    12:00 – 12:25 hrs. Foro de discusión coordinada – Dr. Salvador Espino y Sosa, Dr. Juan Manuel Acuña
+    12:00 – 12:25 hrs. Foro de discusión coordinada – Dr. Salvador Espino y Sosa, Dra. Sandra Acevedo Gallegos y Dr. Juan Fernando Romero Arauz
     
     12:25 – 12:30 hrs. Conclusiones – Dra. Tere Leis Márquez
     
     """
     
-    items[7].items[17].desc = """
+    items[7].items[16].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Ricardo Fescina
     
     11:20 – 11:40 hrs. Estado del arte en inmunización – Dr. Saad Omer
@@ -3020,7 +3031,7 @@ items[6].items[23].desc = """
     
     """
     
-    items[7].items[18].desc = """
+    items[7].items[17].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Miguel Ruoti
     
     11:20 – 11:40 hrs. Utilidad de progesterona en evitar prematuridad – Dr. José Antonio Ayala Méndez
@@ -3040,7 +3051,7 @@ items[6].items[23].desc = """
     
     12:00 – 12:25 hrs. Foro de discusión coordinada – Dr. Pedro Daguerre y Dr. José Manuel Claros
     
-    12:25 – 12:30 hrs. Conclusiones – Doctor
+    12:25 – 12:30 hrs. Conclusiones – Dr. José Manuel Claros
     
     """
 

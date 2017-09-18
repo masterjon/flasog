@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SideMenu
+//import SideMenu
 class ViewController: UIViewController {
 
 
@@ -20,10 +20,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let menuLeftNavigationController = storyboard!.instantiateViewController(withIdentifier: "SideMenuNav") as! UISideMenuNavigationController
-        menuLeftNavigationController.leftSide = true
-        SideMenuManager.menuLeftNavigationController = menuLeftNavigationController
+//
+//        let menuLeftNavigationController = storyboard!.instantiateViewController(withIdentifier: "SideMenuNav") as! UISideMenuNavigationController
+//        menuLeftNavigationController.leftSide = true
+//        SideMenuManager.menuLeftNavigationController = menuLeftNavigationController
 
         
         let dateString = "04-11-2017 08:00:00"

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MVq-bF-xyn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MVq-bF-xyn">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -21,6 +21,39 @@
         </array>
     </customFonts>
     <scenes>
+        <!--Container View Controller-->
+        <scene sceneID="LxD-Zv-56h">
+            <objects>
+                <viewController id="Ynu-ZU-jAh" customClass="ContainerViewController" customModule="flasog" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VFe-hK-czR"/>
+                        <viewControllerLayoutGuide type="bottom" id="U6v-5F-Cct"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uq3-oy-a3M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xfp-ro-pho">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xfp-ro-pho" firstAttribute="leading" secondItem="Uq3-oy-a3M" secondAttribute="leading" id="2lf-LD-diB"/>
+                            <constraint firstItem="U6v-5F-Cct" firstAttribute="top" secondItem="Xfp-ro-pho" secondAttribute="bottom" id="2vp-6l-FcX"/>
+                            <constraint firstAttribute="trailing" secondItem="Xfp-ro-pho" secondAttribute="trailing" id="4Rw-vd-RgH"/>
+                            <constraint firstItem="Xfp-ro-pho" firstAttribute="top" secondItem="Uq3-oy-a3M" secondAttribute="top" id="L9z-Ap-ZqQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="guY-tf-QXb"/>
+                    <connections>
+                        <outlet property="containerView" destination="Xfp-ro-pho" id="Avt-aR-vef"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hBN-YT-9sk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="412" y="-1305"/>
+        </scene>
         <!--Inicio-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -37,32 +70,32 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4I-rD-tcq" userLabel="programa">
-                                <rect key="frame" x="15.5" y="237" width="343" height="61.5"/>
+                                <rect key="frame" x="15.5" y="270" width="343" height="61.5"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="XXF-Ou-hjv" kind="show" id="Ses-Zr-3WC"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Banner1" translatesAutoresizingMaskIntoConstraints="NO" id="0GD-E5-kMA">
-                                <rect key="frame" x="16" y="237" width="343" height="61.5"/>
+                                <rect key="frame" x="16" y="270" width="343" height="61.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0GD-E5-kMA" secondAttribute="height" multiplier="28:5" id="men-dd-yVg"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Banner2" translatesAutoresizingMaskIntoConstraints="NO" id="kyw-3U-pq3">
-                                <rect key="frame" x="16" y="323.5" width="343" height="61"/>
+                                <rect key="frame" x="16" y="356.5" width="343" height="61"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuT-Bg-wvp" userLabel="profesores">
-                                <rect key="frame" x="16" y="323.5" width="343" height="61"/>
+                                <rect key="frame" x="16" y="356.5" width="343" height="61"/>
                                 <connections>
                                     <segue destination="g0k-66-79i" kind="show" id="S0H-Mg-ucE"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Banner3" translatesAutoresizingMaskIntoConstraints="NO" id="sjR-or-Z3M">
-                                <rect key="frame" x="16" y="409.5" width="343" height="61.5"/>
+                                <rect key="frame" x="16" y="442.5" width="343" height="61.5"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5U-Xb-i9t">
-                                <rect key="frame" x="16" y="496" width="343" height="80"/>
+                                <rect key="frame" x="16" y="529" width="343" height="80"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sum-G5-hS1">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
@@ -102,22 +135,22 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ffd-sf-HhN">
-                                <rect key="frame" x="5" y="8" width="187.5" height="221"/>
+                                <rect key="frame" x="5" y="8" width="187.5" height="254"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faltan:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uud-4g-MNR">
-                                        <rect key="frame" x="40.5" y="42" width="105" height="37"/>
+                                        <rect key="frame" x="40.5" y="58.5" width="105" height="37"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="32"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmB-ei-nmv">
-                                        <rect key="frame" x="56.5" y="84" width="75.5" height="34.5"/>
+                                        <rect key="frame" x="56.5" y="100.5" width="75.5" height="34.5"/>
                                         <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    DÍAS       HORAS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5H-df-LGU">
-                                        <rect key="frame" x="46.5" y="121.5" width="96" height="19.5"/>
+                                        <rect key="frame" x="46.5" y="138" width="96" height="19.5"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="14"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -133,7 +166,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b27-u9-XzF" userLabel="ICC">
-                                <rect key="frame" x="16" y="410" width="343" height="61"/>
+                                <rect key="frame" x="16" y="443" width="343" height="61"/>
                                 <connections>
                                     <segue destination="F8P-Yf-us9" kind="show" id="0Ra-bE-UhO"/>
                                 </connections>
@@ -148,7 +181,7 @@
                             <constraint firstAttribute="trailing" secondItem="kyw-3U-pq3" secondAttribute="trailing" constant="16" id="8pP-6D-ooN"/>
                             <constraint firstItem="Ffd-sf-HhN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ApT-Af-rOb"/>
                             <constraint firstItem="kyw-3U-pq3" firstAttribute="width" secondItem="kyw-3U-pq3" secondAttribute="height" multiplier="28:5" id="Fpa-IY-w9t"/>
-                            <constraint firstItem="0GD-E5-kMA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="237" id="GSZ-Cy-TxP"/>
+                            <constraint firstItem="0GD-E5-kMA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="270" id="GSZ-Cy-TxP"/>
                             <constraint firstItem="LuT-Bg-wvp" firstAttribute="width" secondItem="kyw-3U-pq3" secondAttribute="width" id="H4J-0M-MPJ"/>
                             <constraint firstAttribute="trailing" secondItem="sjR-or-Z3M" secondAttribute="trailing" constant="16" id="IDF-kD-1PC"/>
                             <constraint firstItem="Ffd-sf-HhN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" id="M4E-jb-kUr"/>
@@ -178,16 +211,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Inicio" id="ugU-Q4-EvQ">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="neq-Ag-MRU">
-                            <button key="customView" opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9WW-A7-2f0">
-                                <rect key="frame" x="309" y="3.5" width="50" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <state key="normal" image="menu"/>
-                                <connections>
-                                    <segue destination="mnd-Rx-1bS" kind="presentation" id="XPj-Ia-lJY"/>
-                                </connections>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" image="menu" id="bHZ-8S-tBn">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="mnd-Rx-1bS" kind="presentation" id="XHE-vv-rFZ"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -445,7 +473,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
         <scene sceneID="yiQ-UP-UoW">
             <objects>
                 <tableViewController id="vLM-Ah-B1T" customClass="MenuTableViewController" customModule="flasog" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="sNr-78-qky">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="sNr-78-qky">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
@@ -493,7 +521,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="SideMenuNav" id="mnd-Rx-1bS" customClass="UISideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="ht9-Yb-2cB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -518,7 +546,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="InicioNVC" id="MVq-bF-xyn" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Nhm-hK-nqg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.34509803921568627" green="0.72941176470588232" blue="0.81568627450980391" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.32549019607843138" green="0.72941176470588232" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
@@ -527,7 +555,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
                         </textAttributes>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3ZW-Ro-Nnt"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Mue-zz-wzL"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lVq-Cp-afc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -591,7 +619,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="OrganizadoresNVC" id="sVH-3E-g9d" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="oZx-Jk-ba5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.34509803919999998" green="0.72941176470000002" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.32549019610000002" green="0.72941176470000002" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -612,7 +640,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="MiAgendaNVC" id="Sy2-hx-4Qn" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Vw5-R4-ZKK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.34509803919999998" green="0.72941176470000002" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.32549019610000002" green="0.72941176470000002" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -633,7 +661,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="EventoNVC" id="hDb-E9-154" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="D14-KE-HHj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.34509803919999998" green="0.72941176470000002" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.32549019610000002" green="0.72941176470000002" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -654,7 +682,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="ComitesNVC" id="ZXz-8b-aA0" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="LiF-ZR-jzS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.34509803919999998" green="0.72941176470000002" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.32549019610000002" green="0.72941176470000002" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -675,7 +703,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="ProgramaNVC" id="Wpf-p4-D7w" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="cm3-VM-D5D">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.34509803919999998" green="0.72941176470000002" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.32549019610000002" green="0.72941176470000002" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -696,7 +724,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="ProfesoresNVC" id="OUF-1V-klt" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Z0V-Fm-K7a">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.34509803919999998" green="0.72941176470000002" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.32549019610000002" green="0.72941176470000002" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -717,7 +745,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="CancunNVC" id="0rp-sD-V6M" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="SIb-xX-Ghl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.34509803919999998" green="0.72941176470000002" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.32549019610000002" green="0.72941176470000002" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -738,7 +766,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="InscripcionNVC" id="dVX-p0-kX9" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="emK-Uw-hj6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.34509803919999998" green="0.72941176470000002" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.32549019610000002" green="0.72941176470000002" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -759,7 +787,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="RecintoNVC" id="rg5-sM-oWZ" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="sHu-Da-TdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.34509803919999998" green="0.72941176470000002" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.32549019610000002" green="0.72941176470000002" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -780,7 +808,7 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
             <objects>
                 <navigationController storyboardIdentifier="PatrocinadoresNVC" id="gkJ-db-9Ly" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="clD-lu-wh3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.34509803919999998" green="0.72941176470000002" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" red="0.32549019610000002" green="0.72941176470000002" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -1486,92 +1514,88 @@ Cg
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j54-eK-Hgi">
                                 <rect key="frame" x="16" y="201" width="343" height="446"/>
                                 <attributedString key="attributedText">
+                                    <fragment content="Me complace expresarles un afectuoso y fraternal saludo en representación de la ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Federación Mexicana de Colegios de Obstetricia y Ginecología (FEMECOG)">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
                                     <fragment>
-                                        <string key="content">Estimado Colega Latinoamericano:
+                                        <string key="content">. El 26 de marzo de 1946 en Montevideo, Uruguay, se consolidó el proyecto del profesor Augusto Turenne en la creación de un organismo internacional para coordinar y acercar a los médicos obstetras y ginecólogos de Latinoamérica y el 26 de octubre de 1949 se fundó oficialmente en Buenos Aires, Argentina, la </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Federación Latinoamericana de Sociedades de Obstetricia y Ginecología (FLASOG)">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">.
+ La FLASOG le otorgó a México la distinción y la responsabilidad de organizar el III Congreso Latinoamericano de Obstetricia y Ginecología en la Ciudad de México del 8 al 14 de junio de 1958.
+
+Nuevamente, casi seis décadas después, nos corresponde a los mexicanos el honor de organizar el XXII Congreso Latinoamericano de Obstetricia y Ginecología en nuestra cálida Ciudad de Cancún, en el Estado de Quintana roo, México, del 5 al </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="9">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> de noviembre de 2017.
+
+Se ha preparado un ambicioso y completo programa científico con las aportaciones a la Obstetricia y Ginecología de 20 países Latinoamericanos, en el marco del paisaje del caribe mexicano, con nuestra rica historia, agradable música y exquisita gastronomía.
+
+Con un afectuoso saludo, sean bienvenidos.
+
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content"> 
-Me complace dirigirme a ustedes para hacerles llegar un afectuoso y fraternal saludo en representación de nuestra </string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="Federación Mexicana de Colegios de Obstetricia y Ginecología, A.C. (FEMECOG).">
+                                    <fragment content="Dr. Sergio Fajardo Dueñas">
                                         <attributes>
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
                                             <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
                                         <string key="content">
- 
-El 26 de marzo de 1946 en Montevideo, Uruguay, se consolido el proyecto del profesor Augusto Turenne en la creación de un organismo internacional para coordinar y acercar a los médicos obstetras y ginecólogos de Latinoamérica y el 26 de octubre de 1949 se funda oficialmente en Buenos Aires, Argentina, la Federación Latinoamericana de Sociedades de Obstetricia y Ginecología (FLASOG). Como países miembros fundadores están: Argentina, Bolivia, Brasil, Cuba, Chile, El Salvador, México, Panamá, Paraguay, Perú, Uruguay y Venezuela.
- 
-La </string>
+Presidente de la Federación Mexicana de Colegios de Obstetricia y Ginecología </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="Federación Latinoamericana de Sociedades de Obstetricia y Ginecología">
-                                        <attributes>
-                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">, le otorgo a México la distinción y la responsabilidad de organizar el III Congreso Latinoamericano de Obstetricia y Ginecología en la Ciudad de México del 8 al 14 de junio de 1958.
-El espíritu de cooperación y amistad que caracteriza a nuestros países ha logrado que nuestros congresos, sean más que la presentación de conocimientos médicos, son verdaderas reuniones de amigos que buscan el desarrollo de la Ginecoobstetricia de nuestra Región. 
-Nuevamente, casi seis décadas después, nos corresponde a los mexicanos el honor de recibir a todos ustedes en el XXII Congreso Latinoamericano de Obstetricia y Ginecología en nuestra cálida Ciudad de Cancún, en el Estado de Quintana Roo, México del 5 al 10 de noviembre de 2017.
- 
-Ya estamos preparando un ambicioso y completo programa científico con las aportaciones a la Obstetricia y la Ginecología de los 20 países Latinoamericanos dentro del marco del paisaje del caribe mexicano, con nuestra rica historia, agradable música y exquisita gastronomía. Les ofrecemos el mejor lugar para nuestra reunión científica y les esperamos con los brazos abiertos. Con un saludo fraterno.
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-IAo
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Dr. Sergio Fajardo Dueñas.
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFontEmphasized"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Presidente de la Federación Mexicana de Colegios de Obstetricia y Ginecología. 
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1710,9 +1734,28 @@ IAo
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
-De igual manera, el Comité Organizador y el Comité Científico han tenido como objetivo principal un programa académico de excelencia, propiciando la capacitación de vanguardia del especialista para potencializar sus competencias profesionales.
-El Comité Científico ha elaborado un importante programa, muy completo y atractivo que ha distribuido en interesantes y novedosas modalidades pedagógicas. La temática fue elegida minuciosamente pensando siempre en el interés del congresista. Los más de 200 profesores expertos en cada tema, fueron seleccionados con mucho detalle teniendo en cuenta su experiencia, publicaciones y trayectoria. Está confirmada la participación de 25 profesores invitados de gran prestigio de otras partes del mundo diferentes de Latinoamérica. Abriremos el congreso con el </mutableString>
+                                        <string key="content">
+De igual manera, el Comité Organizador y el Comité Científico han tenido como objetivo principal un programa académico de excelencia, propiciando la capacitación de vanguardia del especialista para potencializar sus competencias profesionales.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+El Comité Científico ha elaborado un importante programa, muy completo y atractivo que ha distribuido en interesantes y novedosas modalidades pedagógicas. La temática fue elegida minuciosamente pensando siempre en el interés del congresista. Los más de 200 profesores expertos en cada tema, fueron seleccionados con mucho detalle teniendo en cuenta su experiencia, publicaciones y trayectoria. Está confirmada la participación de 25 profesores invitados de gran prestigio de otras partes del mundo diferentes de Latinoamérica. Abriremos el congreso con el </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
@@ -1729,8 +1772,24 @@ El Comité Científico ha elaborado un importante programa, muy completo y atrac
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">, en donde cada país será representado por el residente que cada Sociedad haya designado. El horario del Programa Científico se ha planteado de tal manera que también haya tiempo para poder disfrutar las bellezas y atractivos del destino. Se ha trabajado intensamente para que el programa llene sus expectativas y estamos seguros que los vamos a sorprender.
-Es también importante mencionar las actividades sociales como la Fiesta de la Confraternidad Latinoamericana, en donde tendremos la oportunidad de convivir con nuestros amigos de todo el continente. Nuestra Ceremonia de Inauguración será una actividad solemne y majestuosa que con toda seguridad será inolvidable y se recordará siempre mucho con agrado.</mutableString>
+                                        <string key="content">, en donde cada país será representado por el residente que cada Sociedad haya designado. El horario del Programa Científico se ha planteado de tal manera que también haya tiempo para poder disfrutar las bellezas y atractivos del destino. Se ha trabajado intensamente para que el programa llene sus expectativas y estamos seguros que los vamos a sorprender.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <font key="NSOriginalFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Es también importante mencionar las actividades sociales como la Fiesta de la Confraternidad Latinoamericana, en donde tendremos la oportunidad de convivir con nuestros amigos de todo el continente. Nuestra Ceremonia de Inauguración será una actividad solemne y majestuosa que con toda seguridad será inolvidable y se recordará siempre mucho con agrado.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
@@ -1763,8 +1822,8 @@ El Programa de Acompañantes está diseñado de tal manera para que nuestros vis
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">
-Por si fuera poco, Cancún es uno de los destinos turísticos más importantes del mundo, en donde las playas y el característico color turquesa del mar serán algo que no vas a olvidar. Estamos seguros de que regresarás a tu lugar de origen habiendo quedado cautivado por la hospitalidad que la gente de nuestro país te brindará.</mutableString>
+                                        <string key="content">
+Por si fuera poco, Cancún es uno de los destinos turísticos más importantes del mundo, en donde las playas y el característico color turquesa del mar serán algo que no vas a olvidar. Estamos seguros de que regresarás a tu lugar de origen habiendo quedado cautivado por la hospitalidad que la gente de nuestro país te brindará.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                             <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
@@ -2232,7 +2291,7 @@ Atracciones del destino:
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U7r-Ec-SLP">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U7r-Ec-SLP">
                                 <rect key="frame" x="62" y="320" width="250" height="125"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YkZ-Kp-PbU">
@@ -2285,8 +2344,10 @@ Atracciones del destino:
                             <constraint firstItem="8s8-Uy-STg" firstAttribute="top" secondItem="U7r-Ec-SLP" secondAttribute="bottom" constant="22" id="Bsm-An-GFb"/>
                             <constraint firstItem="Wx3-3k-7iC" firstAttribute="top" secondItem="gy7-41-Mgv" secondAttribute="bottom" constant="8" id="Cxv-Sj-LmS"/>
                             <constraint firstItem="Wx3-3k-7iC" firstAttribute="leading" secondItem="ekU-KE-HAs" secondAttribute="leading" constant="16" id="FIf-Ir-Dem"/>
+                            <constraint firstAttribute="trailing" secondItem="8s8-Uy-STg" secondAttribute="trailing" constant="38.5" id="IQ5-Tf-DES"/>
                             <constraint firstItem="8s8-Uy-STg" firstAttribute="centerX" secondItem="ekU-KE-HAs" secondAttribute="centerX" id="KDR-yF-fiv"/>
                             <constraint firstAttribute="trailing" secondItem="Wx3-3k-7iC" secondAttribute="trailing" constant="16" id="MQ0-zj-Sgt"/>
+                            <constraint firstItem="8s8-Uy-STg" firstAttribute="leading" secondItem="ekU-KE-HAs" secondAttribute="leading" constant="38.5" id="Oml-FW-DDE"/>
                             <constraint firstItem="cZG-Zs-O7Y" firstAttribute="centerX" secondItem="ekU-KE-HAs" secondAttribute="centerX" id="ckl-nN-MBa"/>
                             <constraint firstAttribute="bottom" secondItem="8s8-Uy-STg" secondAttribute="bottom" id="f1h-mI-fYm"/>
                             <constraint firstItem="U7r-Ec-SLP" firstAttribute="centerX" secondItem="ekU-KE-HAs" secondAttribute="centerX" id="lfY-O7-Crt"/>
@@ -2373,11 +2434,11 @@ Atracciones del destino:
                         <viewControllerLayoutGuide type="bottom" id="vnW-C3-8Ex"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sqt-RA-QMc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="105" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hc4-RS-RBp">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="495"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="559"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="105" id="HLB-4X-oUt">
@@ -2428,13 +2489,13 @@ Atracciones del destino:
                                 </connections>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoCancunP10" translatesAutoresizingMaskIntoConstraints="NO" id="C9i-lM-9La">
-                                <rect key="frame" x="67" y="543" width="240" height="40"/>
+                                <rect key="frame" x="67" y="607" width="240" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="RBG-SS-V92"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Selecciona para ver el mapa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7z9-Cq-U6r">
-                                <rect key="frame" x="9" y="497" width="358" height="38"/>
+                                <rect key="frame" x="9" y="561" width="358" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="DC6-Lr-9JA"/>
                                 </constraints>
@@ -2566,21 +2627,21 @@ Atracciones del destino:
                                 <rect key="frame" x="0.0" y="84" width="375" height="583"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="weD-af-x2W">
-                                    <size key="itemSize" width="160" height="108"/>
+                                    <size key="itemSize" width="155" height="113"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="B87-AU-ELp">
-                                        <rect key="frame" x="10" y="0.0" width="160" height="108"/>
+                                        <rect key="frame" x="10" y="0.0" width="155" height="113"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="160" height="108"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="155" height="113"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TmQ-ZK-eIA">
-                                                    <rect key="frame" x="0.0" y="0.0" width="160" height="108"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="155" height="113"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
@@ -2624,7 +2685,7 @@ Atracciones del destino:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6P2-TC-bfY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1049" y="3217"/>
+            <point key="canvasLocation" x="1048.8" y="3216.3418290854574"/>
         </scene>
         <!--Programa Cat DetailVC-->
         <scene sceneID="vuY-XX-6lR">
@@ -2635,24 +2696,24 @@ Atracciones del destino:
                         <viewControllerLayoutGuide type="bottom" id="ziu-Zj-9O6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BTG-al-VbK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBS-v2-h4W">
-                                <rect key="frame" x="16" y="20" width="343" height="24"/>
+                                <rect key="frame" x="16" y="40" width="343" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <color key="textColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WyJ-vD-Cx2">
-                                <rect key="frame" x="94" y="47" width="187.5" height="1"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WyJ-vD-Cx2">
+                                <rect key="frame" x="94" y="67" width="187.5" height="1"/>
                                 <color key="backgroundColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="jVU-dp-Dic"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="65" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZrL-T5-Gdk">
-                                <rect key="frame" x="0.0" y="64" width="375" height="539"/>
+                                <rect key="frame" x="0.0" y="84" width="375" height="583"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="65" id="6tm-6B-e0C">
@@ -2719,24 +2780,24 @@ Atracciones del destino:
                         <viewControllerLayoutGuide type="bottom" id="cPi-Go-27c"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Bd8-au-TmN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="sVU-xt-EgV">
-                                <rect key="frame" x="16" y="20" width="343" height="24"/>
+                                <rect key="frame" x="16" y="40" width="343" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <color key="textColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmH-lB-Qaa">
-                                <rect key="frame" x="16" y="64" width="343" height="363"/>
+                                <rect key="frame" x="16" y="84" width="343" height="407"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3y-wG-MHf">
-                                <rect key="frame" x="129" y="543" width="117" height="40"/>
+                                <rect key="frame" x="129" y="607" width="117" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="o3y-wG-MHf" secondAttribute="height" multiplier="53:18" id="3FJ-rm-D5H"/>
                                     <constraint firstAttribute="height" constant="40" id="hwa-eH-8Vw"/>
@@ -2746,15 +2807,15 @@ Atracciones del destino:
                                     <action selector="addToSchedule:" destination="Jyp-X4-T3m" eventType="touchUpInside" id="xSv-xB-AyE"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ece-0w-SZe">
-                                <rect key="frame" x="16" y="427" width="343" height="1"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ece-0w-SZe">
+                                <rect key="frame" x="16" y="491" width="343" height="1"/>
                                 <color key="backgroundColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="tYc-M8-ISG"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NZ8-X3-nnu">
-                                <rect key="frame" x="16" y="435" width="343" height="100"/>
+                                <rect key="frame" x="16" y="499" width="343" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mti-Gh-ZP5">
                                         <rect key="frame" x="8" y="8" width="241" height="17"/>
@@ -3112,14 +3173,14 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
                         <viewControllerLayoutGuide type="bottom" id="e3R-lJ-nQe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TM2-aT-Dn8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="10" translatesAutoresizingMaskIntoConstraints="NO" id="Cr6-gJ-7s2">
-                                <rect key="frame" x="8" y="74" width="359" height="463"/>
+                                <rect key="frame" x="8" y="94" width="359" height="507"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ut4-2W-sHL">
-                                        <rect key="frame" x="0.0" y="0.0" width="359" height="463"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="507"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -3135,7 +3196,7 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
                                 </connections>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Acerca la imágen usando los dedos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJt-hJ-vkT">
-                                <rect key="frame" x="8" y="557" width="343" height="38"/>
+                                <rect key="frame" x="8" y="621" width="343" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="eYb-FH-7Km"/>
                                 </constraints>
@@ -3144,7 +3205,7 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9MT-IE-sqN">
-                                <rect key="frame" x="8" y="14" width="359" height="40"/>
+                                <rect key="frame" x="8" y="34" width="359" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="mK2-9Z-EIk"/>
                                 </constraints>
@@ -3242,7 +3303,7 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Eu-7N-vIu">
-                                <rect key="frame" x="0.0" y="40" width="375" height="563"/>
+                                <rect key="frame" x="0.0" y="40" width="375" height="519"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="delegate" destination="g0k-66-79i" id="SG0-JL-Fv3"/>
@@ -3435,7 +3496,7 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
                                     <outlet property="dataSource" destination="bYP-Bw-yEZ" id="SBw-Gs-gdw"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROFESORES LATINOAMERICANOS PARTICIPANTES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbw-LZ-CeB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROFESORES PARTICIPANTES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbw-LZ-CeB">
                                 <rect key="frame" x="16" y="35" width="343" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Mx9-Hj-Uz2"/>
@@ -3516,11 +3577,11 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
         <image name="menu" width="25" height="18"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2hv-7a-kDB"/>
-        <segue reference="kYL-i7-40w"/>
-        <segue reference="Ses-Zr-3WC"/>
         <segue reference="S0H-Mg-ucE"/>
+        <segue reference="Ses-Zr-3WC"/>
+        <segue reference="L1y-5u-T1R"/>
         <segue reference="0Ra-bE-UhO"/>
-        <segue reference="r13-QS-qxX"/>
+        <segue reference="kYL-i7-40w"/>
+        <segue reference="Wxf-Kg-WX6"/>
     </inferredMetricsTieBreakers>
 </document>
