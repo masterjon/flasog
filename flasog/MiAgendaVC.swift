@@ -88,7 +88,7 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         if editingStyle == .delete{
             print("delete")
 
-            if let rows = days[indexPath.section]["cats"] as? [MyScheduleItem]{
+            if var rows = days[indexPath.section]["cats"] as? [MyScheduleItem]{
                 let row = rows[indexPath.row]
                 if var storedCats = userDefaults.object(forKey: "my_schedule") as? [[Int]]{
                     print(storedCats)
@@ -105,17 +105,30 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
                         userDefaults.set(storedCats, forKey: "my_schedule")
                         userDefaults.synchronize()
                         tableView.beginUpdates()
+                        var indexpaths : [IndexPath] = []
+                        
                         tableView.deleteRows(at: [indexPath], with: .automatic)
-                        if var rows = days[indexPath.section]["cats"] as? [MyScheduleItem]{
-                            rows.remove(at: indexPath.row)
-                            days[indexPath.section]["cats"] = rows
-                        }
+                        rows.remove(at: indexPath.row)
+                        days[indexPath.section]["cats"] = rows
+//                        if row.catId == 1{
+//                            var leftSections = [2,3,4,5]
+//                            let indx = leftSections.index(of: indexPath.section)
+//                            leftSections.remove(at: indx!)
+//                            print("leftSections")
+//                            print(leftSections)
+//                            print(indx)
+//                            for section in leftSections{
+//                                var indexpath = indexPath
+//                                indexpath.section = section
+//                                indexpaths.append(indexpath)
+//                            }
+//                            print(index)
+//                            tableView.deleteRows(at: indexpaths, with: .automatic)
+//                            
+//                        }
+                        
                         tableView.endUpdates()
-    //                        self.loadStoredItems()
-    //                        DispatchQueue.main.async{
-    //
-    //                            self.tableView.reloadData()
-    //                        }
+
                     }
                     
                     
@@ -223,17 +236,34 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
             
             for itm in schedule_items{
                     let day = items[itm[0]].items[itm[1]].dayId
-                    var cats = days[day]["cats"] as! [MyScheduleItem]
                     let scheduleItem = MyScheduleItem()
                     scheduleItem.title = items[itm[0]].title
                     scheduleItem.subtitle = items[itm[0]].items[itm[1]].title
                     scheduleItem.schedule = items[itm[0]].items[itm[1]].schedule
                     scheduleItem.catId = itm[0]
                     scheduleItem.id = itm[1]
-                    cats.append(scheduleItem)
-                    days[day]["cats"] = cats
-                    
-                    print(days[1]["cats"])
+                
+                
+                
+                    //Modificar agenda para agregar 1 elemento en multiples días (transcongreso)
+                    //Los Transcongreso son los únicos que se agregan en más de 1 día. (6-9 nov)
+                    if scheduleItem.catId == 1{
+                        print("iff")
+                        for i in 2...5{
+                            
+                            var cats = days[i]["cats"] as! [MyScheduleItem]
+                            cats.append(scheduleItem)
+                            days[i]["cats"] = cats
+                            
+                        }
+                        
+                    }
+                    else{
+                        var cats = days[day]["cats"] as! [MyScheduleItem]
+                        cats.append(scheduleItem)
+                        days[day]["cats"] = cats
+                    }
+                    //print(days[1]["cats"])
                 
 //                else if itm[0] == 1{
 //                    var cats = days[2]["cats"] as! [ProgramCat]
