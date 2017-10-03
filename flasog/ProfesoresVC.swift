@@ -54,7 +54,7 @@ class ProfesoresVC: UIViewController, UITableViewDataSource, UITableViewDelegate
          "imagen":"JeanneConry",
          "descripcion":"- Fue la presidente 64 delAmerican Congress of Obstetricians and Gynecologists (ACOG)\n\n- Médico Asistente Jefe delPermanentMedical Group in Roseville, CA, EUA \n\n- Profesora clinica asociada de obstetricia y ginecologíaen la University of California, Davis\n\n- Practica obstetricia y ginecologia en elPermanent Medical Group"],
         
-        ["nombre":"Dr. Willy Davila",
+        ["nombre":"Dr. Willy Dávila",
          "especialidad":"Ginecólogo y obstetra con especialidad uro ginecología ",
          "pais":"USA",
          "imagen":"6WillyDavila-P9",

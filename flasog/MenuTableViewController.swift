@@ -19,13 +19,13 @@ class MenuTableViewController: UITableViewController {
                  ["title":"Profesores","vc":"ProfesoresNVC"],
                  ["title":"Cancún","vc":"CancunNVC"],
                  ["title":"Recinto","vc":"RecintoNVC"],
-                 ["title":"Acompañantes","vc":""],
+                 ["title":"Acompañantes","link":"http://congresoflasog2017.org.mx/index.php/cancun/actividades-acompanantes"],
                  ["title":"Inscripción","vc":"InscripcionNVC"],
-                 ["title":"Tu foto","vc":""],
+                 ["title":"Tu foto","vc":"TuFotoSourceNVC"],
                  ["title":"Patrocinadores","vc":"PatrocinadoresNVC"],
-                 ["title":"QR Scanner","vc":""],
+                 ["title":"QR Scanner","vc":"QRNVC"],
                  ["title":"Constancias","link":"https://femecog.w4em.com/perfil/login"],
-                 ["title":"Guía Impresa","vc":""]
+                 ["title":"Guía Impresa","link":"https://issuu.com/flasog2017/docs/segundo_comunicado_xxii_cgo26sep__1"]
     ]
     override func viewDidLoad() {
         super.viewDidLoad()

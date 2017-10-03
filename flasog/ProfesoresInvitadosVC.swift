@@ -111,6 +111,7 @@ class ProfesoresInvitadosVC: UIViewController, UITableViewDataSource {
         ["name":"JARQUÍN DOUGLAS","country":"EL SALVADOR"],
         ["name":"KABLY AMBE ALBERTO","country":"MEXICO"],
         ["name":"KARCHMER KRIVITZKY SAMUEL ","country":"MEXICO"],
+        ["name":"KOLAR MARCELO ","country":"ARGENTINA"],
         ["name":"LABOVSKY MARISA","country":"ARGENTINA"],
         ["name":"LARA BARRAGÁN IGNACIO","country":"MEXICO"],
         ["name":"LEIS MÁRQUEZ MARÍA TERESITA","country":"MEXICO"],

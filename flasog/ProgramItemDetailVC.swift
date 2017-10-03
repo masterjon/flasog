@@ -34,22 +34,22 @@ class ProgramItemDetailVC: UIViewController {
     @IBAction func addToSchedule(_ sender: UIButton) {
         print("Agregado")
         print(programItem.catId)
-        if var my_schedule_array = userDefaults.object(forKey: "my_schedule") as? [Int]{
-            if !my_schedule_array.contains(programItem.catId){
-                my_schedule_array.append(programItem.catId)
+        if var my_schedule_array = userDefaults.object(forKey: "my_schedule") as? [[Int]]{
+            //if !my_schedule_array.contains(programItem.catId){
+                my_schedule_array.append([programItem.catId,programItem.id,programItem.dayId])
                 userDefaults.set(my_schedule_array, forKey: "my_schedule")
-            }
+            //}
             
         }
         else{
-            userDefaults.set([programItem.catId], forKey: "my_schedule")
+            userDefaults.set([[programItem.catId,programItem.id,programItem.dayId]], forKey: "my_schedule")
         }
         userDefaults.synchronize()
         let alert2 = UIAlertController(title:"Elemento agregado", message: "", preferredStyle: .alert)
         alert2.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
         self.present(alert2, animated: true, completion: nil)
         
-        if let t = userDefaults.object(forKey: "my_schedule") as? [Int]{
+        if let t = userDefaults.object(forKey: "my_schedule") as? [[Int]]{
             print(t)
         }
         

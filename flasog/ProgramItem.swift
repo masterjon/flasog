@@ -9,7 +9,9 @@
 import Foundation
 
 class ProgramItem:NSObject{
+    var id:Int = 0
     var catId:Int = 0
+    var dayId:Int = 0
     var title:String = ""
     var desc:String = ""
     var dresscode: String = ""

@@ -26,9 +26,10 @@ class ViewController: UIViewController {
 //        SideMenuManager.menuLeftNavigationController = menuLeftNavigationController
 
         
-        let dateString = "04-11-2017 08:00:00"
+        let dateString = "04-11-2017 00:00:00"
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd-MM-yyyy HH:mm:ss"
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
         let date = dateFormatter.date(from: dateString)
         if let secondsLeft = date?.timeIntervalSinceNow{
             self.secondsLeft = Int(secondsLeft)
@@ -50,12 +51,16 @@ class ViewController: UIViewController {
 
     func countdownTimer() {
         print("count")
-        guard timer == nil else { return }
-        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.updateCounter), userInfo: nil, repeats: true)
+        print(timer)
+        if timer == nil {
+            timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(ViewController.updateCounter), userInfo: nil, repeats: true)
+            print(timer)
+        }else { return }
+       
 
     }
     @objc func updateCounter() {
-        //print("timeer")
+        
         if(secondsLeft > 0 ) {
         secondsLeft = secondsLeft-1
         //        days = secondsLeft /
@@ -63,7 +68,8 @@ class ViewController: UIViewController {
         hours = (secondsLeft / 3600) % 24;
         minutes = (secondsLeft / 60) % 60;
         seconds = secondsLeft % 60;
-        self.counterLabel.text = "\(days):\(hours)"
+            self.counterLabel.text = "\(String(format: "%02d",days)):\(String(format: "%02d",hours)):\(String(format: "%02d",minutes)):\(String(format: "%02d",seconds))"
+       
             //[NSString stringWithFormat:@"%02d:%02d:%02d:%02d",days, hours, minutes, seconds];
         // NSLog(@"%@ SECONDS",self.myCounterLabel.text);
         } else {

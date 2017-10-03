@@ -36,9 +36,12 @@
 		FC931C331F2D243600E449C6 /* LugaresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC931C321F2D243600E449C6 /* LugaresVC.swift */; };
 		FCD579F31F34EED4004A311C /* ProgramaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD579F21F34EED4004A311C /* ProgramaVC.swift */; };
 		FCDC736F1F4A08140065BF25 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC736E1F4A08140065BF25 /* ContainerViewController.swift */; };
+		FCED867E1F7C923400AA138C /* TuFotoSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCED867D1F7C923400AA138C /* TuFotoSourceViewController.swift */; };
+		FCED86801F7C947600AA138C /* TuFotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCED867F1F7C947600AA138C /* TuFotoViewController.swift */; };
 		FCF644941F329FE500E887B7 /* CancunICCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF644931F329FE500E887B7 /* CancunICCVC.swift */; };
 		FCF644961F32AFD500E887B7 /* SalonesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF644951F32AFD500E887B7 /* SalonesVC.swift */; };
 		FCF644981F32B8FC00E887B7 /* SalonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF644971F32B8FC00E887B7 /* SalonDetailVC.swift */; };
+		FCF89A7C1F7DDDE700EF210B /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF89A7B1F7DDDE700EF210B /* QRViewController.swift */; };
 		FCFA54231F34FAB8007EC429 /* ProgramCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA54221F34FAB8007EC429 /* ProgramCategory.swift */; };
 		FCFA54251F34FF80007EC429 /* ProgramaCatDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA54241F34FF80007EC429 /* ProgramaCatDetailVC.swift */; };
 		FCFA54271F350303007EC429 /* ProgramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFA54261F350303007EC429 /* ProgramItem.swift */; };
@@ -82,9 +85,12 @@
 		FC931C321F2D243600E449C6 /* LugaresVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LugaresVC.swift; sourceTree = "<group>"; };
 		FCD579F21F34EED4004A311C /* ProgramaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramaVC.swift; sourceTree = "<group>"; };
 		FCDC736E1F4A08140065BF25 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		FCED867D1F7C923400AA138C /* TuFotoSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuFotoSourceViewController.swift; sourceTree = "<group>"; };
+		FCED867F1F7C947600AA138C /* TuFotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuFotoViewController.swift; sourceTree = "<group>"; };
 		FCF644931F329FE500E887B7 /* CancunICCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancunICCVC.swift; sourceTree = "<group>"; };
 		FCF644951F32AFD500E887B7 /* SalonesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalonesVC.swift; sourceTree = "<group>"; };
 		FCF644971F32B8FC00E887B7 /* SalonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalonDetailVC.swift; sourceTree = "<group>"; };
+		FCF89A7B1F7DDDE700EF210B /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		FCFA54221F34FAB8007EC429 /* ProgramCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramCategory.swift; sourceTree = "<group>"; };
 		FCFA54241F34FF80007EC429 /* ProgramaCatDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramaCatDetailVC.swift; sourceTree = "<group>"; };
 		FCFA54261F350303007EC429 /* ProgramItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramItem.swift; sourceTree = "<group>"; };
@@ -180,6 +186,9 @@
 				FCFA54281F352E62007EC429 /* ProgramItemDetailVC.swift */,
 				FCFA542A1F362C35007EC429 /* ProgramaFullVC.swift */,
 				FC57386B1F415F5A00FE1304 /* MiAgendaVC.swift */,
+				FCED867D1F7C923400AA138C /* TuFotoSourceViewController.swift */,
+				FCED867F1F7C947600AA138C /* TuFotoViewController.swift */,
+				FCF89A7B1F7DDDE700EF210B /* QRViewController.swift */,
 			);
 			path = flasog;
 			sourceTree = "<group>";
@@ -336,7 +345,9 @@
 				FC2553AE1F242BFF00385411 /* ProfesoresDetailVC.swift in Sources */,
 				FC6B192D1F1EBF0F003FF56F /* ComitesViewController.swift in Sources */,
 				FC812BEF1F04C5F2004C406D /* OrganizadoresVC.swift in Sources */,
+				FCED867E1F7C923400AA138C /* TuFotoSourceViewController.swift in Sources */,
 				FC12700A1F005A2A008624C3 /* ViewController.swift in Sources */,
+				FCF89A7C1F7DDDE700EF210B /* QRViewController.swift in Sources */,
 				FC38B1041F3E68FB008F1B11 /* MenuTableViewController.swift in Sources */,
 				FC456B011F337F4300CDDB44 /* PatrocinadoresDetailVC.swift in Sources */,
 				FCF644981F32B8FC00E887B7 /* SalonDetailVC.swift in Sources */,
@@ -356,6 +367,7 @@
 				FC1270081F005A2A008624C3 /* AppDelegate.swift in Sources */,
 				FCFA54271F350303007EC429 /* ProgramItem.swift in Sources */,
 				FC812BF21F04C85E004C406D /* ColorPalette.swift in Sources */,
+				FCED86801F7C947600AA138C /* TuFotoViewController.swift in Sources */,
 				FCDC736F1F4A08140065BF25 /* ContainerViewController.swift in Sources */,
 				FC58BD511F423A4E0061BB41 /* ProfesoresContainerVC.swift in Sources */,
 				FC57386C1F415F5A00FE1304 /* MiAgendaVC.swift in Sources */,
