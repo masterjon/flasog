@@ -1,15 +1,20 @@
 PODS:
+  - ImageSlideshow (1.4.1):
+    - ImageSlideshow/Core (= 1.4.1)
+  - ImageSlideshow/Core (1.4.1)
   - Segmentio (2.1.2)
   - SideMenu (2.3.2)
 
 DEPENDENCIES:
+  - ImageSlideshow (~> 1.4)
   - Segmentio
   - SideMenu
 
 SPEC CHECKSUMS:
+  ImageSlideshow: 1bb0e610e28a71e8936d57265d882f61714a470b
   Segmentio: f85114993e305bd9c522952eef8c2c4db732fd17
   SideMenu: 3fa07dd05d4bade2b6f9889fb1877e312e1ba319
 
-PODFILE CHECKSUM: 32f8bac5352587faee32a30a6fdfc49745f8452f
+PODFILE CHECKSUM: a183298861756ff4277b78b754a2641b4c29a59c
 
 COCOAPODS: 1.2.1

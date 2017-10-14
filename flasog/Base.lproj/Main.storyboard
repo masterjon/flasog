@@ -2029,20 +2029,14 @@ Son ustedes bienvenidos a Cancún.
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FondoP9" translatesAutoresizingMaskIntoConstraints="NO" id="LLq-6M-Q9J">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F1CUNP10" translatesAutoresizingMaskIntoConstraints="NO" id="v1f-oM-NZK">
-                                <rect key="frame" x="36" y="50" width="303" height="191.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="v1f-oM-NZK" secondAttribute="height" multiplier="46:29" id="of2-hd-HEO"/>
-                                </constraints>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoCancunP10" translatesAutoresizingMaskIntoConstraints="NO" id="6Uy-i7-Koa">
-                                <rect key="frame" x="61" y="256.5" width="252" height="71.5"/>
+                                <rect key="frame" x="61" y="275.5" width="252" height="71.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="6Uy-i7-Koa" secondAttribute="height" multiplier="81:23" id="pa1-DY-heX"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BN-rP-5Jt">
-                                <rect key="frame" x="16" y="348" width="343" height="299"/>
+                                <rect key="frame" x="16" y="367" width="343" height="280"/>
                                 <string key="text">Cancún es un destino de sol, mar y playa; una ciudad cosmopolita situada en el sureste de México. Cuenta con un clima tropical y una población cercana al millón de habitantes, conformada por gente de toda la república mexicana e innumerables países, lo que lo hace un destino multicultural y de gran diversidad.
 
 Ubicada en una región donde predominó la cultura Maya, en sus alrededores se encuentran ruinas arqueológicas, tales como Chichén Itzá, El Rey, El Meco, Tulum, y Cobá entre otras; además de contar con el Museo Maya de Cancún, la obra museística más importante realizada por el Instituto Nacional de Antropología e Historia de México en los últimos años.
@@ -2067,31 +2061,40 @@ Atracciones del destino:
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="urt-7Y-HZe" customClass="ImageSlideshow" customModule="ImageSlideshow">
+                                <rect key="frame" x="20" y="50" width="335" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="urt-7Y-HZe" secondAttribute="height" multiplier="46:29" id="dfR-17-EyK"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="6Uy-i7-Koa" firstAttribute="top" secondItem="v1f-oM-NZK" secondAttribute="bottom" constant="15" id="16O-Qc-u7M"/>
-                            <constraint firstItem="v1f-oM-NZK" firstAttribute="centerX" secondItem="gaT-ru-8tw" secondAttribute="centerX" id="2D1-ik-jwY"/>
+                            <constraint firstItem="urt-7Y-HZe" firstAttribute="leading" secondItem="gaT-ru-8tw" secondAttribute="leading" constant="20" id="0bk-VO-Mgp"/>
+                            <constraint firstItem="6Uy-i7-Koa" firstAttribute="top" secondItem="urt-7Y-HZe" secondAttribute="bottom" constant="15" id="33b-L8-NlH"/>
                             <constraint firstItem="5BN-rP-5Jt" firstAttribute="leading" secondItem="gaT-ru-8tw" secondAttribute="leading" constant="16" id="ARj-Vi-N3r"/>
+                            <constraint firstItem="urt-7Y-HZe" firstAttribute="top" secondItem="tr3-WA-mk4" secondAttribute="bottom" constant="30" id="D0c-Ob-6oh"/>
                             <constraint firstItem="6Uy-i7-Koa" firstAttribute="leading" secondItem="gaT-ru-8tw" secondAttribute="leadingMargin" constant="45" id="EBr-g6-XHW"/>
+                            <constraint firstItem="urt-7Y-HZe" firstAttribute="centerX" secondItem="gaT-ru-8tw" secondAttribute="centerX" id="M2H-bW-ILN"/>
                             <constraint firstItem="5BN-rP-5Jt" firstAttribute="top" secondItem="6Uy-i7-Koa" secondAttribute="bottom" constant="20" id="NxW-JQ-jHp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6Uy-i7-Koa" secondAttribute="trailing" constant="46" id="R3D-77-PX2"/>
                             <constraint firstItem="6VJ-5Q-d02" firstAttribute="top" secondItem="LLq-6M-Q9J" secondAttribute="bottom" id="RMY-p4-aWN"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="v1f-oM-NZK" secondAttribute="trailing" constant="20" id="VMj-qW-kXX"/>
-                            <constraint firstItem="v1f-oM-NZK" firstAttribute="leading" secondItem="gaT-ru-8tw" secondAttribute="leadingMargin" constant="20" id="VNw-6y-4xh"/>
+                            <constraint firstAttribute="trailing" secondItem="urt-7Y-HZe" secondAttribute="trailing" constant="20" id="Vxy-5L-vyv"/>
                             <constraint firstItem="6Uy-i7-Koa" firstAttribute="centerX" secondItem="gaT-ru-8tw" secondAttribute="centerX" id="fOy-Vb-hJh"/>
                             <constraint firstItem="LLq-6M-Q9J" firstAttribute="leading" secondItem="gaT-ru-8tw" secondAttribute="leading" id="hIM-lV-tMv"/>
                             <constraint firstAttribute="trailing" secondItem="LLq-6M-Q9J" secondAttribute="trailing" id="jWM-3e-XkS"/>
-                            <constraint firstItem="v1f-oM-NZK" firstAttribute="top" secondItem="tr3-WA-mk4" secondAttribute="bottom" constant="30" id="sZy-xf-cvb"/>
                             <constraint firstAttribute="trailing" secondItem="5BN-rP-5Jt" secondAttribute="trailing" constant="16" id="v2K-RL-0Vi"/>
                             <constraint firstItem="LLq-6M-Q9J" firstAttribute="top" secondItem="gaT-ru-8tw" secondAttribute="top" id="xLu-ku-fZW"/>
                             <constraint firstItem="6VJ-5Q-d02" firstAttribute="top" secondItem="5BN-rP-5Jt" secondAttribute="bottom" constant="20" id="z8H-o2-BfR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="slideshow" destination="urt-7Y-HZe" id="CI9-7q-lab"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TGq-Pp-M8z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1049" y="5937"/>
+            <point key="canvasLocation" x="1048.8" y="5936.5817091454273"/>
         </scene>
         <!--HotelesVC-->
         <scene sceneID="DJZ-r3-kEC">
@@ -2423,45 +2426,52 @@ Atracciones del destino:
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mapa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIY-nZ-oik">
-                                <rect key="frame" x="0.0" y="418" width="375" height="24"/>
+                                <rect key="frame" x="0.0" y="280" width="375" height="164.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="1ICC" translatesAutoresizingMaskIntoConstraints="NO" id="aJb-ZR-BQg">
-                                <rect key="frame" x="16" y="30" width="343" height="348"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapa_cun" translatesAutoresizingMaskIntoConstraints="NO" id="WDD-vb-NmZ">
-                                <rect key="frame" x="8" y="457" width="359" height="190"/>
+                                <rect key="frame" x="15" y="464.5" width="345" height="182.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="WDD-vb-NmZ" secondAttribute="height" multiplier="70:37" id="ypc-P5-tnQ"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8st-J1-Y1y">
-                                <rect key="frame" x="8" y="457" width="359" height="190"/>
+                                <rect key="frame" x="15" y="464.5" width="345" height="182.5"/>
                                 <connections>
                                     <action selector="showMap:" destination="NPA-Gb-J4j" eventType="touchUpInside" id="poy-cy-WXn"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHx-9s-ewz" customClass="ImageSlideshow" customModule="ImageSlideshow">
+                                <rect key="frame" x="15" y="50" width="345" height="215"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DHx-9s-ewz" secondAttribute="height" multiplier="69:43" id="eAK-II-dtm"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="WDD-vb-NmZ" secondAttribute="bottom" constant="20" id="3LE-qR-tLI"/>
                             <constraint firstItem="8st-J1-Y1y" firstAttribute="centerY" secondItem="WDD-vb-NmZ" secondAttribute="centerY" id="4YL-Ox-XAU"/>
-                            <constraint firstItem="aJb-ZR-BQg" firstAttribute="top" secondItem="Bcv-SN-92H" secondAttribute="top" constant="30" id="8OM-5m-Vps"/>
                             <constraint firstItem="8st-J1-Y1y" firstAttribute="height" secondItem="WDD-vb-NmZ" secondAttribute="height" id="9b4-X7-0jp"/>
-                            <constraint firstItem="WDD-vb-NmZ" firstAttribute="leading" secondItem="Bcv-SN-92H" secondAttribute="leading" constant="8" id="M2i-uS-sRq"/>
-                            <constraint firstItem="aJb-ZR-BQg" firstAttribute="leading" secondItem="Bcv-SN-92H" secondAttribute="leading" constant="16" id="N3O-M7-hbV"/>
+                            <constraint firstItem="DHx-9s-ewz" firstAttribute="top" secondItem="c6Z-by-ZnY" secondAttribute="bottom" constant="30" id="9mV-j9-MTX"/>
+                            <constraint firstItem="WDD-vb-NmZ" firstAttribute="leading" secondItem="Bcv-SN-92H" secondAttribute="leading" constant="15" id="M2i-uS-sRq"/>
                             <constraint firstItem="8st-J1-Y1y" firstAttribute="width" secondItem="WDD-vb-NmZ" secondAttribute="width" id="Oge-fg-h4I"/>
+                            <constraint firstItem="lIY-nZ-oik" firstAttribute="top" secondItem="DHx-9s-ewz" secondAttribute="bottom" constant="15" id="PG5-Ix-Mj8"/>
                             <constraint firstItem="8st-J1-Y1y" firstAttribute="centerX" secondItem="WDD-vb-NmZ" secondAttribute="centerX" id="ZI7-vD-SoG"/>
-                            <constraint firstAttribute="trailing" secondItem="WDD-vb-NmZ" secondAttribute="trailing" constant="8" id="daQ-zt-wZ3"/>
+                            <constraint firstAttribute="trailing" secondItem="DHx-9s-ewz" secondAttribute="trailing" constant="15" id="dRa-RJ-Nhk"/>
+                            <constraint firstAttribute="trailing" secondItem="WDD-vb-NmZ" secondAttribute="trailing" constant="15" id="daQ-zt-wZ3"/>
                             <constraint firstItem="lIY-nZ-oik" firstAttribute="leading" secondItem="Bcv-SN-92H" secondAttribute="leading" id="jc9-z7-Zrn"/>
-                            <constraint firstAttribute="trailing" secondItem="aJb-ZR-BQg" secondAttribute="trailing" constant="16" id="jqd-NK-rcG"/>
                             <constraint firstAttribute="trailing" secondItem="lIY-nZ-oik" secondAttribute="trailing" id="l9b-HZ-LgQ"/>
-                            <constraint firstItem="lIY-nZ-oik" firstAttribute="top" secondItem="aJb-ZR-BQg" secondAttribute="bottom" constant="40" id="m1X-7C-n4l"/>
-                            <constraint firstItem="WDD-vb-NmZ" firstAttribute="top" secondItem="lIY-nZ-oik" secondAttribute="bottom" constant="15" id="pBM-aT-BS6"/>
+                            <constraint firstItem="DHx-9s-ewz" firstAttribute="leading" secondItem="Bcv-SN-92H" secondAttribute="leading" constant="15" id="nRv-6A-F1G"/>
+                            <constraint firstItem="WDD-vb-NmZ" firstAttribute="top" secondItem="lIY-nZ-oik" secondAttribute="bottom" constant="20" id="pBM-aT-BS6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="slideshow" destination="DHx-9s-ewz" id="XFH-kd-TE2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uiH-5y-JGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2745,9 +2755,9 @@ Atracciones del destino:
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content"> (FLASOG 2017).
+                                        <string key="content"> (FLASOG 2017).
 De igual manera, el Comité Organizador y el Comité Científico han tenido como objetivo principal un programa académico de excelencia, propiciando la capacitación de vanguardia del especialista para potencializar sus competencias profesionales.
-El Comité Científico ha elaborado un importante programa, muy completo y atractivo que ha distribuido en interesantes y novedosas modalidades pedagógicas.  La temática fue elegida minuciosamente pensando siempre en el interés del congresista.    Los más de 200 profesores expertos en cada tema, fueron seleccionados con mucho detalle teniendo en cuenta su experiencia, publicaciones y trayectoria.    Está confirmada la participación de 25 profesores invitados de gran prestigio de otras partes del mundo diferentes de Latinoamérica.    Abriremos el congreso con el </mutableString>
+El Comité Científico ha elaborado un importante programa, muy completo y atractivo que ha distribuido en interesantes y novedosas modalidades pedagógicas.  La temática fue elegida minuciosamente pensando siempre en el interés del congresista.    Los más de 200 profesores expertos en cada tema, fueron seleccionados con mucho detalle teniendo en cuenta su experiencia, publicaciones y trayectoria.    Está confirmada la participación de 25 profesores invitados de gran prestigio de otras partes del mundo diferentes de Latinoamérica.    Abriremos el congreso con el </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="12" name="TrebuchetMS"/>
@@ -2770,14 +2780,14 @@ El Comité Científico ha elaborado un importante programa, muy completo y atrac
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <mutableString key="content">, en donde cada país será representado por el residente que cada Sociedad haya designado.     El horario del Programa Científico se ha planteado de tal manera que también haya tiempo para poder disfrutar las bellezas y atractivos del destino.   Se ha trabajado intensamente para que el programa llene sus expectativas y estamos seguros que los vamos a sorprender.
+                                        <string key="content">, en donde cada país será representado por el residente que cada Sociedad haya designado.     El horario del Programa Científico se ha planteado de tal manera que también haya tiempo para poder disfrutar las bellezas y atractivos del destino.   Se ha trabajado intensamente para que el programa llene sus expectativas y estamos seguros que los vamos a sorprender.
 Es también importante mencionar las actividades sociales como la Fiesta de la Confraternidad Latinoamericana, en donde tendremos la oportunidad de convivir con nuestros amigos de todo el continente.    Nuestra Ceremonia de Inauguración será una actividad solemne y majestuosa que con toda seguridad será inolvidable y se recordará siempre mucho con agrado.
 El Programa de Acompañantes está diseñado de tal manera para que nuestros visitantes puedan disfrutar de algunos de los atractivos turísticos más significativos de la región.
 Por si fuera poco, Cancún es uno de los destinos turísticos más importantes del mundo, en donde las playas y el característico color turquesa del mar serán algo que no vas a olvidar.   Estamos seguros de que regresarás a tu lugar de origen habiendo quedado cautivado por la hospitalidad que la gente de nuestro país te brindará.
 De antemano, agradezco su asistencia este gran esfuerzo latinoamericano. 
 Son ustedes bienvenidos a Cancún.
 
-</mutableString>
+</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="12" name="TrebuchetMS"/>
@@ -4016,7 +4026,6 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
     <resources>
         <image name=" " width="16" height="16"/>
         <image name="1FiestaAmericanaCB" width="750" height="365"/>
-        <image name="1ICC" width="690" height="435"/>
         <image name="Banner1" width="694" height="125"/>
         <image name="Banner2" width="694" height="125"/>
         <image name="Banner3" width="694" height="125"/>
@@ -4032,7 +4041,6 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
         <image name="BotonTomaFotoP13" width="750" height="597"/>
         <image name="BotonUbicacion" width="154" height="154"/>
         <image name="CancunBoton" width="154" height="154"/>
-        <image name="F1CUNP10" width="690" height="435"/>
         <image name="FondoP5" width="748" height="1088"/>
         <image name="FondoP6" width="748" height="1089"/>
         <image name="FondoP9" width="749" height="1091"/>
@@ -4064,7 +4072,7 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
         <segue reference="eJ6-Hh-hrd"/>
         <segue reference="XjT-4Z-en0"/>
         <segue reference="tHc-W2-AF6"/>
-        <segue reference="OHO-7c-bcn"/>
+        <segue reference="Nc0-iJ-NW1"/>
         <segue reference="0Ra-bE-UhO"/>
         <segue reference="kYL-i7-40w"/>
         <segue reference="Wxf-Kg-WX6"/>

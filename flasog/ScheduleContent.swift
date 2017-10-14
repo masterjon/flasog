@@ -458,38 +458,82 @@ func loadSchedule()->[ProgramCat]{
     //****************      Simposios Especiales   ********************
     let item5_1 = ProgramItem()
     item5_1.catId = 5
-    item5_1.title = "Domingo, 5 de noviembre"
-    item5_1.room = ""
+    item5_1.title = "DEMESA"
+    item5_1.room = "Costa Maya B"
     item5_1.duration = 60
-    item5_1.schedule = "14:00 – 15:00 hrs"
-    item5_1.days = "Domingo, 5 de noviembre"
-    item5_1.dayId = 1
+    item5_1.schedule = "14:15 - 15:10 hrs"
+    item5_1.days = "Lunes, 6 de noviembre"
+    item5_1.dayId = 2
     
     let item5_2 = ProgramItem()
     item5_2.catId = 5
-    item5_2.title = "Lunes, 6 de noviembre"
-    item5_2.room = ""
+    item5_2.title = "MSD"
+    item5_2.room = "Costa Maya"
     item5_2.duration = 60
-    item5_2.schedule = "14:00 – 15:00 hrs"
+    item5_2.schedule = "14:15 - 15:10 hrs"
     item5_2.days = "Lunes, 6 de noviembre"
     item5_2.dayId = 2
     
     let item5_3 = ProgramItem()
     item5_3.catId = 5
-    item5_3.title = "Martes, 7 de noviembre"
-    item5_3.room = ""
+    item5_3.title = "GEDEON RICHTER"
+    item5_3.room = "Salones Cozumel"
     item5_3.duration = 60
-    item5_3.schedule = "14:00 – 15:00 hrs"
-    item5_3.days = "Martes, 7 de noviembre"
-    item5_3.dayId = 3
+    item5_3.schedule = "14:15 - 15:10 hrs"
+    item5_3.days = "Lunes, 6 de noviembre"
+    item5_3.dayId = 2
+    
+    let item5_4 = ProgramItem()
+    item5_4.catId = 5
+    item5_4.title = "GEDEON RICHTER"
+    item5_4.room = "Salones Cozumel"
+    item5_4.duration = 60
+    item5_4.schedule = "14:15 - 15:10 hrs"
+    item5_4.days = "Martes, 7 de noviembre"
+    item5_4.dayId = 3
+    
+    let item5_5 = ProgramItem()
+    item5_5.catId = 5
+    item5_5.title = "EXELTIS"
+    item5_5.room = "Costa Maya B"
+    item5_5.duration = 60
+    item5_5.schedule = "14:15 - 15:10 hrs"
+    item5_5.days = "Martes, 7 de noviembre"
+    item5_5.dayId = 3
+    
+    let item5_6 = ProgramItem()
+    item5_6.catId = 5
+    item5_6.title = "ROCHE"
+    item5_6.room = "Costa Maya"
+    item5_6.duration = 60
+    item5_6.schedule = "14:15 - 15:10 hrs"
+    item5_6.days = "Martes, 7 de noviembre"
+    item5_6.dayId = 3
+    
+    let item5_7 = ProgramItem()
+    item5_7.catId = 5
+    item5_7.title = "IPAS"
+    item5_7.room = "Auditorio"
+    item5_7.duration = 60
+    item5_7.schedule = "14:15 - 15:10 hrs"
+    item5_7.days = "Martes, 7 de noviembre"
+    item5_7.dayId = 3
     
     item5_1.id = 0
     item5_2.id = 1
     item5_3.id = 2
+    item5_4.id = 3
+    item5_5.id = 4
+    item5_6.id = 5
+    item5_7.id = 6
     
     items[5].items.append(item5_1)
     items[5].items.append(item5_2)
     items[5].items.append(item5_3)
+    items[5].items.append(item5_4)
+    items[5].items.append(item5_5)
+    items[5].items.append(item5_6)
+    items[5].items.append(item5_7)
     
     //****************      Simposios simultáneos   ********************
     
@@ -2590,39 +2634,38 @@ items[4].items[4].desc = """
     
     //****************      Simposios Especiales   ********************
 items[5].items[0].desc = """
-14:00 – 15:00 hrs.
-Pendiente
-
-14:00 – 15:00 hrs.
-Pendiente
-
-14:00 – 15:00 hrs.
-Pendiente
+DEMESA
 """
 items[5].items[1].desc = """
-14:00 – 15:00 hrs.
-DEMESA
+Rompiendo barreras en la prevención VPH
 
-14:00 – 15:00 hrs.
-GEDEON RICHTER
-
-14:00 – 15:00 hrs.
-MSD
+Dra. Elsa Díaz
+Dr. Carlos Aranda
+Dr. Aurelio Cruz 
 """
 items[5].items[2].desc = """
-14:00 – 15:00 hrs.
-Gedeon Richter
+Manejo actual de miomatosis y vinculación a infertilidad. Experiencia clínica con UPA. Coordinador: Jesús Barron Vallejo  - De la patogenesis al manejo moderno  Dr. Jacques Donnez  - Miomatosis e infertilidad  Dr. Antonio La Marca  - Casos clínicos de miomatosis manejo clínico en mujer mexicana Dra. Elsa Díaz
 
-14:00 – 15:00 hrs.
-Roche
-
-15:00 – 16:00 hrs.
-IPAS
-    
-16:00 – 17:00 hrs.
-Exeltis
 """
-    
+items[5].items[3].desc = """
+Terapia Estrogenica transdermica en Spay. Nueva opción en América Latina Coordinador: Dr. Leopoldo Vázquez Estrada  - Terapia hormonal oral vs no oral Dr. Santiago Palacios  - Experiencia clínica con Bomba de Estradiol Dr. Buster  - Guías Internacionales actualizadas de manejo de TMH *Por definir
+"""
+
+items[5].items[4].desc = """
+OMEGA 3, Suplementación inteligente en la gestación, embarazo y lactancia.
+
+Dra. Elizabeth Tejero Barrera
+Dr. Alfredo Perales Marín 
+"""
+
+items[5].items[5].desc = """
+    ROCHE
+"""
+
+items[5].items[6].desc = """
+    IPAS
+"""
+
     //****************      Simposios simultáneos   ********************
 
 items[6].items[0].desc = """

@@ -7,4 +7,5 @@ target 'flasog' do
 
   pod 'SideMenu'
   pod 'Segmentio'
+  pod 'ImageSlideshow', '~> 1.4'
 end

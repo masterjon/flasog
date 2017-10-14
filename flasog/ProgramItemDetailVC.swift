@@ -46,6 +46,7 @@ class ProgramItemDetailVC: UIViewController {
         if var my_schedule_array = userDefaults.object(forKey: "my_schedule") as? [[Int]]{
             //if !my_schedule_array.contains(programItem.catId){
             var exists = false
+            var tooManyCourses = false
             var transCounter = 0
             var preCounter = 0
             
@@ -60,12 +61,15 @@ class ProgramItemDetailVC: UIViewController {
                     transCounter+=1
                 }
             }
-            if !exists && preCounter <= 1 && transCounter <= 1{
+            if (programItem.id == 0 && preCounter > 0) || (programItem.id == 1 && transCounter > 0){
+                tooManyCourses = true
+            }
+            if !exists && !tooManyCourses {
                 my_schedule_array.append([programItem.catId,programItem.id,programItem.dayId])
                 userDefaults.set(my_schedule_array, forKey: "my_schedule")
                 self.present(alert2, animated: true, completion: nil)
             }
-            else if preCounter > 1 || transCounter > 1{
+            else if tooManyCourses { 
                 self.present(alert4, animated: true, completion: nil)
             }
             else if exists{
