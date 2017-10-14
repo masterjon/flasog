@@ -70,32 +70,32 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4I-rD-tcq" userLabel="programa">
-                                <rect key="frame" x="15.5" y="250" width="343" height="61.5"/>
+                                <rect key="frame" x="15.5" y="260" width="343" height="61.5"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="XXF-Ou-hjv" kind="show" id="Ses-Zr-3WC"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Banner1" translatesAutoresizingMaskIntoConstraints="NO" id="0GD-E5-kMA">
-                                <rect key="frame" x="16" y="250" width="343" height="61.5"/>
+                                <rect key="frame" x="16" y="260" width="343" height="61.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0GD-E5-kMA" secondAttribute="height" multiplier="28:5" id="men-dd-yVg"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Banner2" translatesAutoresizingMaskIntoConstraints="NO" id="kyw-3U-pq3">
-                                <rect key="frame" x="16" y="336.5" width="343" height="61"/>
+                                <rect key="frame" x="16" y="346.5" width="343" height="61"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuT-Bg-wvp" userLabel="profesores">
-                                <rect key="frame" x="16" y="336.5" width="343" height="61"/>
+                                <rect key="frame" x="16" y="346.5" width="343" height="61"/>
                                 <connections>
                                     <segue destination="g0k-66-79i" kind="show" id="S0H-Mg-ucE"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Banner3" translatesAutoresizingMaskIntoConstraints="NO" id="sjR-or-Z3M">
-                                <rect key="frame" x="16" y="422.5" width="343" height="61.5"/>
+                                <rect key="frame" x="16" y="432.5" width="343" height="61.5"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5U-Xb-i9t">
-                                <rect key="frame" x="16" y="509" width="343" height="80"/>
+                                <rect key="frame" x="16" y="519" width="343" height="80"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sum-G5-hS1">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="80"/>
@@ -117,10 +117,16 @@
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljm-kC-XLJ">
                                                 <rect key="frame" x="176.5" y="0.0" width="78.5" height="80"/>
                                                 <state key="normal" title="Button" image="BotonComparte"/>
+                                                <connections>
+                                                    <action selector="shareAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fKf-Po-huS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZM6-Ag-GRo">
                                                 <rect key="frame" x="265" y="0.0" width="78" height="80"/>
                                                 <state key="normal" title="Button" image="BotonQR"/>
+                                                <connections>
+                                                    <segue destination="19K-sn-AFP" kind="show" id="eJ6-Hh-hrd"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -135,7 +141,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ffd-sf-HhN">
-                                <rect key="frame" x="5" y="8" width="187.5" height="234"/>
+                                <rect key="frame" x="5" y="8" width="187.5" height="244"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faltan:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uud-4g-MNR">
                                         <rect key="frame" x="40" y="5" width="106" height="38"/>
@@ -172,7 +178,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b27-u9-XzF" userLabel="ICC">
-                                <rect key="frame" x="16" y="423" width="343" height="61"/>
+                                <rect key="frame" x="16" y="433" width="343" height="61"/>
                                 <connections>
                                     <segue destination="F8P-Yf-us9" kind="show" id="0Ra-bE-UhO"/>
                                 </connections>
@@ -187,7 +193,7 @@
                             <constraint firstAttribute="trailing" secondItem="kyw-3U-pq3" secondAttribute="trailing" constant="16" id="8pP-6D-ooN"/>
                             <constraint firstItem="Ffd-sf-HhN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ApT-Af-rOb"/>
                             <constraint firstItem="kyw-3U-pq3" firstAttribute="width" secondItem="kyw-3U-pq3" secondAttribute="height" multiplier="28:5" id="Fpa-IY-w9t"/>
-                            <constraint firstItem="0GD-E5-kMA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="250" id="GSZ-Cy-TxP"/>
+                            <constraint firstItem="0GD-E5-kMA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="260" id="GSZ-Cy-TxP"/>
                             <constraint firstItem="LuT-Bg-wvp" firstAttribute="width" secondItem="kyw-3U-pq3" secondAttribute="width" id="H4J-0M-MPJ"/>
                             <constraint firstAttribute="trailing" secondItem="sjR-or-Z3M" secondAttribute="trailing" constant="16" id="IDF-kD-1PC"/>
                             <constraint firstItem="Ffd-sf-HhN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" id="M4E-jb-kUr"/>
@@ -515,7 +521,13 @@ Su Misión es ofrecer a todas las Agrupaciones Federadas de Obstetricia y Gineco
                             <outlet property="delegate" destination="vLM-Ah-B1T" id="MGc-iH-Ula"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="MENU" id="7fz-2E-dUM"/>
+                    <navigationItem key="navigationItem" title="MENU" id="7fz-2E-dUM">
+                        <barButtonItem key="rightBarButtonItem" systemItem="stop" id="qHk-Of-5cI">
+                            <connections>
+                                <action selector="dismissMenu:" destination="vLM-Ah-B1T" id="0Aq-Hc-cYR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lCa-C7-u8M" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2347,6 +2359,22 @@ Atracciones del destino:
                                     <constraint firstAttribute="width" secondItem="cZG-Zs-O7Y" secondAttribute="height" multiplier="25:8" id="gFN-ba-11K"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eccsac10" translatesAutoresizingMaskIntoConstraints="NO" id="Cdd-kg-bms">
+                                <rect key="frame" x="49" y="485" width="276" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Cdd-kg-bms" secondAttribute="height" multiplier="175:43" id="V9N-Ja-Oa7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30t-G6-ONy">
+                                <rect key="frame" x="16" y="563" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4xA-Q7-l4m"/>
+                                </constraints>
+                                <string key="text">La Federación Latinoamericana de Sociedades de Obstetricia y Ginecología FLASOG y la Federación Mexicana de Colegios de Obstetricia y Ginecología FEMECOG, designo a la empresa ECCSAC (ECOECSAC, S.A. de C.V.) como la única agencia autorizada para gestionar el sistema de registro y reservaciones de hospedaje para el Congreso FLASOG 2017, por tal motivo evitese inconvenientes al contratar estos tramites a cualquier otra agencia.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="6"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -2356,10 +2384,16 @@ Atracciones del destino:
                             <constraint firstItem="Wx3-3k-7iC" firstAttribute="leading" secondItem="ekU-KE-HAs" secondAttribute="leading" constant="16" id="FIf-Ir-Dem"/>
                             <constraint firstAttribute="trailing" secondItem="Wx3-3k-7iC" secondAttribute="trailing" constant="16" id="MQ0-zj-Sgt"/>
                             <constraint firstItem="Duo-2c-RMY" firstAttribute="top" secondItem="gy7-41-Mgv" secondAttribute="bottom" id="Tbe-FW-HgV"/>
+                            <constraint firstItem="Cdd-kg-bms" firstAttribute="centerX" secondItem="ekU-KE-HAs" secondAttribute="centerX" id="Z3g-NP-HGh"/>
                             <constraint firstItem="Duo-2c-RMY" firstAttribute="leading" secondItem="ekU-KE-HAs" secondAttribute="leading" id="anQ-LQ-h2E"/>
+                            <constraint firstItem="zes-3X-1zz" firstAttribute="top" secondItem="30t-G6-ONy" secondAttribute="bottom" id="c4j-yj-FEu"/>
                             <constraint firstItem="cZG-Zs-O7Y" firstAttribute="centerX" secondItem="ekU-KE-HAs" secondAttribute="centerX" id="ckl-nN-MBa"/>
+                            <constraint firstItem="30t-G6-ONy" firstAttribute="top" secondItem="Cdd-kg-bms" secondAttribute="bottom" constant="10" id="d1D-4k-XZN"/>
+                            <constraint firstAttribute="trailing" secondItem="30t-G6-ONy" secondAttribute="trailing" constant="16" id="iiO-VC-K0i"/>
                             <constraint firstItem="U7r-Ec-SLP" firstAttribute="centerX" secondItem="ekU-KE-HAs" secondAttribute="centerX" id="lfY-O7-Crt"/>
+                            <constraint firstItem="Cdd-kg-bms" firstAttribute="top" secondItem="U7r-Ec-SLP" secondAttribute="bottom" constant="40" id="qd4-NX-Mun"/>
                             <constraint firstItem="U7r-Ec-SLP" firstAttribute="top" secondItem="cZG-Zs-O7Y" secondAttribute="bottom" constant="20" id="qeV-XY-d48"/>
+                            <constraint firstItem="30t-G6-ONy" firstAttribute="leading" secondItem="ekU-KE-HAs" secondAttribute="leading" constant="16" id="sGx-0E-fWx"/>
                             <constraint firstItem="cZG-Zs-O7Y" firstAttribute="top" secondItem="Wx3-3k-7iC" secondAttribute="bottom" constant="19" id="tnJ-0b-mCa"/>
                         </constraints>
                     </view>
@@ -2442,11 +2476,11 @@ Atracciones del destino:
                         <viewControllerLayoutGuide type="bottom" id="vnW-C3-8Ex"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sqt-RA-QMc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="105" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hc4-RS-RBp">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="495"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="559"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="105" id="HLB-4X-oUt">
@@ -2497,13 +2531,13 @@ Atracciones del destino:
                                 </connections>
                             </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoCancunP10" translatesAutoresizingMaskIntoConstraints="NO" id="C9i-lM-9La">
-                                <rect key="frame" x="67" y="543" width="240" height="40"/>
+                                <rect key="frame" x="67" y="607" width="240" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="RBG-SS-V92"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Selecciona para ver el mapa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7z9-Cq-U6r">
-                                <rect key="frame" x="9" y="497" width="358" height="38"/>
+                                <rect key="frame" x="9" y="561" width="358" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="DC6-Lr-9JA"/>
                                 </constraints>
@@ -2621,11 +2655,179 @@ Atracciones del destino:
                     </view>
                     <connections>
                         <outlet property="tableView" destination="ckY-Bo-ngJ" id="Qvx-7o-ydi"/>
+                        <segue destination="V0q-iz-NzM" kind="show" identifier="ShowTestSegue" id="OHO-7c-bcn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cye-72-l8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1049" y="3896"/>
+        </scene>
+        <!--Programa Texto View Controller-->
+        <scene sceneID="bU3-9R-p1z">
+            <objects>
+                <viewController id="V0q-iz-NzM" customClass="ProgramaTextoViewController" customModule="flasog" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6O3-S5-bqK"/>
+                        <viewControllerLayoutGuide type="bottom" id="RRM-B1-4wx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t6H-FX-fXE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cs5-KV-1wL">
+                                <rect key="frame" x="16" y="0.0" width="343" height="584"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Es prioridad para la ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Federación Latinoamericana de Sociedades de Obstetricia y Ginecología">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="Trebuchet-BoldItalic"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" (FLASOG) la actualización médica de los miembros de sus Sociedades afiliadas, objetivo que comparte con la ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Federación Mexicana de Colegios de Obstetricia y Ginecología ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="Trebuchet-BoldItalic"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="(FEMECOG), es por ello que de manera conjunta han organizado ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="el XXII CONGRESO LATINOAMERICANO DE GINECOLOGIA Y OBSTETRICIA">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="TrebuchetMS-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content"> (FLASOG 2017).
+De igual manera, el Comité Organizador y el Comité Científico han tenido como objetivo principal un programa académico de excelencia, propiciando la capacitación de vanguardia del especialista para potencializar sus competencias profesionales.
+El Comité Científico ha elaborado un importante programa, muy completo y atractivo que ha distribuido en interesantes y novedosas modalidades pedagógicas.  La temática fue elegida minuciosamente pensando siempre en el interés del congresista.    Los más de 200 profesores expertos en cada tema, fueron seleccionados con mucho detalle teniendo en cuenta su experiencia, publicaciones y trayectoria.    Está confirmada la participación de 25 profesores invitados de gran prestigio de otras partes del mundo diferentes de Latinoamérica.    Abriremos el congreso con el </mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="1er. Encuentro Latinoamericano de Residentes">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="TrebuchetMS-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">, en donde cada país será representado por el residente que cada Sociedad haya designado.     El horario del Programa Científico se ha planteado de tal manera que también haya tiempo para poder disfrutar las bellezas y atractivos del destino.   Se ha trabajado intensamente para que el programa llene sus expectativas y estamos seguros que los vamos a sorprender.
+Es también importante mencionar las actividades sociales como la Fiesta de la Confraternidad Latinoamericana, en donde tendremos la oportunidad de convivir con nuestros amigos de todo el continente.    Nuestra Ceremonia de Inauguración será una actividad solemne y majestuosa que con toda seguridad será inolvidable y se recordará siempre mucho con agrado.
+El Programa de Acompañantes está diseñado de tal manera para que nuestros visitantes puedan disfrutar de algunos de los atractivos turísticos más significativos de la región.
+Por si fuera poco, Cancún es uno de los destinos turísticos más importantes del mundo, en donde las playas y el característico color turquesa del mar serán algo que no vas a olvidar.   Estamos seguros de que regresarás a tu lugar de origen habiendo quedado cautivado por la hospitalidad que la gente de nuestro país te brindará.
+De antemano, agradezco su asistencia este gran esfuerzo latinoamericano. 
+Son ustedes bienvenidos a Cancún.
+
+</mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Dr. Jorge Méndez Trujeque Presidente del Comité Organizador México
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgW-uJ-bT9">
+                                <rect key="frame" x="16" y="614" width="343" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Ver Programa"/>
+                                <connections>
+                                    <segue destination="kER-6e-MH1" kind="show" id="iS8-nO-crd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cs5-KV-1wL" firstAttribute="top" secondItem="t6H-FX-fXE" secondAttribute="top" id="CL1-sN-Fht"/>
+                            <constraint firstItem="cs5-KV-1wL" firstAttribute="leading" secondItem="t6H-FX-fXE" secondAttribute="leading" constant="16" id="M5P-dU-6r1"/>
+                            <constraint firstAttribute="trailing" secondItem="tgW-uJ-bT9" secondAttribute="trailing" constant="16" id="WNC-kF-yC4"/>
+                            <constraint firstItem="tgW-uJ-bT9" firstAttribute="leading" secondItem="t6H-FX-fXE" secondAttribute="leading" constant="16" id="YwZ-Dk-54n"/>
+                            <constraint firstAttribute="trailing" secondItem="cs5-KV-1wL" secondAttribute="trailing" constant="16" id="chG-Yz-M1O"/>
+                            <constraint firstItem="tgW-uJ-bT9" firstAttribute="top" secondItem="cs5-KV-1wL" secondAttribute="bottom" constant="30" id="dL9-o0-OBr"/>
+                            <constraint firstItem="RRM-B1-4wx" firstAttribute="top" secondItem="tgW-uJ-bT9" secondAttribute="bottom" constant="20" id="f8N-7l-axs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CSV-gy-4qg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1848.8" y="3898.2008995502251"/>
         </scene>
         <!--ProgramaVC-->
         <scene sceneID="Uc6-qh-nft">
@@ -2668,7 +2870,7 @@ Atracciones del destino:
                                             <constraint firstItem="TmQ-ZK-eIA" firstAttribute="top" secondItem="B87-AU-ELp" secondAttribute="top" id="wnF-1T-zgD"/>
                                         </constraints>
                                         <connections>
-                                            <segue destination="kER-6e-MH1" kind="show" id="L1y-5u-T1R"/>
+                                            <segue destination="kER-6e-MH1" kind="show" identifier="programSegue" id="L1y-5u-T1R"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -2697,6 +2899,7 @@ Atracciones del destino:
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="1oc-ND-lO7" id="Y9j-40-xkQ"/>
+                        <segue destination="V0q-iz-NzM" kind="show" identifier="ShowTestSegue" id="Nc0-iJ-NW1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6P2-TC-bfY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2796,24 +2999,24 @@ Atracciones del destino:
                         <viewControllerLayoutGuide type="bottom" id="cPi-Go-27c"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Bd8-au-TmN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="sVU-xt-EgV">
-                                <rect key="frame" x="16" y="20" width="343" height="24"/>
+                                <rect key="frame" x="16" y="40" width="343" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <color key="textColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmH-lB-Qaa">
-                                <rect key="frame" x="16" y="64" width="343" height="363"/>
+                                <rect key="frame" x="16" y="84" width="343" height="407"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3y-wG-MHf">
-                                <rect key="frame" x="129" y="543" width="117" height="40"/>
+                                <rect key="frame" x="129" y="607" width="117" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="o3y-wG-MHf" secondAttribute="height" multiplier="53:18" id="3FJ-rm-D5H"/>
                                     <constraint firstAttribute="height" constant="40" id="hwa-eH-8Vw"/>
@@ -2824,14 +3027,14 @@ Atracciones del destino:
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ece-0w-SZe">
-                                <rect key="frame" x="16" y="427" width="343" height="1"/>
+                                <rect key="frame" x="16" y="491" width="343" height="1"/>
                                 <color key="backgroundColor" red="0.15686274510000001" green="0.1647058824" blue="0.40784313729999999" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="tYc-M8-ISG"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NZ8-X3-nnu">
-                                <rect key="frame" x="16" y="435" width="343" height="100"/>
+                                <rect key="frame" x="16" y="499" width="343" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mti-Gh-ZP5">
                                         <rect key="frame" x="8" y="8" width="241" height="17"/>
@@ -3389,14 +3592,14 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
                         <viewControllerLayoutGuide type="bottom" id="e3R-lJ-nQe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TM2-aT-Dn8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="10" translatesAutoresizingMaskIntoConstraints="NO" id="Cr6-gJ-7s2">
-                                <rect key="frame" x="8" y="74" width="359" height="463"/>
+                                <rect key="frame" x="8" y="94" width="359" height="507"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ut4-2W-sHL">
-                                        <rect key="frame" x="0.0" y="0.0" width="359" height="463"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="507"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -3412,7 +3615,7 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
                                 </connections>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Acerca la imágen usando los dedos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJt-hJ-vkT">
-                                <rect key="frame" x="8" y="557" width="343" height="38"/>
+                                <rect key="frame" x="8" y="621" width="343" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="eYb-FH-7Km"/>
                                 </constraints>
@@ -3421,7 +3624,7 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9MT-IE-sqN">
-                                <rect key="frame" x="8" y="14" width="359" height="40"/>
+                                <rect key="frame" x="8" y="34" width="359" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="mK2-9Z-EIk"/>
                                 </constraints>
@@ -3850,6 +4053,7 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
         <image name="PdteFLASOG-(6.1)" width="300" height="300"/>
         <image name="Plano_Expo" width="720" height="540"/>
         <image name="TablaImagen" width="690" height="420"/>
+        <image name="eccsac10" width="350" height="86"/>
         <image name="mapa_cun" width="1000" height="579"/>
         <image name="menu" width="25" height="18"/>
     </resources>
@@ -3857,8 +4061,10 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
         <segue reference="S0H-Mg-ucE"/>
         <segue reference="Ses-Zr-3WC"/>
         <segue reference="yuy-bV-4mk"/>
-        <segue reference="gHy-wU-idG"/>
+        <segue reference="eJ6-Hh-hrd"/>
+        <segue reference="XjT-4Z-en0"/>
         <segue reference="tHc-W2-AF6"/>
+        <segue reference="OHO-7c-bcn"/>
         <segue reference="0Ra-bE-UhO"/>
         <segue reference="kYL-i7-40w"/>
         <segue reference="Wxf-Kg-WX6"/>

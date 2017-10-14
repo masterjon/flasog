@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F695AA92316627B6C432F4AF /* Pods_flasog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B10EFDBA613A4A8B0D5342 /* Pods_flasog.framework */; };
+		FC0357291F91AE1F0057299E /* ProgramaTextoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0357281F91AE1F0057299E /* ProgramaTextoViewController.swift */; };
 		FC1270081F005A2A008624C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1270071F005A2A008624C3 /* AppDelegate.swift */; };
 		FC12700A1F005A2A008624C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1270091F005A2A008624C3 /* ViewController.swift */; };
 		FC12700D1F005A2A008624C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC12700B1F005A2A008624C3 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		16B10EFDBA613A4A8B0D5342 /* Pods_flasog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flasog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		569BA8A1CAE2EA6E2F933493 /* Pods-flasog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flasog.release.xcconfig"; path = "Pods/Target Support Files/Pods-flasog/Pods-flasog.release.xcconfig"; sourceTree = "<group>"; };
 		F31D82B10C0C3C98A800F6D0 /* Pods-flasog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flasog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flasog/Pods-flasog.debug.xcconfig"; sourceTree = "<group>"; };
+		FC0357281F91AE1F0057299E /* ProgramaTextoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaTextoViewController.swift; sourceTree = "<group>"; };
 		FC1270041F005A2A008624C3 /* flasog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flasog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1270071F005A2A008624C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC1270091F005A2A008624C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				FCED867D1F7C923400AA138C /* TuFotoSourceViewController.swift */,
 				FCED867F1F7C947600AA138C /* TuFotoViewController.swift */,
 				FCF89A7B1F7DDDE700EF210B /* QRViewController.swift */,
+				FC0357281F91AE1F0057299E /* ProgramaTextoViewController.swift */,
 			);
 			path = flasog;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				FC57386C1F415F5A00FE1304 /* MiAgendaVC.swift in Sources */,
 				FCFA54231F34FAB8007EC429 /* ProgramCategory.swift in Sources */,
 				FC456AFB1F336EC900CDDB44 /* ExpoVC.swift in Sources */,
+				FC0357291F91AE1F0057299E /* ProgramaTextoViewController.swift in Sources */,
 				FCFA54251F34FF80007EC429 /* ProgramaCatDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

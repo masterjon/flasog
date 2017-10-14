@@ -14,7 +14,7 @@ func loadSchedule()->[ProgramCat]{
         "Cursos Transcongreso", // 1
         "Conferencias Magistrales", // 2
         "Conferencias Especiales", // 3
-        "Encuentro Latinoamericano de residentes G.O.", // 4
+        "Encuentro Latinoamericano de residentes G.O.\n'Las pandemias del S. XXI'", // 4
         "Simposios Especiales", // 5
         "Simposios Simultaneos", // 6
         "Foros de discusión" // 7
@@ -289,7 +289,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item2_3 = ProgramItem()
     item2_3.catId = 2
-    item2_3.title = "Estrategias de prevención del aborto inseguro en Latinoamérica: Pasado, presente y futuro"
+    item2_3.title = "Prevención del aborto inseguro en América Latina. Pasado, presente y futuro"
     item2_3.room = "Gran Cancún"
     item2_3.duration = 45
     item2_3.schedule = "13:00 – 13:45 hrs."
@@ -400,7 +400,7 @@ func loadSchedule()->[ProgramCat]{
     let item4_1 = ProgramItem()
     item4_1.catId = 4
     item4_1.title = "Módulo 1: Nuevas infecciones virales"
-    item4_1.room = ""
+    item4_1.room = "Cobá"
     item4_1.duration = 60
     item4_1.schedule = "13:00hrs. – 14:00 hrs."
     item4_1.days = "Sábado, 4 de noviembre 2017"
@@ -409,7 +409,7 @@ func loadSchedule()->[ProgramCat]{
     let item4_2 = ProgramItem()
     item4_2.catId = 4
     item4_2.title = "Módulo 2: Síndrome metabólico"
-    item4_2.room = ""
+    item4_2.room = "Cobá"
     item4_2.duration = 60
     item4_2.schedule = "14:00hrs. – 15:00 hrs"
     item4_2.days = "Sábado, 4 de noviembre 2017"
@@ -418,7 +418,7 @@ func loadSchedule()->[ProgramCat]{
     let item4_3 = ProgramItem()
     item4_3.catId = 4
     item4_3.title = "Módulo 3: Infertilidad, un flagelo de sociedad moderna"
-    item4_3.room = ""
+    item4_3.room = "Cobá"
     item4_3.duration = 60
     item4_3.schedule = "15:30hrs. – 16:30 hrs."
     item4_3.days = "Sábado, 4 de noviembre 2017"
@@ -427,7 +427,7 @@ func loadSchedule()->[ProgramCat]{
     let item4_4 = ProgramItem()
     item4_4.catId = 4
     item4_4.title = "Módulo 4: La salud materna y fetal despúes de la cesárea"
-    item4_4.room = ""
+    item4_4.room = "Cobá"
     item4_4.duration = 60
     item4_4.schedule = "16:30hrs. – 17:30 hrs."
     item4_4.days = "Sábado, 4 de noviembre 2017"
@@ -436,7 +436,7 @@ func loadSchedule()->[ProgramCat]{
     let item4_5 = ProgramItem()
     item4_5.catId = 4
     item4_5.title = "Módulo 5: Cáncer ginecológico"
-    item4_5.room = ""
+    item4_5.room = "Cobá"
     item4_5.duration = 60
     item4_5.schedule = "17:30hrs. – 18:30 hrs."
     item4_5.days = "Sábado, 4 de noviembre 2017"
@@ -2492,10 +2492,10 @@ Presidente: Dr. Horacio Ortega Clavero
 Impartido por: Dr. Andrea Genazzani 
 """
 items[3].items[1].desc = """
-» Dra. Karin Huysner
+» Dra. Carin Huysner
 Presidente: Dr. José Manuel González Martínez
 
-Impartido por: Dra. Karin Huysner
+Impartido por: Dra. Carin Huysner
 """
 items[3].items[2].desc = """
 » Dra. Alexandra Grazziottin

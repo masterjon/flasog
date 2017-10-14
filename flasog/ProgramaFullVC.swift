@@ -86,6 +86,25 @@ class ProgramaFullVC: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0 && indexPath.section == 0{
+            performSegue(withIdentifier: "ShowTestSegue", sender: Any?)
+        }
+    }
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if let indexPath = self.tableView.indexPath(for: sender as! UITableViewCell){
+            if indexPath.row == 0 && indexPath.section == 0 {
+                return false
+            }
+            if let rows = days[indexPath.section]["cats"] as? [ProgramCat]{
+                let itm = rows[indexPath.row]
+                if itm.title == "Receso" {
+                    return false
+                }
+            }
+        }
+        return true
+    }
     func loadItems(){
         
         items = loadSchedule()

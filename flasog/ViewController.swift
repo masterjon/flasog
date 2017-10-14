@@ -91,6 +91,43 @@ class ViewController: UIViewController {
         self.present(vc, animated: false, completion: nil)
     }
     
+    @IBAction func shareAction(_ sender: UIButton) {
+        let alert = UIAlertController(title: "Síguenos en ", message: "", preferredStyle: .actionSheet)
+        alert.addAction(UIAlertAction(title: "Facebook", style: .default, handler: { (action) in
+            //execute some code when this option is selected
+            let url = URL(string: "https://www.facebook.com/FLASOG2017")!
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            } else {
+                UIApplication.shared.openURL(url)
+            }
+            
+        }))
+        alert.addAction(UIAlertAction(title: "Twitter", style: .default, handler: { (action) in
+            //execute some code when this option is selected
+            let url = URL(string: "https://twitter.com/FLASOG2017")!
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            } else {
+                UIApplication.shared.openURL(url)
+            }
+        }))
+        alert.addAction(UIAlertAction(title: "Instagram", style: .default, handler: { (action) in
+            //execute some code when this option is selected
+            let url = URL(string: "https://www.instagram.com/FLASOG2017")!
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            } else {
+                UIApplication.shared.openURL(url)
+            }
+        }))
+        alert.addAction(UIAlertAction(title: "Cancelar", style: .destructive, handler: { (action) in
+            //execute some code when this option is selected
+            self.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
 
 }
 

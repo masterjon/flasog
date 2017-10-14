@@ -34,20 +34,56 @@ class ProgramItemDetailVC: UIViewController {
     @IBAction func addToSchedule(_ sender: UIButton) {
         print("Agregado")
         print(programItem.catId)
+        let alert2 = UIAlertController(title:"Elemento agregado", message: "", preferredStyle: .alert)
+        alert2.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        
+        let alert3 = UIAlertController(title:"Este elemento ya esta en tu agenda", message: "", preferredStyle: .alert)
+        alert3.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        
+        let alert4 = UIAlertController(title:"Recuerda", message: "Sólo puedes agregar 1 precongreso y 1 transcongreso a tu agenda. Para poder agregar este elemento necesitas primero quitar de tu agenda el precongreso/transcongreso existente", preferredStyle: .alert)
+        alert4.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        
         if var my_schedule_array = userDefaults.object(forKey: "my_schedule") as? [[Int]]{
             //if !my_schedule_array.contains(programItem.catId){
+            var exists = false
+            var transCounter = 0
+            var preCounter = 0
+            
+            for item in my_schedule_array{
+                if item[0] == programItem.catId && item[1] == programItem.id{
+                   exists = true
+                }
+                if item[0] == 0{
+                    preCounter+=1
+                }
+                if item[0] == 1{
+                    transCounter+=1
+                }
+            }
+            if !exists && preCounter <= 1 && transCounter <= 1{
                 my_schedule_array.append([programItem.catId,programItem.id,programItem.dayId])
                 userDefaults.set(my_schedule_array, forKey: "my_schedule")
+                self.present(alert2, animated: true, completion: nil)
+            }
+            else if preCounter > 1 || transCounter > 1{
+                self.present(alert4, animated: true, completion: nil)
+            }
+            else if exists{
+                self.present(alert3, animated: true, completion: nil)
+            }
+            
+            
+            
             //}
             
         }
         else{
             userDefaults.set([[programItem.catId,programItem.id,programItem.dayId]], forKey: "my_schedule")
+            self.present(alert2, animated: true, completion: nil)
         }
         userDefaults.synchronize()
-        let alert2 = UIAlertController(title:"Elemento agregado", message: "", preferredStyle: .alert)
-        alert2.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-        self.present(alert2, animated: true, completion: nil)
+        
+        
         
         if let t = userDefaults.object(forKey: "my_schedule") as? [[Int]]{
             print(t)

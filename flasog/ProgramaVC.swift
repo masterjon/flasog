@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ProgramaVC: UIViewController, UICollectionViewDataSource {
+class ProgramaVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
-    var items :[ProgramCat] = []
+    var items :[ProgramCat] = loadSchedule()
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -23,7 +23,6 @@ class ProgramaVC: UIViewController, UICollectionViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadItems()
 
         // Do any additional setup after loading the view.
     }
@@ -41,6 +40,7 @@ class ProgramaVC: UIViewController, UICollectionViewDataSource {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination as? ProgramaCatDetailVC{
+            
             if let indexPath = self.collectionView.indexPath(for: sender as! UICollectionViewCell){
                 vc.cat = self.items[indexPath.row]
             }
@@ -49,7 +49,21 @@ class ProgramaVC: UIViewController, UICollectionViewDataSource {
         }
         
     }
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if let indexPath = self.collectionView.indexPath(for: sender as! UICollectionViewCell){
+            if indexPath.row != 4{
+                return true
+            }
+        }
+        return false
+    }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if indexPath.row == 4{
+            performSegue(withIdentifier: "ShowTestSegue", sender: Any?)
+        }
+        
+    }
     
 
     override func didReceiveMemoryWarning() {
@@ -57,9 +71,7 @@ class ProgramaVC: UIViewController, UICollectionViewDataSource {
         // Dispose of any resources that can be recreated.
     }
     
-    func loadItems(){
-        items = loadSchedule()
-    }
+ 
     
 
     /*

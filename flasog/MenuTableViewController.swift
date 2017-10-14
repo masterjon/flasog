@@ -25,7 +25,7 @@ class MenuTableViewController: UITableViewController {
                  ["title":"Patrocinadores","vc":"PatrocinadoresNVC"],
                  ["title":"QR Scanner","vc":"QRNVC"],
                  ["title":"Constancias","link":"https://femecog.w4em.com/perfil/login"],
-                 ["title":"Guía Impresa","link":"https://issuu.com/flasog2017/docs/segundo_comunicado_xxii_cgo26sep__1"]
+                 ["title":"Programa Impreso","link":"https://issuu.com/flasog2017/docs/segundo_comunicado_xxii_cgo26sep__1"]
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,7 +86,10 @@ class MenuTableViewController: UITableViewController {
         }
     }
     
-
+    @IBAction func dismissMenu(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
