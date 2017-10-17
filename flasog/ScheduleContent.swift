@@ -284,8 +284,8 @@ func loadSchedule()->[ProgramCat]{
     item2_2.room = "Gran Cancún"
     item2_2.duration = 45
     item2_2.schedule = "13:00 – 13:45 hrs."
-    item2_2.days = "Lunes, 6 de noviembre 2017"
-    item2_2.dayId = 2
+    item2_2.days = "Martes, 7 de noviembre 2017"
+    item2_2.dayId = 3
     
     let item2_3 = ProgramItem()
     item2_3.catId = 2
@@ -293,8 +293,8 @@ func loadSchedule()->[ProgramCat]{
     item2_3.room = "Gran Cancún"
     item2_3.duration = 45
     item2_3.schedule = "13:00 – 13:45 hrs."
-    item2_3.days = "Lunes, 6 de noviembre 2017"
-    item2_3.dayId = 2
+    item2_3.days = "Miércoles, 8 de noviembre 2017"
+    item2_3.dayId = 4
 
     item2_1.id = 0
     item2_2.id = 1
@@ -675,7 +675,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item6_16 = ProgramItem()
     item6_16.catId = 6
-    item6_16.title = "Hiperglucemia en el embarazo: iniciativa global"
+    item6_16.title = "Enfermedades no transmisibles y sus causas en América Latina: Consejo de FIGO para el obstetra, Ginecólogo y otros profesionales de la salud."
     item6_16.room = "Salones Cozumel"
     item6_16.duration = 90
     item6_16.schedule = "9:30 – 11:00 hrs."
@@ -1093,7 +1093,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
      
     13:10 – 13:40 hrs.
     Acretismo. El gran reto. Protocolo diagnóstico y de abordaje.
-    Dr. Emigdio torres Farías
+    Dr. Emigdio Torres Farías
      
     13:40 – 14:00 hrs.
     Preguntas y Conclusiones
@@ -2850,7 +2850,7 @@ items[6].items[17].desc = """
 
 10:15 – 10:35 hrs.  El envejecimiento del médico y la importancia de su actualización. – Dra. Jenifer Blake
 
-10:35 – 10:55 hrs. Anatomía pélvica práctica para el ginecólogo. – Dr. Dennis Pretillo
+10:35 – 10:55 hrs. EL transitar por el cáncer; información y soporte a los pacientes y sus familiares en este camino... ¿Por qué se necesita? – Dr. Dennis Pretillo
 
 10:55 – 11:00 hrs. Conclusiones – Dr. Ignacio Lara Barragán
 """
@@ -2885,17 +2885,20 @@ items[6].items[12].desc = """
 """
 
 items[6].items[14].desc = """
-9:30 – 9:35 hrs. Introducción y presentación – Dr. Luis Cabero R.
+9:30 – 9:40 hrs.
+Introducción y presentación – Dr. Luis Cabero
 
-9:35 – 9:55 hrs. Circulo vicioso de las complicaciones de los embarazos y las enfermedades no comunicables – Dr. Chittaranjan N. Purandare
-
-9:55 – 10:15 hrs. Pandemia de la diabetes e hiperglucemia en Latinoamérica – Dr. Moshe Hod
-
-10:15 – 10:35 hrs. Impacto de la diabetes, la obesidad y el síndrome metabólico en el embarazo – Dr. Giancarlo Di Renzo
-
-10:35 – 10:55 hrs. Controversias en el diagnóstico de la diabetes gestacional – Dr. Edgar Iván Ortíz
-
-10:55 – 11:00 hrs. Conclusiones – Dr. Luis Cabero R.
+9:40 – 10:00 hrs.
+Orígenes en el desarrollo de la salud y enfermedad: eres lo que tu madre come. – Dr. Shane Norris
+    
+10:00 – 10:20 hrs.
+Enfermedades no transmisibles: La creciente pandemia en América Latina
+    
+10:20 – 10:40 hrs.
+Abordando las enfermedades no transmisibles en América Latina: ejemplo político y práctico. – Dr. Francisco Mordones y Dr. Dalton Ávila Gamboa
+    
+10:40 – 11:00 hrs.
+Enfermedades no transmisibles y salud del recién nacido: Consenso FIGO de hiperglucemia en el embarazo como modelo de un abordaje global. – Dr. Moshe Hod
 """
 
 items[6].items[16].desc = """

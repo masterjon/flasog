@@ -2688,124 +2688,69 @@ Atracciones del destino:
                                 <rect key="frame" x="16" y="0.0" width="343" height="584"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Es prioridad para la ">
+                                    <fragment>
+                                        <string key="content">Encuentro Latinoamericano de residentes G.O. 
+</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
+                                            <font key="NSFont" size="18" name="TrebuchetMS-Bold"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="Federación Latinoamericana de Sociedades de Obstetricia y Ginecología">
+                                    <fragment content="Objetivo General">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name="Trebuchet-BoldItalic"/>
+                                            <font key="NSFont" size="14" name="TrebuchetMS-Bold"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" (FLASOG) la actualización médica de los miembros de sus Sociedades afiliadas, objetivo que comparte con la ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="Federación Mexicana de Colegios de Obstetricia y Ginecología ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name="Trebuchet-BoldItalic"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="(FEMECOG), es por ello que de manera conjunta han organizado ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="el XXII CONGRESO LATINOAMERICANO DE GINECOLOGIA Y OBSTETRICIA">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name="TrebuchetMS-Bold"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <font key="NSOriginalFont" size="14" name="TrebuchetMS-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> (FLASOG 2017).
-De igual manera, el Comité Organizador y el Comité Científico han tenido como objetivo principal un programa académico de excelencia, propiciando la capacitación de vanguardia del especialista para potencializar sus competencias profesionales.
-El Comité Científico ha elaborado un importante programa, muy completo y atractivo que ha distribuido en interesantes y novedosas modalidades pedagógicas.  La temática fue elegida minuciosamente pensando siempre en el interés del congresista.    Los más de 200 profesores expertos en cada tema, fueron seleccionados con mucho detalle teniendo en cuenta su experiencia, publicaciones y trayectoria.    Está confirmada la participación de 25 profesores invitados de gran prestigio de otras partes del mundo diferentes de Latinoamérica.    Abriremos el congreso con el </string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="1er. Encuentro Latinoamericano de Residentes">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name="TrebuchetMS-Bold"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">, en donde cada país será representado por el residente que cada Sociedad haya designado.     El horario del Programa Científico se ha planteado de tal manera que también haya tiempo para poder disfrutar las bellezas y atractivos del destino.   Se ha trabajado intensamente para que el programa llene sus expectativas y estamos seguros que los vamos a sorprender.
-Es también importante mencionar las actividades sociales como la Fiesta de la Confraternidad Latinoamericana, en donde tendremos la oportunidad de convivir con nuestros amigos de todo el continente.    Nuestra Ceremonia de Inauguración será una actividad solemne y majestuosa que con toda seguridad será inolvidable y se recordará siempre mucho con agrado.
-El Programa de Acompañantes está diseñado de tal manera para que nuestros visitantes puedan disfrutar de algunos de los atractivos turísticos más significativos de la región.
-Por si fuera poco, Cancún es uno de los destinos turísticos más importantes del mundo, en donde las playas y el característico color turquesa del mar serán algo que no vas a olvidar.   Estamos seguros de que regresarás a tu lugar de origen habiendo quedado cautivado por la hospitalidad que la gente de nuestro país te brindará.
-De antemano, agradezco su asistencia este gran esfuerzo latinoamericano. 
-Son ustedes bienvenidos a Cancún.
+                                        <string key="content">
+- Analizar y revisar temas de actualidad que comprometen la salud de las mujeres en diversas etapas de su vida.
 
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
+                                            <font key="NSFont" size="14" name="TrebuchetMS"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Dr. Jorge Méndez Trujeque Presidente del Comité Organizador México
+                                        <string key="content">Objetivos Específicos
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name="TrebuchetMS"/>
+                                            <font key="NSFont" size="14" name="TrebuchetMS-Bold"/>
                                             <real key="NSKern" value="0.0"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                            <font key="NSOriginalFont" size="14" name="TrebuchetMS-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">- Utilizar los conocimientos de epidemiología, salud pública, recursos humanos para revisar las implicaciones sociales que plantea la reproducción humana y los problemas de la patología Gineco-Obstétrica.
+- Utilización de los conocimientos de la especialidad para el manejo correcto de las diversas patologías a tratar.
+- Llegar a tener las mejores prácticas en temas actuales como especialistas comprometidos.</mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="TrebuchetMS"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                 <tabStops/>
                                             </paragraphStyle>
                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4071,7 +4016,7 @@ Horario: 9:00am - 18:00pm Numero de stands: 44 Áreas de descanso: 1</string
         <segue reference="yuy-bV-4mk"/>
         <segue reference="eJ6-Hh-hrd"/>
         <segue reference="XjT-4Z-en0"/>
-        <segue reference="tHc-W2-AF6"/>
+        <segue reference="iS8-nO-crd"/>
         <segue reference="Nc0-iJ-NW1"/>
         <segue reference="0Ra-bE-UhO"/>
         <segue reference="kYL-i7-40w"/>

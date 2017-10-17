@@ -25,7 +25,7 @@ class ComitesViewController: UIViewController {
                       ["name":"Dr. Ricardo Fescina","image":"7RicardoFescina-P7","pos":"Director Ejecutivo"],
                       ["name":"Dr. Rubén Darío Mora","image":"8RubenDario-P7","pos":"Director Administrativo"],
                       ["name":"Dr. Paulino Vigil De Gracia","image":"9PaulinoVigil-P7","pos":"Director Científico"],
-                      ["name":"Dr. Pío Iván Gómez","image":"10PioIvanGomez-P7","pos":"Coordinador del Comité de Derechos Sexuales y Reproductivos"],
+//                      ["name":"Dr. Pío Iván Gómez","image":"10PioIvanGomez-P7","pos":"Coordinador del Comité de Derechos Sexuales y Reproductivos"],
                       
                     ]
         ],

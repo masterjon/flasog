@@ -23,6 +23,12 @@ class ProfesoresVC: UIViewController, UITableViewDataSource, UITableViewDelegate
          "imagen":"ChittaranjanNPurandare",
          "descripcion":"Presidente de la Federación Internacional de Ginecología y Obstetricia (FIGO) 2015-2018 \n\n- Decano del Colegio Indio de Obstetras y Ginecólogos \n\n- Editor Emérito de la Revista Obstetricia y Ginecología de la India"],
         
+        ["nombre":"Dr. Carlos Füchtner",
+         "especialidad":"Presidente Electo FIGO",
+         "pais":"Bolivia",
+         "imagen":"CarlosFuchtner",
+         "descripcion":"- Presidente Electo de la Federación Internacional de Obstetricia y Ginecología FIGO (2018 – 2022)\n\n-  Graduado de la Universidad de Campinas (UNICAMP), Sao Paulo, Brasil (1984)\n\n- Formación de Residencia en Obstetricia y Ginecología en la Universidad de Chile (1989)\n\n- Fellow en Oncología Ginecológica en la Universidad de California, Irvine (1992)\n\n- Ginecólogo – Oncólogo Instituto Oncológico del Oriente Boliviano (Bolivia 1991-2008).\n\n- Presidente de la Sociedad Boliviana de Obstetricia y Ginecología (SBOG) (2000-2002)\n\n- Director del Departamento de Ginecología Oncológica \n\n- Instituto Oncológico del Oriente Boliviano (Bolivia 2001-2003).\n\n- Director y Mentor del Programa de Entrenamiento en Ginecología Oncológica en el Instituto Oncológico del Oriente Bolivano (2001-2003)\n\n- Presidente del Comité Ejecutivo de la Federación Latinoamericana de Sociedades de Obstetricia y Ginecología FLASOG (2002-2005)\n\n- Miembro del Comité Safe Motherhood & Newborn Health FIGO (2005 y 2009-2012)\n\n- Profesor Extraordinario en Obstetricia y Ginecología - Hospital Municipal de la Mujer, Dr. Percy Boland (Bolivia 2009 – 2015)"],
+        
         ["nombre":"Dr. Haywood L. Brown",
          "especialidad":"Presidente del American College of Obstetricians and Gynecologists (ACOG) 2017-2018",
          "pais":"USA",
