@@ -13,6 +13,7 @@ class ProgramItemDetailVC: UIViewController {
     let userDefaults = UserDefaults.standard
     var programItem:ProgramItem!
     var programCat:String!
+    var hideBtn:Bool?
     let center = UNUserNotificationCenter.current()
 
     @IBOutlet weak var titleLabel: UILabel!
@@ -21,16 +22,24 @@ class ProgramItemDetailVC: UIViewController {
     @IBOutlet weak var durationLabel: UILabel!
     @IBOutlet weak var scheduleLabel: UILabel!
     @IBOutlet weak var daysLabel: UILabel!
+    @IBOutlet var addToBtn: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let isHiden = hideBtn{
+                addToBtn.isHidden = isHiden
+        }
         self.titleLabel.text = programItem.title
         self.descriptionTextView.text = programItem.desc
 
         self.roomLabel.text = "Salón: \(programItem.room)"
-        self.durationLabel.text = "Duración: \(programItem.duration) mins"
+        self.durationLabel.text = "Duración: \(programItem.duration) mins."
         self.scheduleLabel.text = "Horario: \(programItem.schedule)"
         self.daysLabel.text = "Días: \(programItem.days)"
+        
+        
         // Do any additional setup after loading the view.
     }
 

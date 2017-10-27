@@ -1577,7 +1577,6 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     » Profesores Adjuntos:
     Dr. Roberto Epifanio
-    Dr. Ricardo Pommer
     
     » PROGRAMA
     
@@ -2763,8 +2762,6 @@ Consenso Latinoamericano para el manejo de la deficiencia de hierro y anemia por
 """
 
 items[5].items[1].desc = """
-DEMESA
-
 - Técnicas de maduración cervical – Dr. Juan Carlos de la Cerda Ángeles
 """
 items[5].items[2].desc = """
@@ -2789,15 +2786,11 @@ Dr. Alfredo Perales Marín 
 """
 
 items[5].items[6].desc = """
-    ROCHE
-    
     - Detección prenatal de cromosomopatías fetales con ADN libre en sangre materna: Estado del Arte
     Dr. Juan Manuel Acuña
 """
 
 items[5].items[7].desc = """
-    IPAS
-    
     Aborto en el segundo trimestre – retos técnicos, éticos y legales.
     Coordinador: Dr. Guillermo Ortiz
     

@@ -56,7 +56,8 @@ class ViewController: UIViewController {
         
         setupNotification("dn-dia1", "Hoy se realizan nuestros cursos Precongreso", "Consulta el programa", "05-11-2017 07:00:00")
         
-        setupNotification("dn-dia1_2", "¡Acompáñanos en la inauguración de #FLASOG2017!", "Consulta el salón, código y horario", "05-11-2017 15:00:00")
+        setupNotification("dn-dia1_2", "¡Acompáñanos en la inauguración de #FLASOG2017!", "Consulta el salón, código de vestir y horario", "05-11-2017 15:00:00")
+
         
         setupNotification("dn-dia2", "Hoy arrancamos nuestros cursos Transcongreso y actividades", "Programa tus actividades del día", "06-11-2017 06:30:00")
         
@@ -66,11 +67,11 @@ class ViewController: UIViewController {
         
         setupNotification("dn-dia5", "Programa tus Actividades", "Han sido excelentes días de aprendizaje, no te pierdas de nada.", "09-11-2017 06:30:00")
         
-        setupNotification("dn-dia5_2", "¡Hoy es la clausura de nuestro congreso!", "Consulta el salón, código y horario", "09-11-2017 07:00:00")
+        setupNotification("dn-dia5_2", "¡Hoy es la clausura de nuestro congreso!", "Consulta el salón, código y horario", "09-11-2017 11:00:00")
         
         //secondsLeft = roundf(date?.timeIntervalSinceNow)
         
-        self.navigationItem.titleView = UIImageView(image: UIImage(named: "logo_blanco"))
+        //self.navigationItem.titleView = UIImageView(image: UIImage(named: "logo_blanco"))
         
         // Do any additional setup after loading the view, typically from a nib.
     }

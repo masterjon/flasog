@@ -181,6 +181,7 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
                     let catId = rows[indexPath.row].catId
                     let Id = rows[indexPath.row].id
                     vc.programItem = items[catId].items[Id]
+                    vc.hideBtn = true
                 }
             }
         }
