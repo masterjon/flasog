@@ -31,6 +31,11 @@ class TuFotoSourceViewController: UIViewController {
         
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        let tracker = GAI.sharedInstance().defaultTracker
+        tracker?.set(kGAIScreenName, value: "Tu foto")
+        tracker?.send(GAIDictionaryBuilder.createScreenView().build() as! [AnyHashable: Any])
+    }
 
     /*
     // MARK: - Navigation

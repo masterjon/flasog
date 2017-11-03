@@ -392,4 +392,9 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     }
     */
 
+    override func viewDidAppear(_ animated: Bool) {
+        let tracker = GAI.sharedInstance().defaultTracker
+        tracker?.set(kGAIScreenName, value: "Mi Agenda")
+        tracker?.send(GAIDictionaryBuilder.createScreenView().build() as! [AnyHashable: Any])
+    }
 }

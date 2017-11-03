@@ -50,5 +50,9 @@ class InscripcionVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    override func viewDidAppear(_ animated: Bool) {
+        let tracker = GAI.sharedInstance().defaultTracker
+        tracker?.set(kGAIScreenName, value: "Inscripcion")
+        tracker?.send(GAIDictionaryBuilder.createScreenView().build() as! [AnyHashable: Any])
+    }
 }

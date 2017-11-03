@@ -2684,7 +2684,7 @@ Atracciones del destino:
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cs5-KV-1wL">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cs5-KV-1wL">
                                 <rect key="frame" x="16" y="0.0" width="343" height="584"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
@@ -4023,7 +4023,7 @@ Horario: 9:00am - 18:00pm Para visitar la exposición comercial es indispensab
         <segue reference="yuy-bV-4mk"/>
         <segue reference="eJ6-Hh-hrd"/>
         <segue reference="gHy-wU-idG"/>
-        <segue reference="tHc-W2-AF6"/>
+        <segue reference="iS8-nO-crd"/>
         <segue reference="OHO-7c-bcn"/>
         <segue reference="0Ra-bE-UhO"/>
         <segue reference="kYL-i7-40w"/>

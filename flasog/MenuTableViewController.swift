@@ -26,7 +26,7 @@ class MenuTableViewController: UITableViewController {
                  ["title":"Patrocinadores","vc":"PatrocinadoresNVC"],
                  ["title":"QR Scanner","vc":"QRNVC"],
                  ["title":"Constancias","link":"https://femecog.w4em.com/perfil/login"],
-                 ["title":"Programa Impreso","link":"https://issuu.com/flasog2017/docs/programa_final_191017_2120"]
+                 ["title":"Programa Impreso","link":"http://bit.ly/2zc9dyk"]
     ]
     override func viewDidLoad() {
         super.viewDidLoad()

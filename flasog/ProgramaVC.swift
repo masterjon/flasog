@@ -71,6 +71,13 @@ class ProgramaVC: UIViewController, UICollectionViewDataSource, UICollectionView
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        let tracker = GAI.sharedInstance().defaultTracker
+        tracker?.set(kGAIScreenName, value: "Programa")
+        tracker?.send(GAIDictionaryBuilder.createScreenView().build() as! [AnyHashable: Any])
+    }
+    
+    
  
     
 

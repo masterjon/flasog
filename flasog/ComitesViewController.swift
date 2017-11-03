@@ -218,6 +218,11 @@ class ComitesViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func viewDidAppear(_ animated: Bool) {
+        let tracker = GAI.sharedInstance().defaultTracker
+        tracker?.set(kGAIScreenName, value: "Comités")
+        tracker?.send(GAIDictionaryBuilder.createScreenView().build() as! [AnyHashable: Any])
+    }
     
     
     /*

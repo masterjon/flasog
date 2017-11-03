@@ -6,8 +6,4 @@
 //  Copyright © 2017 iddeas. All rights reserved.
 //
 
-#ifndef flasog_Bridging_Header_h
-#define flasog_Bridging_Header_h
-
-
-#endif /* flasog_Bridging_Header_h */
+#import <Google/Analytics.h>

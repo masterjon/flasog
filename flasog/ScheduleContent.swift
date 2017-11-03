@@ -41,7 +41,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item0_1 = ProgramItem()
     item0_1.catId = 0
-    item0_1.title = "Fortaleciendo competencias en manejo y capacitación ante la hemorragia obstétrica (Teórico-práctico)"
+    item0_1.title = "Fortaleciendo competencias en el manejo y capacitación ante la hemorragia obstétrica (Teórico-práctico)"
     item0_1.room = "Gran Cancún 2 y 3"
     item0_1.duration = 360
     item0_1.schedule = "8:00 – 14:00 hrs."
@@ -133,7 +133,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item0_10 = ProgramItem()
     item0_10.catId = 0
-    item0_10.title = "Parto Pretermino: Diagnóstico, Prevención y Manejo."
+    item0_10.title = "Parto Pretérmino: Diagnóstico, Prevención y Manejo."
     item0_10.room = "Costa Maya A"
     item0_10.duration = 420
     item0_10.schedule = "8:00 – 14:00 hrs."
@@ -207,7 +207,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item1_5 = ProgramItem()
     item1_5.catId = 1
-    item1_5.title = "Más allá del ejercicio profesional del Gineco-Obstetra: Visión empresarial del Gineco-obstetra"
+    item1_5.title = "Más allá del ejercicio profesional del Gineco-Obstetra: Visión empresarial del consultorio"
     item1_5.room = "Cozumel 5"
     item1_5.duration = 480
     item1_5.schedule = "7:00 – 9:00 hrs."
@@ -303,7 +303,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item2_2 = ProgramItem()
     item2_2.catId = 2
-    item2_2.title = "El circulo vicioso entre las complicaciones del embarazo y las enfermedades no transmisibles. Todo inicia inutero. La visión global de FIGO"
+    item2_2.title = "El circulo vicioso entre las complicaciones del embarazo y las enfermedades no transmisibles. Todo inicia in utero. La visión global de FIGO"
     item2_2.room = "Gran Cancún"
     item2_2.duration = 45
     item2_2.schedule = "13:00 – 13:45 hrs."
@@ -384,7 +384,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item3_6 = ProgramItem()
     item3_6.catId = 3
-    item3_6.title = "ACOG Correciones: Compicaciones médicas y obstétricas entre mujeres embarazadas de 45 años y mayores"
+    item3_6.title = "ACOG Correcciones: Complicaciones médicas y obstétricas entre mujeres embarazadas de 45 años y mayores"
     item3_6.room = "Gran Cancún 3 y 4"
     item3_6.duration = 40
     item3_6.schedule = "11:50 – 12:30 hrs."
@@ -891,7 +891,7 @@ func loadSchedule()->[ProgramCat]{
     //****************      Foros de discusión  ********************
     let item7_1 = ProgramItem()
     item7_1.catId = 7
-    item7_1.title = "Rutas de suministro y límites de la TMH; cuando los estudios clínicos no aplican"
+    item7_1.title = "Ruta de suministro y límites del tratamiento de la TMH; cuando los estudios clínicos no aplican"
     item7_1.room = "Auditorio"
     item7_1.duration = 75
     item7_1.schedule = "11:15 – 12:30 hrs."
@@ -1406,7 +1406,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     11:40 – 12:10 hrs.
     Manejo de las embarazadas con preeclampsia sin datos de gravedad
-    Dr. Ernesto Ramos Prieto
+    Dr. Ernesto Barrios Prieto
     
     12:10 – 12:40 hrs.
     RECESO
@@ -1957,7 +1957,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:05 – 7:30 hrs. Adenocarcinoma in situ – Dr.  Juan Carlos Cantón Romero
     
-    7:30 – 7:55 hrs. Carcinoma microinvasor – Dr. Gustavo Ferriro
+    7:30 – 7:55 hrs. Carcinoma microinvasor – Dr. Gustavo Ferreiro
     
     7:55 – 8:20 hrs. Embarazo y NIC – Dr. Yolitzma Muciño Manjarrez
     
@@ -2493,7 +2493,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:55 – 8:20 hrs. Evidencia para el manejo de preeclampsia por edades gestacionales – Dr. Jack Ludmir
     
-    8:20 – 8:45 hrs. Condiciones para el manejo expectante lejos del termino con preeclampsia severa – Dr. Paulino Vigil-De Gracia
+    8:20 – 8:45 hrs. Condiciones para el manejo expectante lejos del término con preeclampsia severa – Dr. Paulino Vigil-De Gracia
     
     8:45 – 9:00 hrs. Preguntas y conclusiones – Dr. Paulino Vigil-De Gracia
     
@@ -2568,7 +2568,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:30 – 7:55 hrs. Vías de infección: congénitas y perinatales – Dr. Erasmo Huerta
     
-    7:55 – 8:20 hrs. Síndrome de respuesta inflamatoria fetal – Dr. Juan Pérez Wulff
+    7:55 – 8:20 hrs. Síndrome de respuesta inflamatoria fetal – Dra. Mónica García
     
     8:20 – 8:45 hrs. Manifestaciones ecográficas en las infecciones – Dr. Luis Fernando Acosta Alfaro
     
@@ -2611,7 +2611,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:05 – 7:30 hrs. Infecciones maternas con riesgo de parto pretérmino – Dr. Williams Sánchez
     
-    7:30 – 7:55 hrs. Procedimientos invasivos en el manejo de las infecciones perinatales – Dr. Juan Pérez Wulff
+    7:30 – 7:55 hrs. Procedimientos invasivos en el manejo de las infecciones perinatales – Dra. Mónica García
     
     7:55 – 8:20 hrs. Tratamiento materno-fetal en las complicaciones infecciosas – Dr. Saulo Molina
     
@@ -2648,7 +2648,7 @@ Ginecología 2014-2017
 Presidente: Dr. Samuel Karchmer K.
     Secretario: Dr. Carlos Füchtner
 
-Impartida por: Dr. Edgar Iván Ortíz Lizcano y Dra. Padilla de Gil
+Impartida por: Dr. Edgar Iván Ortíz Lizcano y Dra. Marina Padilla de Gil
 
 """
     
@@ -2666,10 +2666,10 @@ Presidente: Dr. José Manuel González Martínez
 Impartido por: Dra. Carin Huysner
 """
 items[3].items[2].desc = """
-» Dra. Alexandra Grazziottin
+» Dra. Alessandra Graziottin
 Presidente: Dr. Rafael Bedoya Torres
 
-Impartido por: Dra. Alexandra Grazziottin
+Impartido por: Dra. Alessandra Graziottin
 """
 items[3].items[3].desc = """
 » Dra. Cynthia Stuenkel
@@ -2762,7 +2762,8 @@ Consenso Latinoamericano para el manejo de la deficiencia de hierro y anemia por
 """
 
 items[5].items[1].desc = """
-- Técnicas de maduración cervical – Dr. Juan Carlos de la Cerda Ángeles
+- Técnicas de maduración cervical
+Dr. Juan Carlos de la Cerda Ángeles
 """
 items[5].items[2].desc = """
 Rompiendo barreras en la prevención VPH
@@ -2771,37 +2772,63 @@ Dra. Elsa Díaz
 Dr. Carlos Aranda
 """
 items[5].items[3].desc = """
-- Manejo actual de miomatosis y vinculación a infertilidad. Experiencia clínica con UPA. Coordinador: Jesús Barrón Vallejo  - De la patogenesis al manejo moderno  Dr. Jacques Donnez  - Miomatosis e infertilidad  Dr. Antonio La Marca  - Casos clínicos de miomatosis manejo clínico en mujer mexicana Dra. Elsa Díaz
+- Manejo actual de miomatosis y vinculación a infertilidad. Experiencia clínica con UPA.
+Coordinador: Jesús Barrón Vallejo
+
+- De la patogenesis al manejo moderno
+Dr. Jacques Donnez
+
+- Miomatosis e infertilidad
+Dr. Antonio La Marca
+
+- Casos clínicos de miomatosis manejo clínico en mujer mexicana
+Dra. Elsa Díaz
 
 """
 items[5].items[4].desc = """
-- Terapia Estrogenica transdermica en Spray. Nueva opción en América Latina Coordinador: Dr. Leopoldo Vázquez Estrada  - Terapia hormonal oral vs no oral Dr. Santiago Palacios  - Experiencia clínica con Bomba de Estradiol Dr. John Buster  - Guías Internacionales actualizadas de manejo de TMH 
+- Terapia Estrogenica transdermica en Spray. Nueva opción en América Latina Coordinador:
+Dr. Leopoldo Vázquez Estrada
+
+- Terapia hormonal oral vs no oral
+Dr. Santiago Palacios
+
+- Experiencia clínica con Bomba de Estradiol
+Dr. John Buster
+
+- Guías Internacionales actualizadas de manejo de TMH 
 """
 
 items[5].items[5].desc = """
 - OMEGA 3, Suplementación inteligente en la gestación, embarazo y lactancia.
 
-Dra. Elizabeth Tejero Barrera
+Dr. Ricardo García Cavazos
 Dr. Alfredo Perales Marín 
 """
 
 items[5].items[6].desc = """
-    - Detección prenatal de cromosomopatías fetales con ADN libre en sangre materna: Estado del Arte
-    Dr. Juan Manuel Acuña
+- Detección prenatal de cromosomopatías fetales con ADN libre en sangre materna: Estado del Arte
+Dr. Juan Manuel Acuña
 """
 
 items[5].items[7].desc = """
-    Aborto en el segundo trimestre – retos técnicos, éticos y legales.
-    Coordinador: Dr. Guillermo Ortiz
+Aborto en el segundo trimestre – retos técnicos, éticos y legales.
+Coordinador: Dr. Guillermo Ortiz
     
-    - Contexto legal latinoamericano sobre el aborto en el segundo trimestre. – Lic. María Fernanda Díaz
-    De León
-    - Importancia de la interrupción del embarazo en el segundo trimestre de la gestación: técnicas y
-    retos para los programas locales. – Dra. Nathalie Kapp
-    - Aborto del segundo trimestre por causal:
-    o Malformación fetal: Experiencia del INPER en México – Dr. Juan Manuel Grosso Espinosa
-    o Violación: Experiencia y retos en Argentina – Dra. Graciela Lukin
-    o Salud: Experiencia en el sistema de salud de Bolivia – Dr. Igor Pardo
+- Contexto legal latinoamericano sobre el aborto en el segundo trimestre.
+Lic. María Fernanda Díaz De León
+    
+- Importancia de la interrupción del embarazo en el segundo trimestre de la gestación: técnicas y retos para los programas locales.
+Dra. Nathalie Kapp
+    
+- Aborto del segundo trimestre por causal:
+    o Malformación fetal: Experiencia del INPER en México
+    Dr. Juan Manuel Grosso Espinosa
+    
+    o Violación: Experiencia y retos en Argentina
+    Dra. Graciela Lukin
+    
+    o Salud: Experiencia en el sistema de salud de Bolivia
+    Dr. Igor Pardo
 """
 
     //****************      Simposios simultáneos   ********************
@@ -3087,11 +3114,11 @@ items[6].items[21].desc = """
 
 9:35 – 9:55 hrs. Epidemiologia de la enfermedad pélvica. Un status quo al año 2017 – Dr. Alfredo Celis
 
-9:55 – 10:15 hrs. 
-    De la tinción de gram a la biología molecular, en el diagnóstico etiológico de la enfermedad pélvica. – Dr. Federico Javier Ortiz Ibarra
+9:55 – 10:15 hrs.
+De la tinción de gram a la biología molecular, en el diagnóstico etiológico de la enfermedad pélvica. – Dr. Federico Javier Ortiz Ibarra
     
 10:15 – 10:35 hrs.
-    Enfermedad pélvica subclínica e infertilidad. – Dr. Juan Carlos Hinojosa Cruz 
+    Enfermedad pélvica subclínica e infertilidad. – Dr. Juan Carlos Hinojosa Cruz
 
 10:35 – 10:55 hrs. Actualidades en el tratamiento de la enfermedad pélvica. – Dr. Emilio Valerio Castro
 
@@ -3138,7 +3165,7 @@ items[6].items[22].desc = """
 
 9:55 – 10:15 hrs. Manejo avanzados en acretismo placentario – Dr. Wendy Cárcamo
 
-10:15 – 10:35 hrs. Preeclampsia severa lejos del termino – Dr. Héctor Bolatti
+10:15 – 10:35 hrs. Preeclampsia severa lejos del término – Dr. Héctor Bolatti
 
 10:35 – 10:55 hrs. Trauma obstétrico: implicaciones del cuidado intraparto – Dr. César Favela Heredia
 
@@ -3203,7 +3230,7 @@ items[6].items[23].desc = """
     items[7].items[4].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Rafael Padrón
     
-    11:20 – 11:40 hrs. Corrección de prolapso apical: vaginal vs laparoscópico – Dr. Eduardo Carrera
+    11:20 – 11:40 hrs. Corrección de prolapso apical: vaginal vs laparoscópico – Dr. Estuardo Carrera
     
     11:40 – 12:00 hrs. Miomectomía abierta o por laparoscopia. ¿Cuál es la vía adecuada? – Dr. Jimmy Castañeda
     
@@ -3283,7 +3310,7 @@ items[6].items[23].desc = """
     items[7].items[9].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Pío Iván Gómez
     
-    11:20 – 11:40 hrs. Los objetivos para el desarrollo sostenible. Rol del CLAP. – Dr. Susana Serruya
+    11:20 – 11:40 hrs. Los objetivos para el desarrollo sostenible. Rol del CLAP. – Dr. Suzanne Serruya
     
     11:40 – 12:00 hrs. Mortalidad materna y morbilidad materna grave. – Dr. Bremen de Mucio
     
@@ -3322,7 +3349,7 @@ items[6].items[23].desc = """
     items[7].items[14].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Francisco Gago
     
-    11:20 – 11:40 hrs. Prevención del cáncer ginecológico y mamario – Dr. Gustavo Ferriro Delgado
+    11:20 – 11:40 hrs. Prevención del cáncer ginecológico y mamario – Dr. Gustavo Ferreiro Delgado
     
     11:40 – 12:00 hrs. Guías de diagnóstico y tratamiento del cáncer ginecológico – Dr. Diego Habich
     

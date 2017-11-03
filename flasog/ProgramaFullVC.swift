@@ -121,13 +121,13 @@ class ProgramaFullVC: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let cat_inauguracion = ProgramCat()
         cat_inauguracion.id = 9999
-        cat_inauguracion.title = "Inauguración (Salón: Gran Cancún - Código de vestir: Formal)"
+        cat_inauguracion.title = "Inauguración (Salón: Gran Cancún - Código de vestir: Guayabera / Vestido)"
         cat_inauguracion.schedule = "20:00 - 22:00 hrs."
         
         let cat_clausura = ProgramCat()
         cat_clausura.id = 9999
-        cat_clausura.title = "Clausura (Salón: Gran Cancún - Código de vestir: Formal)"
-        cat_clausura.schedule = "13:30 - 2:30 hrs."
+        cat_clausura.title = "Clausura (Salón: Gran Cancún - Código de vestir: Guayabera / Vestido)"
+        cat_clausura.schedule = "13:30 - 14:30 hrs."
         
         days = [
             [
@@ -162,6 +162,11 @@ class ProgramaFullVC: UIViewController, UITableViewDataSource, UITableViewDelega
             ]
         ]
         
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        let tracker = GAI.sharedInstance().defaultTracker
+        tracker?.set(kGAIScreenName, value: "Programa Full")
+        tracker?.send(GAIDictionaryBuilder.createScreenView().build() as! [AnyHashable: Any])
     }
     /*
     // MARK: - Navigation

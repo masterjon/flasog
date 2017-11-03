@@ -28,11 +28,11 @@ class SalonesVC: UIViewController, UITableViewDataSource, UITableViewDelegate{
                  ["image":"2PisoP12.1",
                   "image_big":"02",
                   "title":"Segundo piso",
-                  "subtitle":"Salones: Cozumel, Tulum, Terraza, Akumal, Contoy, Cobá, Xcaret, Isla Mujeres."],
+                  "subtitle":"Salones: Cozumel, Tulúm, Terraza, Akumal, Contoy, Cobá, Xcaret, Isla Mujeres."],
                  ["image":"3PisoP12.1",
                   "image_big":"03",
                   "title":"Tercer piso",
-                  "subtitle":"Salones: Gran Cancún, vestibulo gran Cancún"],
+                  "subtitle":"Salones: Gran Cancún, Vestíbulo Gran Cancún"],
                  ]
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -69,6 +69,11 @@ class ViewController: UIViewController {
         
         setupNotification("dn-dia5_2", "¡Hoy es la clausura de nuestro congreso!", "Consulta el salón, código y horario", "09-11-2017 11:00:00")
         
+        setupNotification("dn-dia5_3", "¡Gracias por ser parte de nuestro congreso!", "Contigo, la Gineco-Obstetricia de Latinoamérica ¡Crece!", "09-11-2017 15:00:00")
+        
+        
+        setupNotification("dn-dia5_4", "¡Nos vemos en Paraguay 2020 colegas!", "Manténte pendiente de nuestras redes sociales y espera noticias", "09-11-2017 17:00:00")
+        
         //secondsLeft = roundf(date?.timeIntervalSinceNow)
         
         //self.navigationItem.titleView = UIImageView(image: UIImage(named: "logo_blanco"))
@@ -184,6 +189,11 @@ class ViewController: UIViewController {
             }
         })
         
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        let tracker = GAI.sharedInstance().defaultTracker
+        tracker?.set(kGAIScreenName, value: "Inicio")
+        tracker?.send(GAIDictionaryBuilder.createScreenView().build() as! [AnyHashable: Any])
     }
     
 
