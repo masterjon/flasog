@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import UserNotifications
+
 extension String {
     /**
      Truncates the string to the specified length number of characters and appends an optional trailing string if longer.
@@ -28,6 +30,7 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     var items :[ProgramCat] = []
     var days : [[String:Any]] = []
     let userDefaults = UserDefaults.standard
+    let center = UNUserNotificationCenter.current()
     
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
@@ -85,6 +88,9 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     }
 
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        
+        
+        
         if editingStyle == .delete{
             print("delete")
 
@@ -93,7 +99,9 @@ class MiAgendaVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
                 if var storedCats = userDefaults.object(forKey: "my_schedule") as? [[Int]]{
                     print(storedCats)
                     print("CatId:\(row.catId), Id:\(row.id)")
-                    print(indexPath.row)
+                    let notifIdentifier = "\(row.id)\(row.subtitle)"
+                    print("Delete Notif:"+notifIdentifier)
+                    center.removePendingNotificationRequests(withIdentifiers: [notifIdentifier])
                     var deleteIndex: Int?
                     for (idx,item) in storedCats.enumerated(){
                         if item[0] == row.catId && item[1] == row.id{

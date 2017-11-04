@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import UserNotifications
+
 //import SideMenu
 class ViewController: UIViewController {
 
+    let center = UNUserNotificationCenter.current()
 
     @IBOutlet weak var counterLabel: UILabel!
     
@@ -20,6 +23,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        center.getNotificationSettings { (settings) in
+            if settings.authorizationStatus != .authorized {
+                print("Notifications not allowed")
+                
+            }
+            else{
+                print("authorized")
+            }
+        }
 //
 //        let menuLeftNavigationController = storyboard!.instantiateViewController(withIdentifier: "SideMenuNav") as! UISideMenuNavigationController
 //        menuLeftNavigationController.leftSide = true
@@ -36,6 +50,23 @@ class ViewController: UIViewController {
         }
         
         countdownTimer()
+        setupNotification("dn-bienvenida", "¡Bienvenidos colegas!", "Hoy se realiza el primer Encuentro Latinoamericano de Residentes en Gineco-Obstetricia.", "04-11-2017 13:00:00")
+        
+        setupNotification("dn-bienvenida2", "¡Bienvenido a #FLASOG2017!", "El congreso más importante de Gineco-Obstetricia en Latinoamérica", "04-11-2017 17:00:00")
+        
+        setupNotification("dn-dia1", "Hoy se realizan nuestros cursos Precongreso", "Consulta el programa", "05-11-2017 07:00:00")
+        
+        setupNotification("dn-dia1_2", "¡Acompáñanos en la inauguración de #FLASOG2017!", "Consulta el salón, código y horario", "05-11-2017 15:00:00")
+        
+        setupNotification("dn-dia2", "Hoy arrancamos nuestros cursos Transcongreso y actividades", "Programa tus actividades del día", "06-11-2017 06:30:00")
+        
+        setupNotification("dn-dia3", "Colega, prepara tus actividades", "Programa tu agenda para hoy desde nuestra App", "07-11-2017 06:30:00")
+        
+        setupNotification("dn-dia4", "¡No te pierdas de nada!", "Programa tu agenda para hoy", "08-11-2017 06:30:00")
+        
+        setupNotification("dn-dia5", "Programa tus Actividades", "Han sido excelentes días de aprendizaje, no te pierdas de nada.", "09-11-2017 06:30:00")
+        
+        setupNotification("dn-dia5_2", "¡Hoy es la clausura de nuestro congreso!", "Consulta el salón, código y horario", "09-11-2017 07:00:00")
         
         //secondsLeft = roundf(date?.timeIntervalSinceNow)
         
@@ -126,6 +157,32 @@ class ViewController: UIViewController {
             self.dismiss(animated: true, completion: nil)
         }))
         self.present(alert, animated: true, completion: nil)
+    }
+    
+    func setupNotification(_ titleId:String,_ title:String, _ body:String,_ dateString:String){
+        let content = UNMutableNotificationContent()
+        content.title = title
+        content.body = body
+        content.sound = UNNotificationSound.default()
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd-MM-yyyy HH:mm:ss"
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        let date = dateFormatter.date(from: dateString)
+        let triggerDate = Calendar.current.dateComponents([.year,.month,.day,.hour,.minute,.second,], from: date!)
+        let trigger = UNCalendarNotificationTrigger(dateMatching: triggerDate,
+                                                    repeats: false)
+        
+        let identifier = titleId
+        print("Add Notif:"+identifier)
+        let request = UNNotificationRequest(identifier: identifier,
+                                            content: content, trigger: trigger)
+        center.add(request, withCompletionHandler: { (error) in
+            if let error = error {
+                print("Something went wrong\(error)")
+            }
+        })
+        
     }
     
 

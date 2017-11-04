@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import UserNotifications
 
 class ProgramItemDetailVC: UIViewController {
     let userDefaults = UserDefaults.standard
     var programItem:ProgramItem!
-    
+    var programCat:String!
+    let center = UNUserNotificationCenter.current()
+
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionTextView: UITextView!
     @IBOutlet weak var roomLabel: UILabel!
@@ -33,6 +36,39 @@ class ProgramItemDetailVC: UIViewController {
 
     @IBAction func addToSchedule(_ sender: UIButton) {
         print("Agregado")
+        
+        
+        let content = UNMutableNotificationContent()
+        content.title = "Comienza pronto: \(programCat!)"
+        content.body = programItem.title
+        content.sound = UNNotificationSound.default()
+//        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5,
+//                                                        repeats: false)
+
+        
+        //let date = Date(timeIntervalSinceNow: 0)
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd-MM-yyyy HH:mm:ss"
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        var date = dateFormatter.date(from: "22-10-2017 18:45:00")
+        if let dd = dateFormatter.date(from: programItem.dateString){
+            print(dd)
+             date = dd.addingTimeInterval(15.0 * 60.0 * -1)
+        }
+        
+        
+        let triggerDate = Calendar.current.dateComponents([.year,.month,.day,.hour,.minute,.second,], from: date!)
+        let trigger = UNCalendarNotificationTrigger(dateMatching: triggerDate,
+                                                    repeats: false)
+        
+        let identifier = "\(programItem.id)\(programItem.title)"
+        print("Add Notif:"+identifier)
+        let request = UNNotificationRequest(identifier: identifier,
+                                            content: content, trigger: trigger)
+        
+        
+        
         print(programItem.catId)
         let alert2 = UIAlertController(title:"Elemento agregado", message: "", preferredStyle: .alert)
         alert2.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
@@ -61,12 +97,19 @@ class ProgramItemDetailVC: UIViewController {
                     transCounter+=1
                 }
             }
-            if (programItem.id == 0 && preCounter > 0) || (programItem.id == 1 && transCounter > 0){
+            if (programItem.catId == 0 && preCounter > 0) || (programItem.catId == 1 && transCounter > 0){
                 tooManyCourses = true
             }
             if !exists && !tooManyCourses {
-                my_schedule_array.append([programItem.catId,programItem.id,programItem.dayId])
+              
+                center.add(request, withCompletionHandler: { (error) in
+                    if let error = error {
+                        print("Something went wrong\(error)")
+                    }
+                })
+              my_schedule_array.append([programItem.catId,programItem.id,programItem.dayId])
                 userDefaults.set(my_schedule_array, forKey: "my_schedule")
+                
                 self.present(alert2, animated: true, completion: nil)
             }
             else if tooManyCourses { 

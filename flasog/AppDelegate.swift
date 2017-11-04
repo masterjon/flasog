@@ -7,14 +7,29 @@
 //
 
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let notificationDelegate = UYLNotificationDelegate()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let center = UNUserNotificationCenter.current()
+        let options: UNAuthorizationOptions = [.alert, .sound, .badge];
+        center.delegate = notificationDelegate
+
+        center.requestAuthorization(options: options) {
+            (granted, error) in
+            if !granted {
+                print("Something went wrong")
+            }
+        }
+        //application.registerUserNotificationSettings(UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil))
+        
+        
         // Override point for customization after application launch.
         return true
     }
@@ -43,4 +58,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
+class UYLNotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
+        
+        func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                    willPresent notification: UNNotification,
+                                    withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+            // Play sound and show alert to the user
+            completionHandler([.alert,.sound])
+        }
+        
+        func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                    didReceive response: UNNotificationResponse,
+                                    withCompletionHandler completionHandler: @escaping () -> Void) {
+            
+            // Determine the user action
+            switch response.actionIdentifier {
+            case UNNotificationDismissActionIdentifier:
+                print("Dismiss Action")
+            case UNNotificationDefaultActionIdentifier:
+                print("Default")
+            case "Snooze":
+                print("Snooze")
+            case "Delete":
+                print("Delete")
+            default:
+                print("Unknown action")
+            }
+            completionHandler()
+        }
+    }
 

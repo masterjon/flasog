@@ -19,5 +19,6 @@ class ProgramItem:NSObject{
     var schedule:String = ""
     var days:String = ""
     var duration:Int = 0
+    var dateString = "22-10-2017 18:45:00"
     
 }

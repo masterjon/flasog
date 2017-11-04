@@ -104,6 +104,10 @@ class ProgramaCatDetailVC: UIViewController, UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if let title = days[section]["title"] as? String{
+            if cat.id == 1{
+                return "LUNES 6 - JUEVES 9 DE NOVIEMBRE"
+            }
+            
             return title
         }
         return ""
@@ -114,7 +118,14 @@ class ProgramaCatDetailVC: UIViewController, UITableViewDataSource {
         if let titleLbl = cell.viewWithTag(1) as? UILabel{
             //titleLbl.text = "\(indexPath.row + 1) - \(cat.items[indexPath.row].title)"
             if let items = days[indexPath.section]["items"] as? [ProgramItem]{
-                titleLbl.text = items[indexPath.row].title
+                if cat.id == 0 || cat.id == 1{
+                    titleLbl.text = "\(indexPath.row + 1) - \(items[indexPath.row].title)"
+                }
+                else{
+                    titleLbl.text = items[indexPath.row].title
+                }
+                
+                
             }
             
             
@@ -127,6 +138,7 @@ class ProgramaCatDetailVC: UIViewController, UITableViewDataSource {
         if let indexPath = tableView.indexPathForSelectedRow{
             if let items = days[indexPath.section]["items"] as? [ProgramItem]{
                 vc.programItem = items[indexPath.row]
+                vc.programCat = cat.title
             }
         }
     }

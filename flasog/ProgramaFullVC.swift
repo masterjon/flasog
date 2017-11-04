@@ -98,7 +98,7 @@ class ProgramaFullVC: UIViewController, UITableViewDataSource, UITableViewDelega
             }
             if let rows = days[indexPath.section]["cats"] as? [ProgramCat]{
                 let itm = rows[indexPath.row]
-                if itm.title == "Receso" {
+                if itm.id == 9999 {
                     return false
                 }
             }
@@ -110,16 +110,24 @@ class ProgramaFullVC: UIViewController, UITableViewDataSource, UITableViewDelega
         items = loadSchedule()
         /* Empty Cats */
         let cat_expo = ProgramCat()
+        cat_expo.id = 9999
         cat_expo.title = "Receso Exposición Científico-Comercial"
         cat_expo.schedule = "9:00 – 9:30 hrs."
         
         let cat_receso = ProgramCat()
+        cat_receso.id = 9999
         cat_receso.title = "Receso"
         cat_receso.schedule = "12:30 – 13:00 hrs."
         
+        let cat_inauguracion = ProgramCat()
+        cat_inauguracion.id = 9999
+        cat_inauguracion.title = "Inauguración (Salón: Gran Cancún - Código de vestir: Formal)"
+        cat_inauguracion.schedule = "20:00 - 22:00 hrs."
+        
         let cat_clausura = ProgramCat()
-        cat_clausura.title = "Clausura"
-        cat_clausura.schedule = "12:30 – 13:00 hrs."
+        cat_clausura.id = 9999
+        cat_clausura.title = "Clausura (Salón: Gran Cancún - Código de vestir: Formal)"
+        cat_clausura.schedule = "13:30 - 2:30 hrs."
         
         days = [
             [
@@ -130,7 +138,7 @@ class ProgramaFullVC: UIViewController, UITableViewDataSource, UITableViewDelega
             [
                 "title":"DOMINGO 5 DE NOVIEMBRE",
                 "date":"5/11/17",
-                "cats":[items[0],items[5]]
+                "cats":[items[0],items[5],cat_inauguracion]
             ],
             [
                 "title":"LUNES 6 DE NOVIEMBRE",

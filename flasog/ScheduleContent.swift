@@ -47,6 +47,9 @@ func loadSchedule()->[ProgramCat]{
     item0_1.schedule = "8:00 – 14:00 hrs."
     item0_1.days = "5 de noviembre 2017"
     item0_1.dayId = 1
+    item0_1.dateString = "5-11-2017 08:00:00"
+    
+    
     
     let item0_2 = ProgramItem()
     item0_2.catId = 0
@@ -56,6 +59,7 @@ func loadSchedule()->[ProgramCat]{
     item0_2.schedule = "8:00 – 14:00 hrs."
     item0_2.days = "5 de noviembre 2017"
     item0_2.dayId = 1
+    item0_2.dateString = "5-11-2017 08:00:00"
     
     let item0_3 = ProgramItem()
     item0_3.catId = 0
@@ -65,6 +69,7 @@ func loadSchedule()->[ProgramCat]{
     item0_3.schedule = "8:00 – 14:00 hrs."
     item0_3.days = "5 de noviembre 2017"
     item0_3.dayId = 1
+    item0_3.dateString = "5-11-2017 08:00:00"
     
     let item0_4 = ProgramItem()
     item0_4.catId = 0
@@ -74,15 +79,17 @@ func loadSchedule()->[ProgramCat]{
     item0_4.schedule = "8:00 – 14:00 hrs."
     item0_4.days = "5 de noviembre 2017"
     item0_4.dayId = 1
+    item0_4.dateString = "5-11-2017 08:00:00"
     
     let item0_5 = ProgramItem()
     item0_5.catId = 0
-    item0_5.title = "Curso ACOG: Controversias en la práctica."
+    item0_5.title = "Curso ACOG: Controversias en la práctica ginecoobstétrica."
     item0_5.room = "Gran Cancún 4"
     item0_5.duration = 360
     item0_5.schedule = "8:00 – 14:00 hrs."
     item0_5.days = "5 de noviembre 2017"
     item0_5.dayId = 1
+    item0_5.dateString = "5-11-2017 08:00:00"
     
     let item0_6 = ProgramItem()
     item0_6.catId = 0
@@ -92,6 +99,7 @@ func loadSchedule()->[ProgramCat]{
     item0_6.schedule = "8:00 – 14:00 hrs."
     item0_6.days = "5 de noviembre 2017"
     item0_6.dayId = 1
+    item0_6.dateString = "5-11-2017 08:00:00"
     
     let item0_7 = ProgramItem()
     item0_7.catId = 0
@@ -101,6 +109,7 @@ func loadSchedule()->[ProgramCat]{
     item0_7.schedule = "8:00 – 14:00 hrs."
     item0_7.days = "5 de noviembre 2017"
     item0_7.dayId = 1
+    item0_7.dateString = "5-11-2017 08:00:00"
     
     let item0_8 = ProgramItem()
     item0_8.catId = 0
@@ -110,6 +119,7 @@ func loadSchedule()->[ProgramCat]{
     item0_8.schedule = "8:00 – 14:00 hrs."
     item0_8.days = "5 de noviembre 2017"
     item0_8.dayId = 1
+    item0_8.dateString = "5-11-2017 08:00:00"
     
     let item0_9 = ProgramItem()
     item0_9.catId = 0
@@ -119,6 +129,7 @@ func loadSchedule()->[ProgramCat]{
     item0_9.schedule = "8:00 – 14:00 hrs."
     item0_9.days = "5 de noviembre 2017"
     item0_9.dayId = 1
+    item0_9.dateString = "5-11-2017 08:00:00"
     
     let item0_10 = ProgramItem()
     item0_10.catId = 0
@@ -128,6 +139,7 @@ func loadSchedule()->[ProgramCat]{
     item0_10.schedule = "8:00 – 14:00 hrs."
     item0_10.days = "5 de noviembre 2017"
     item0_10.dayId = 1
+    item0_10.dateString = "5-11-2017 08:00:00"
     
     item0_3.id = 0
     item0_1.id = 1
@@ -160,6 +172,7 @@ func loadSchedule()->[ProgramCat]{
     item1_1.schedule = "7:00 – 9:00 hrs."
     item1_1.days = "6 al 9 de noviembre 2017"
     item1_1.dayId = 2
+    item1_1.dateString = "6-11-2017 07:00:00"
     
     let item1_2 = ProgramItem()
     item1_2.catId = 1
@@ -169,6 +182,7 @@ func loadSchedule()->[ProgramCat]{
     item1_2.schedule = "7:00 – 9:00 hrs."
     item1_2.days = "6 al 9 de noviembre 2017"
     item1_2.dayId = 2
+    item1_2.dateString = "6-11-2017 07:00:00"
     
     let item1_3 = ProgramItem()
     item1_3.catId = 1
@@ -178,6 +192,7 @@ func loadSchedule()->[ProgramCat]{
     item1_3.schedule = "7:00 – 9:00 hrs."
     item1_3.days = "6 al 9 de noviembre 2017"
     item1_3.dayId = 2
+    item1_3.dateString = "6-11-2017 07:00:00"
     
     let item1_4 = ProgramItem()
     item1_4.catId = 1
@@ -187,6 +202,7 @@ func loadSchedule()->[ProgramCat]{
     item1_4.schedule = "7:00 – 9:00 hrs."
     item1_4.days = "6 al 9 de noviembre 2017"
     item1_4.dayId = 2
+    item1_4.dateString = "6-11-2017 07:00:00"
     
     
     let item1_5 = ProgramItem()
@@ -197,6 +213,7 @@ func loadSchedule()->[ProgramCat]{
     item1_5.schedule = "7:00 – 9:00 hrs."
     item1_5.days = "6 al 9 de noviembre 2017"
     item1_5.dayId = 2
+    item1_5.dateString = "6-11-2017 07:00:00"
     
     let item1_6 = ProgramItem()
     item1_6.catId = 1
@@ -206,6 +223,7 @@ func loadSchedule()->[ProgramCat]{
     item1_6.schedule = "7:00 – 9:00 hrs."
     item1_6.days = "6 al 9 de noviembre 2017"
     item1_6.dayId = 2
+    item1_6.dateString = "6-11-2017 07:00:00"
     
     let item1_7 = ProgramItem()
     item1_7.catId = 1
@@ -215,6 +233,7 @@ func loadSchedule()->[ProgramCat]{
     item1_7.schedule = "7:00 – 9:00 hrs."
     item1_7.days = "6 al 9 de noviembre 2017"
     item1_7.dayId = 2
+    item1_7.dateString = "6-11-2017 07:00:00"
     
     
     let item1_8 = ProgramItem()
@@ -225,6 +244,7 @@ func loadSchedule()->[ProgramCat]{
     item1_8.schedule = "7:00 – 9:00 hrs."
     item1_8.days = "6 al 9 de noviembre 2017"
     item1_8.dayId = 2
+    item1_8.dateString = "6-11-2017 07:00:00"
     
     let item1_9 = ProgramItem()
     item1_9.catId = 1
@@ -234,6 +254,7 @@ func loadSchedule()->[ProgramCat]{
     item1_9.schedule = "7:00 – 9:00 hrs."
     item1_9.days = "6 al 9 de noviembre 2017"
     item1_9.dayId = 2
+    item1_9.dateString = "6-11-2017 07:00:00"
     
     
     let item1_10 = ProgramItem()
@@ -244,6 +265,7 @@ func loadSchedule()->[ProgramCat]{
     item1_10.schedule = "7:00 – 9:00 hrs."
     item1_10.days = "6 al 9 de noviembre 2017"
     item1_10.dayId = 2
+    item1_10.dateString = "6-11-2017 07:00:00"
 
     item1_1.id = 0
     item1_9.id = 1
@@ -277,15 +299,17 @@ func loadSchedule()->[ProgramCat]{
     item2_1.schedule = "13:00 – 13:45 hrs."
     item2_1.days = "Lunes, 6 de noviembre 2017"
     item2_1.dayId = 2
+    item2_1.dateString = "6-11-2017 13:00:00"
     
     let item2_2 = ProgramItem()
     item2_2.catId = 2
-    item2_2.title = "El circulo vicioso entre las complicaciones del embarazo y las enfermedades no transmisibles. Todo inicia inutero. La visión global de figo"
+    item2_2.title = "El circulo vicioso entre las complicaciones del embarazo y las enfermedades no transmisibles. Todo inicia inutero. La visión global de FIGO"
     item2_2.room = "Gran Cancún"
     item2_2.duration = 45
     item2_2.schedule = "13:00 – 13:45 hrs."
     item2_2.days = "Martes, 7 de noviembre 2017"
     item2_2.dayId = 3
+    item2_2.dateString = "7-11-2017 13:00:00"
     
     let item2_3 = ProgramItem()
     item2_3.catId = 2
@@ -295,6 +319,7 @@ func loadSchedule()->[ProgramCat]{
     item2_3.schedule = "13:00 – 13:45 hrs."
     item2_3.days = "Miércoles, 8 de noviembre 2017"
     item2_3.dayId = 4
+    item2_3.dateString = "8-11-2017 13:00:00"
 
     item2_1.id = 0
     item2_2.id = 1
@@ -315,6 +340,7 @@ func loadSchedule()->[ProgramCat]{
     item3_1.schedule = "11:15 – 11:45 hrs."
     item3_1.days = "Lunes, 6 de noviembre 2017"
     item3_1.dayId = 2
+    item3_1.dateString = "6-11-2017 11:15:00"
     
     let item3_2 = ProgramItem()
     item3_2.catId = 3
@@ -324,6 +350,7 @@ func loadSchedule()->[ProgramCat]{
     item3_2.schedule = "11:50 – 12:30 hrs."
     item3_2.days = "Lunes, 6 de noviembre 2017"
     item3_2.dayId = 2
+    item3_2.dateString = "6-11-2017 11:50:00"
     
     let item3_3 = ProgramItem()
     item3_3.catId = 3
@@ -333,6 +360,7 @@ func loadSchedule()->[ProgramCat]{
     item3_3.schedule = "11:15 – 11:45 hrs."
     item3_3.days = "Martes, 7 de noviembre 2017"
     item3_3.dayId = 3
+    item3_3.dateString = "7-11-2017 11:15:00"
     
     let item3_4 = ProgramItem()
     item3_4.catId = 3
@@ -342,6 +370,7 @@ func loadSchedule()->[ProgramCat]{
     item3_4.schedule = "11:50 – 12:30 hrs."
     item3_4.days = "Martes, 7 de noviembre 2017"
     item3_4.dayId = 3
+    item3_4.dateString = "7-11-2017 11:50:00"
     
     let item3_5 = ProgramItem()
     item3_5.catId = 3
@@ -351,6 +380,7 @@ func loadSchedule()->[ProgramCat]{
     item3_5.schedule = "11:15 – 11:45 hrs."
     item3_5.days = "Miércoles, 8 de noviembre 2017"
     item3_5.dayId = 4
+    item3_5.dateString = "8-11-2017 11:15:00"
     
     let item3_6 = ProgramItem()
     item3_6.catId = 3
@@ -360,6 +390,7 @@ func loadSchedule()->[ProgramCat]{
     item3_6.schedule = "11:50 – 12:30 hrs."
     item3_6.days = "Miércoles, 8 de noviembre 2017"
     item3_6.dayId = 4
+    item3_6.dateString = "8-11-2017 11:50:00"
     
     let item3_7 = ProgramItem()
     item3_7.catId = 3
@@ -369,6 +400,7 @@ func loadSchedule()->[ProgramCat]{
     item3_7.schedule = "11:15 – 11:45 hrs."
     item3_7.days = "Jueves, 9 de noviembre 2017"
     item3_7.dayId = 5
+    item3_7.dateString = "9-11-2017 11:15:00"
     
     let item3_8 = ProgramItem()
     item3_8.catId = 3
@@ -378,6 +410,7 @@ func loadSchedule()->[ProgramCat]{
     item3_8.schedule = "11:50 – 12:30 hrs."
     item3_8.days = "Jueves, 9 de noviembre 2017"
     item3_8.dayId = 5
+    item3_8.dateString = "9-11-2017 11:50:00"
     
     item3_1.id = 0
     item3_2.id = 1
@@ -400,47 +433,53 @@ func loadSchedule()->[ProgramCat]{
     let item4_1 = ProgramItem()
     item4_1.catId = 4
     item4_1.title = "Módulo 1: Nuevas infecciones virales"
-    item4_1.room = "Cobá"
+    item4_1.room = "Bacalar"
     item4_1.duration = 60
     item4_1.schedule = "13:00hrs. – 14:00 hrs."
     item4_1.days = "Sábado, 4 de noviembre 2017"
     item4_1.dayId = 0
+    item4_1.dateString = "4-11-2017 13:00:00"
+    
     
     let item4_2 = ProgramItem()
     item4_2.catId = 4
     item4_2.title = "Módulo 2: Síndrome metabólico"
-    item4_2.room = "Cobá"
+    item4_2.room = "Bacalar"
     item4_2.duration = 60
     item4_2.schedule = "14:00hrs. – 15:00 hrs"
     item4_2.days = "Sábado, 4 de noviembre 2017"
     item4_2.dayId = 0
+    item4_2.dateString = "4-11-2017 14:00:00"
     
     let item4_3 = ProgramItem()
     item4_3.catId = 4
     item4_3.title = "Módulo 3: Infertilidad, un flagelo de sociedad moderna"
-    item4_3.room = "Cobá"
+    item4_3.room = "Bacalar"
     item4_3.duration = 60
     item4_3.schedule = "15:30hrs. – 16:30 hrs."
     item4_3.days = "Sábado, 4 de noviembre 2017"
     item4_3.dayId = 0
+    item4_3.dateString = "4-11-2017 15:30:00"
     
     let item4_4 = ProgramItem()
     item4_4.catId = 4
     item4_4.title = "Módulo 4: La salud materna y fetal despúes de la cesárea"
-    item4_4.room = "Cobá"
+    item4_4.room = "Bacalar"
     item4_4.duration = 60
     item4_4.schedule = "16:30hrs. – 17:30 hrs."
     item4_4.days = "Sábado, 4 de noviembre 2017"
     item4_4.dayId = 0
+    item4_4.dateString = "4-11-2017 16:30:00"
     
     let item4_5 = ProgramItem()
     item4_5.catId = 4
     item4_5.title = "Módulo 5: Cáncer ginecológico"
-    item4_5.room = "Cobá"
+    item4_5.room = "Bacalar"
     item4_5.duration = 60
     item4_5.schedule = "17:30hrs. – 18:30 hrs."
     item4_5.days = "Sábado, 4 de noviembre 2017"
     item4_5.dayId = 0
+    item4_5.dateString = "4-11-2017 17:30:00"
     
     
     item4_1.id = 0
@@ -464,6 +503,7 @@ func loadSchedule()->[ProgramCat]{
     item5_1.schedule = "14:15 - 15:10 hrs"
     item5_1.days = "Lunes, 6 de noviembre"
     item5_1.dayId = 2
+    item5_1.dateString = "6-11-2017 14:15:00"
     
     let item5_2 = ProgramItem()
     item5_2.catId = 5
@@ -473,6 +513,7 @@ func loadSchedule()->[ProgramCat]{
     item5_2.schedule = "14:15 - 15:10 hrs"
     item5_2.days = "Lunes, 6 de noviembre"
     item5_2.dayId = 2
+    item5_2.dateString = "6-11-2017 14:15:00"
     
     let item5_3 = ProgramItem()
     item5_3.catId = 5
@@ -482,6 +523,7 @@ func loadSchedule()->[ProgramCat]{
     item5_3.schedule = "14:15 - 15:10 hrs"
     item5_3.days = "Lunes, 6 de noviembre"
     item5_3.dayId = 2
+    item5_3.dateString = "6-11-2017 14:15:00"
     
     let item5_4 = ProgramItem()
     item5_4.catId = 5
@@ -491,6 +533,7 @@ func loadSchedule()->[ProgramCat]{
     item5_4.schedule = "14:15 - 15:10 hrs"
     item5_4.days = "Martes, 7 de noviembre"
     item5_4.dayId = 3
+    item5_4.dateString = "7-11-2017 14:15:00"
     
     let item5_5 = ProgramItem()
     item5_5.catId = 5
@@ -500,6 +543,7 @@ func loadSchedule()->[ProgramCat]{
     item5_5.schedule = "14:15 - 15:10 hrs"
     item5_5.days = "Martes, 7 de noviembre"
     item5_5.dayId = 3
+    item5_5.dateString = "7-11-2017 14:15:00"
     
     let item5_6 = ProgramItem()
     item5_6.catId = 5
@@ -509,6 +553,7 @@ func loadSchedule()->[ProgramCat]{
     item5_6.schedule = "14:15 - 15:10 hrs"
     item5_6.days = "Martes, 7 de noviembre"
     item5_6.dayId = 3
+    item5_6.dateString = "7-11-2017 14:15:00"
     
     let item5_7 = ProgramItem()
     item5_7.catId = 5
@@ -518,15 +563,28 @@ func loadSchedule()->[ProgramCat]{
     item5_7.schedule = "14:15 - 15:10 hrs"
     item5_7.days = "Martes, 7 de noviembre"
     item5_7.dayId = 3
+    item5_7.dateString = "7-11-2017 14:15:00"
     
-    item5_1.id = 0
-    item5_2.id = 1
-    item5_3.id = 2
-    item5_4.id = 3
-    item5_5.id = 4
-    item5_6.id = 5
-    item5_7.id = 6
+    let item5_8 = ProgramItem()
+    item5_8.catId = 5
+    item5_8.title = "VIFOR PHARMA"
+    item5_8.room = "Cozumel 2"
+    item5_8.duration = 60
+    item5_8.schedule = "14:15 - 15:10 hrs"
+    item5_8.days = "Domingo, 5 de noviembre"
+    item5_8.dayId = 1
+    item5_8.dateString = "5-11-2017 14:15:00"
     
+    item5_8.id = 0
+    item5_1.id = 1
+    item5_2.id = 2
+    item5_3.id = 3
+    item5_4.id = 4
+    item5_5.id = 5
+    item5_6.id = 6
+    item5_7.id = 7
+    
+    items[5].items.append(item5_8)
     items[5].items.append(item5_1)
     items[5].items.append(item5_2)
     items[5].items.append(item5_3)
@@ -545,6 +603,7 @@ func loadSchedule()->[ProgramCat]{
     item6_1.schedule = "9:30 – 11:00 hrs."
     item6_1.days = "Lunes, 6 de noviembre 2017"
     item6_1.dayId = 2
+    item6_1.dateString = "6-11-2017 09:30:00"
     
     let item6_2 = ProgramItem()
     item6_2.catId = 6
@@ -554,6 +613,7 @@ func loadSchedule()->[ProgramCat]{
     item6_2.schedule = "9:30 – 11:00 hrs."
     item6_2.days = "Lunes, 6 de noviembre 2017"
     item6_2.dayId = 2
+    item6_2.dateString = "6-11-2017 09:30:00"
     
     let item6_3 = ProgramItem()
     item6_3.catId = 6
@@ -563,6 +623,7 @@ func loadSchedule()->[ProgramCat]{
     item6_3.schedule = "9:30 – 11:00 hrs."
     item6_3.days = "Lunes, 6 de noviembre 2017"
     item6_3.dayId = 2
+    item6_3.dateString = "6-11-2017 09:30:00"
     
     let item6_4 = ProgramItem()
     item6_4.catId = 6
@@ -572,6 +633,7 @@ func loadSchedule()->[ProgramCat]{
     item6_4.schedule = "9:30 – 11:00 hrs."
     item6_4.days = "Lunes, 6 de noviembre 2017"
     item6_4.dayId = 2
+    item6_4.dateString = "6-11-2017 09:30:00"
     
     let item6_5 = ProgramItem()
     item6_5.catId = 6
@@ -581,6 +643,7 @@ func loadSchedule()->[ProgramCat]{
     item6_5.schedule = "9:30 – 11:00 hrs."
     item6_5.days = "Lunes, 6 de noviembre 2017"
     item6_5.dayId = 2
+    item6_5.dateString = "6-11-2017 09:30:00"
     
     let item6_6 = ProgramItem()
     item6_6.catId = 6
@@ -590,6 +653,7 @@ func loadSchedule()->[ProgramCat]{
     item6_6.schedule = "9:30 – 11:00 hrs."
     item6_6.days = "Lunes, 6 de noviembre 2017"
     item6_6.dayId = 2
+    item6_6.dateString = "6-11-2017 09:30:00"
     
     let item6_7 = ProgramItem()
     item6_7.catId = 6
@@ -599,6 +663,7 @@ func loadSchedule()->[ProgramCat]{
     item6_7.schedule = "9:30 – 11:00 hrs."
     item6_7.days = "Martes, 7 de noviembre 2017"
     item6_7.dayId = 3
+    item6_7.dateString = "7-11-2017 09:30:00"
     
     let item6_8 = ProgramItem()
     item6_8.catId = 6
@@ -608,6 +673,7 @@ func loadSchedule()->[ProgramCat]{
     item6_8.schedule = "9:30 – 11:00 hrs."
     item6_8.days = "Martes, 7 de noviembre 2017"
     item6_8.dayId = 3
+    item6_8.dateString = "7-11-2017 09:30:00"
     
     let item6_9 = ProgramItem()
     item6_9.catId = 6
@@ -617,6 +683,7 @@ func loadSchedule()->[ProgramCat]{
     item6_9.schedule = "9:30 – 11:00 hrs."
     item6_9.days = "Martes, 7 de noviembre 2017"
     item6_9.dayId = 3
+    item6_9.dateString = "7-11-2017 09:30:00"
     
     let item6_10 = ProgramItem()
     item6_10.catId = 6
@@ -626,6 +693,7 @@ func loadSchedule()->[ProgramCat]{
     item6_10.schedule = "9:30 – 11:00 hrs."
     item6_10.days = "Martes, 7 de noviembre 2017"
     item6_10.dayId = 3
+    item6_10.dateString = "7-11-2017 09:30:00"
     
     let item6_11 = ProgramItem()
     item6_11.catId = 6
@@ -635,6 +703,7 @@ func loadSchedule()->[ProgramCat]{
     item6_11.schedule = "9:30 – 11:00 hrs."
     item6_11.days = "Martes, 7 de noviembre 2017"
     item6_11.dayId = 3
+    item6_11.dateString = "7-11-2017 09:30:00"
     
     let item6_12 = ProgramItem()
     item6_12.catId = 6
@@ -644,6 +713,7 @@ func loadSchedule()->[ProgramCat]{
     item6_12.schedule = "9:30 – 11:00 hrs."
     item6_12.days = "Martes, 7 de noviembre 2017"
     item6_12.dayId = 3
+    item6_12.dateString = "7-11-2017 09:30:00"
     
     let item6_13 = ProgramItem()
     item6_13.catId = 6
@@ -653,6 +723,7 @@ func loadSchedule()->[ProgramCat]{
     item6_13.schedule = "9:30 – 11:00 hrs."
     item6_13.days = "Miércoles, 8 de noviembre 2017"
     item6_13.dayId = 4
+    item6_13.dateString = "8-11-2017 09:30:00"
     
     
     let item6_14 = ProgramItem()
@@ -663,6 +734,7 @@ func loadSchedule()->[ProgramCat]{
     item6_14.schedule = "9:30 – 11:00 hrs."
     item6_14.days = "Miércoles, 8 de noviembre 2017"
     item6_14.dayId = 4
+    item6_14.dateString = "8-11-2017 09:30:00"
     
     let item6_15 = ProgramItem()
     item6_15.catId = 6
@@ -672,6 +744,7 @@ func loadSchedule()->[ProgramCat]{
     item6_15.schedule = "9:30 – 11:00 hrs."
     item6_15.days = "Miércoles, 8 de noviembre 2017"
     item6_15.dayId = 4
+    item6_15.dateString = "8-11-2017 09:30:00"
     
     let item6_16 = ProgramItem()
     item6_16.catId = 6
@@ -681,6 +754,7 @@ func loadSchedule()->[ProgramCat]{
     item6_16.schedule = "9:30 – 11:00 hrs."
     item6_16.days = "Miércoles, 8 de noviembre 2017"
     item6_16.dayId = 4
+    item6_16.dateString = "8-11-2017 09:30:00"
     
     let item6_17 = ProgramItem()
     item6_17.catId = 6
@@ -690,6 +764,7 @@ func loadSchedule()->[ProgramCat]{
     item6_17.schedule = "9:30 – 11:00 hrs."
     item6_17.days = "Miércoles, 8 de noviembre 2017"
     item6_17.dayId = 4
+    item6_17.dateString = "8-11-2017 09:30:00"
     
     let item6_18 = ProgramItem()
     item6_18.catId = 6
@@ -699,6 +774,7 @@ func loadSchedule()->[ProgramCat]{
     item6_18.schedule = "9:30 – 11:00 hrs."
     item6_18.days = "Miércoles, 8 de noviembre 2017"
     item6_18.dayId = 4
+    item6_18.dateString = "8-11-2017 09:30:00"
     
     let item6_19 = ProgramItem()
     item6_19.catId = 6
@@ -708,6 +784,7 @@ func loadSchedule()->[ProgramCat]{
     item6_19.schedule = "9:30 – 11:00 hrs."
     item6_19.days = "Jueves, 9 de noviembre 2017"
     item6_19.dayId = 5
+    item6_19.dateString = "9-11-2017 09:30:00"
     
     let item6_20 = ProgramItem()
     item6_20.catId = 6
@@ -717,6 +794,7 @@ func loadSchedule()->[ProgramCat]{
     item6_20.schedule = "9:30 – 11:00 hrs."
     item6_20.days = "Jueves, 9 de noviembre 2017"
     item6_20.dayId = 5
+    item6_20.dateString = "9-11-2017 09:30:00"
     
     let item6_21 = ProgramItem()
     item6_21.catId = 6
@@ -726,6 +804,7 @@ func loadSchedule()->[ProgramCat]{
     item6_21.schedule = "9:30 – 11:00 hrs."
     item6_21.days = "Jueves, 9 de noviembre 2017"
     item6_21.dayId = 5
+    item6_21.dateString = "9-11-2017 09:30:00"
     
     let item6_22 = ProgramItem()
     item6_22.catId = 6
@@ -735,6 +814,7 @@ func loadSchedule()->[ProgramCat]{
     item6_22.schedule = "9:30 – 11:00 hrs."
     item6_22.days = "Jueves, 9 de noviembre 2017"
     item6_22.dayId = 5
+    item6_22.dateString = "9-11-2017 09:30:00"
     
     let item6_23 = ProgramItem()
     item6_23.catId = 6
@@ -744,6 +824,7 @@ func loadSchedule()->[ProgramCat]{
     item6_23.schedule = "9:30 – 11:00 hrs."
     item6_23.days = "Jueves, 9 de noviembre 2017"
     item6_23.dayId = 5
+    item6_23.dateString = "9-11-2017 09:30:00"
     
     let item6_24 = ProgramItem()
     item6_24.catId = 6
@@ -753,6 +834,7 @@ func loadSchedule()->[ProgramCat]{
     item6_24.schedule = "9:30 – 11:00 hrs."
     item6_24.days = "Jueves, 9 de noviembre 2017"
     item6_24.dayId = 5
+    item6_24.dateString = "9-11-2017 09:30:00"
 
     item6_1.id = 0
     item6_5.id = 1
@@ -776,8 +858,9 @@ func loadSchedule()->[ProgramCat]{
     item6_19.id = 19
     item6_22.id = 20
     item6_20.id = 21
-    item6_24.id = 22
-    item6_23.id = 23
+    item6_23.id = 22
+    item6_24.id = 23
+    
     
     items[6].items.append(item6_1) //0
     items[6].items.append(item6_5) //1
@@ -801,8 +884,8 @@ func loadSchedule()->[ProgramCat]{
     items[6].items.append(item6_19)//19
     items[6].items.append(item6_22)//20
     items[6].items.append(item6_20)//21
-    items[6].items.append(item6_24)//22
-    items[6].items.append(item6_23)//23
+    items[6].items.append(item6_23)//22
+    items[6].items.append(item6_24)//23
     
     
     //****************      Foros de discusión  ********************
@@ -814,6 +897,7 @@ func loadSchedule()->[ProgramCat]{
     item7_1.schedule = "11:15 – 12:30 hrs."
     item7_1.days = "Lunes, 6 de noviembre 2017"
     item7_1.dayId = 2
+    item7_1.dateString = "6-11-2017 11:15:00"
     
     let item7_2 = ProgramItem()
     item7_2.catId = 7
@@ -823,6 +907,7 @@ func loadSchedule()->[ProgramCat]{
     item7_2.schedule = "11:15 – 12:30 hrs."
     item7_2.days = "Lunes, 6 de noviembre 2017"
     item7_2.dayId = 2
+    item7_2.dateString = "6-11-2017 11:15:00"
     
     let item7_3 = ProgramItem()
     item7_3.catId = 7
@@ -832,6 +917,7 @@ func loadSchedule()->[ProgramCat]{
     item7_3.schedule = "11:15 – 12:30 hrs."
     item7_3.days = "Lunes, 6 de noviembre 2017"
     item7_3.dayId = 2
+    item7_3.dateString = "6-11-2017 11:15:00"
     
     let item7_4 = ProgramItem()
     item7_4.catId = 7
@@ -841,6 +927,7 @@ func loadSchedule()->[ProgramCat]{
     item7_4.schedule = "11:15 – 12:30 hrs."
     item7_4.days = "Lunes, 6 de noviembre 2017"
     item7_4.dayId = 2
+    item7_4.dateString = "6-11-2017 11:15:00"
     
     let item7_5 = ProgramItem()
     item7_5.catId = 7
@@ -850,6 +937,7 @@ func loadSchedule()->[ProgramCat]{
     item7_5.schedule = "11:15 – 12:30 hrs."
     item7_5.days = "Lunes, 6 de noviembre 2017"
     item7_5.dayId = 2
+    item7_5.dateString = "6-11-2017 11:15:00"
     
     let item7_6 = ProgramItem()
     item7_6.catId = 7
@@ -859,6 +947,7 @@ func loadSchedule()->[ProgramCat]{
     item7_6.schedule = "11:15 – 12:30 hrs."
     item7_6.days = "Martes, 7 de noviembre 2017"
     item7_6.dayId = 3
+    item7_6.dateString = "7-11-2017 11:15:00"
     
     let item7_7 = ProgramItem()
     item7_7.catId = 7
@@ -868,6 +957,7 @@ func loadSchedule()->[ProgramCat]{
     item7_7.schedule = "11:15 – 12:30 hrs."
     item7_7.days = "Martes, 7 de noviembre 2017"
     item7_7.dayId = 3
+    item7_7.dateString = "7-11-2017 11:15:00"
     
     let item7_8 = ProgramItem()
     item7_8.catId = 7
@@ -877,6 +967,7 @@ func loadSchedule()->[ProgramCat]{
     item7_8.schedule = "11:15 – 12:30 hrs."
     item7_8.days = "Martes, 7 de noviembre 2017"
     item7_8.dayId = 3
+    item7_8.dateString = "7-11-2017 11:15:00"
     
     let item7_9 = ProgramItem()
     item7_9.catId = 7
@@ -886,6 +977,7 @@ func loadSchedule()->[ProgramCat]{
     item7_9.schedule = "11:15 – 12:30 hrs."
     item7_9.days = "Martes, 7 de noviembre 2017"
     item7_9.dayId = 3
+    item7_9.dateString = "7-11-2017 11:15:00"
     
     let item7_10 = ProgramItem()
     item7_10.catId = 7
@@ -895,6 +987,7 @@ func loadSchedule()->[ProgramCat]{
     item7_10.schedule = "11:15 – 12:30 hrs."
     item7_10.days = "Martes, 7 de noviembre 2017"
     item7_10.dayId = 3
+    item7_10.dateString = "7-11-2017 11:15:00"
     
     let item7_11 = ProgramItem()
     item7_11.catId = 7
@@ -904,6 +997,7 @@ func loadSchedule()->[ProgramCat]{
     item7_11.schedule = "11:15 – 12:30 hrs."
     item7_11.days = "Miércoles, 8 de noviembre 2017"
     item7_11.dayId = 4
+    item7_11.dateString = "8-11-2017 11:15:00"
     
     let item7_12 = ProgramItem()
     item7_12.catId = 7
@@ -913,6 +1007,7 @@ func loadSchedule()->[ProgramCat]{
     item7_12.schedule = "11:15 – 12:30 hrs."
     item7_12.days = "Miércoles, 8 de noviembre 2017"
     item7_12.dayId = 4
+    item7_12.dateString = "8-11-2017 11:15:00"
     
     let item7_13 = ProgramItem()
     item7_13.catId = 7
@@ -922,6 +1017,7 @@ func loadSchedule()->[ProgramCat]{
     item7_13.schedule = "11:15 – 12:30 hrs."
     item7_13.days = "Miércoles, 8 de noviembre 2017"
     item7_13.dayId = 4
+    item7_13.dateString = "8-11-2017 11:15:00"
     
     let item7_14 = ProgramItem()
     item7_14.catId = 7
@@ -931,6 +1027,7 @@ func loadSchedule()->[ProgramCat]{
     item7_14.schedule = "11:15 – 12:30 hrs."
     item7_14.days = "Miércoles, 8 de noviembre 2017"
     item7_14.dayId = 4
+    item7_14.dateString = "8-11-2017 11:15:00"
     
     let item7_15 = ProgramItem()
     item7_15.catId = 7
@@ -940,6 +1037,7 @@ func loadSchedule()->[ProgramCat]{
     item7_15.schedule = "11:15 – 12:30 hrs."
     item7_15.days = "Miércoles, 8 de noviembre 2017"
     item7_15.dayId = 4
+    item7_15.dateString = "8-11-2017 11:15:00"
     
     let item7_16 = ProgramItem()
     item7_16.catId = 7
@@ -949,6 +1047,7 @@ func loadSchedule()->[ProgramCat]{
     item7_16.schedule = "11:15 – 12:30 hrs."
     item7_16.days = "Jueves, 9 de noviembre 2017"
     item7_16.dayId = 5
+    item7_16.dateString = "9-11-2017 11:15:00"
     
     let item7_17 = ProgramItem()
     item7_17.catId = 7
@@ -958,6 +1057,7 @@ func loadSchedule()->[ProgramCat]{
     item7_17.schedule = "11:15 – 12:30 hrs."
     item7_17.days = "Jueves, 9 de noviembre 2017"
     item7_17.dayId = 5
+    item7_17.dateString = "9-11-2017 11:15:00"
     
     let item7_18 = ProgramItem()
     item7_18.catId = 7
@@ -967,6 +1067,7 @@ func loadSchedule()->[ProgramCat]{
     item7_18.schedule = "11:15 – 12:30 hrs."
     item7_18.days = "Jueves, 9 de noviembre 2017"
     item7_18.dayId = 5
+    item7_18.dateString = "9-11-2017 11:15:00"
     
     let item7_19 = ProgramItem()
     item7_19.catId = 7
@@ -976,6 +1077,7 @@ func loadSchedule()->[ProgramCat]{
     item7_19.schedule = "11:15 – 12:30 hrs."
     item7_19.days = "Jueves, 9 de noviembre 2017"
     item7_19.dayId = 5
+    item7_19.dateString = "9-11-2017 11:15:00"
     
     let item7_20 = ProgramItem()
     item7_20.catId = 7
@@ -985,6 +1087,7 @@ func loadSchedule()->[ProgramCat]{
     item7_20.schedule = "11:15 – 12:30 hrs."
     item7_20.days = "Jueves, 9 de noviembre 2017"
     item7_20.dayId = 5
+    item7_20.dateString = "9-11-2017 11:15:00"
 
     item7_3.id = 0
     item7_2.id = 1
@@ -1097,6 +1200,9 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
      
     13:40 – 14:00 hrs.
     Preguntas y Conclusiones
+    Dr. Paulo Meade Treviño
+    Dr. Francisco Javier Robles Elías
+    Dr. Javier Andrés Carbajal Valencia
     """
     
     items[0].items[9].desc = """
@@ -1180,13 +1286,13 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     """
     items[0].items[0].desc = """
     » Objetivo General:
-    Actualizar los conceptos, el diagnóstico y manejo de vanguardia para la mejor atención de las mujeres en las etapas de transición a la menopáusica, perimenopausia y posmenopausia.
+    Actualizar los conceptos, el diagnóstico y manejo de vanguardia para la mejor atención de las mujeres en las etapas de transición a la menopáusica, perimenopausia y postmenopausia.
     
     » Objetivos Específicos:
     • Conocer los cambios fisiológicos, la sintomatología y la patología que se presentan durante el climaterio asociadas al proceso de envejecimiento y a la declinación de la producción de hormonas sexuales.
     • Conocer los métodos de diagnóstico, identificar los factores de riesgo, así como las medidas preventivas y el manejo de la patología más común en estas etapas de la vida.
     • Identificar los tratamientos médicos para las condiciones más comunes en estas etapas de la vida.
-    Reconocer los riesgos y beneficios de la terapia hormonal en la menopausia (TMH) así como y otras alternativas terapéuticas.
+    • Reconocer los riesgos y beneficios de la terapia hormonal en la menopausia (TMH) así como y otras alternativas terapéuticas.
     
     » Profesor titular:
     Dr. Cuauhtémoc Celis González
@@ -1211,7 +1317,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     9:10 – 9:40 hrs.
     Efectos de los estrógenos y progestágenos en el S.N.C
-    Dr. Andrea Riccardo Genazanni
+    Dr. Andrea Riccardo Genazzani
     
     9:40 – 10:10 hrs.
     De la practica a la evidencia científica en el uso de los “compuestos hormonales”
@@ -1243,7 +1349,6 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Consensos actuales sobre TMH
     Dr. Cuauhtémoc Celis González
     
-    
     13:40 – 14:00 hrs.
     Discusión coordinada
     Dr. Carlos Moran Villota
@@ -1255,7 +1360,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Proporcionar a los Gineco-Obstetras una revisión de la incidencia, factores de riesgo sintomatología, manejo médico, implicaciones materno-fetales y aspectos educativos para las pacientes de las principales complicaciones médicas que afectan a las mujeres durante los periodos anteparto, intraparto y postparto.
     
     » Objetivos Específicos:
-    • Reconocer la patología médica gestacional más frecuente en américa latina
+    • Reconocer la patología médica gestacional más frecuente en América Latina
     • Describir la incidencia y los factores de riesgo de las complicaciones más comunes.
     • Poder identificar signos y síntomas de las embarazadas afectadas por patologías
     • Discutir el manejo médico de estas patologías y describir las implicaciones maternas y fetales.
@@ -1284,7 +1389,6 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Prevención y manejo de tromboembolismo en el embarazo y puerperio
     Dr. Fernando Romero Arauz
 
-    
     9:40 – 10:10 hrs.
     Errores en el manejo de las infecciones urinarias en la gestación
     Dr. José Tirán Saucedo
@@ -1317,6 +1421,8 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     13:40 – 14:00 hrs.
     Preguntas y conclusiones
+    Dr. Rodrigo Zamora Escudero
+    Dr. Ernesto Barrios Prieto
     
     
     """
@@ -1407,53 +1513,53 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dra. María Fernanda Escobar Vidarte
     Dra. Wendy Cárcamo
     
-    8:00 a 8:10 hrs.
+    8:00 – 8:10 hrs.
     Introducción y objetivos
     Dr. Douglas Jarquín
     
-    8:10 a 8:40 hrs.
+    8:10 – 8:40 hrs.
     Intervenciones a fortalecer en américa latina para reducir la muerte materna. La agenda pendiente.
-    Dr. Edgar Iván Ortiz
+    Dr. Edgar Iván Ortíz
     
-    8:40 a 9:10 hrs.
+    8:40 – 9:10 hrs.
     Anticoncepción como estrategia primaria para reducir la mortalidad materna
     Dr. Jorge Méndez Trujeque
     
-    9:10 a 9:40 hrs.
+    9:10 – 9:40 hrs.
     Educación para el mejoramiento de la atención de la emergencia obstétrica
     Dr. Mauricio Vasco
     
-    9:40 a 10:10 hrs.
+    9:40 – 10:10 hrs.
     Near miss como un indicador de seguridad y calidad en la atención obstétrica
     Dr. Douglas Jarquín
     
     10:10 – 10:40 hrs.
     RECESO
     
-    10:40 a 11:10 hrs.
+    10:40 – 11:10 hrs.
     Mortalidad materna: Documento Tehuacán, su historia
     Dr. Antonio Peralta Sánchez
     
-    11:10 a 11:40 hrs.
+    11:10 – 11:40 hrs.
     Estrategias efectivas para la reducción de la tasa de cesárea
     Dr. Sergio Fajardo Dueñas
     
-    11:40 a 12:10 hrs.
+    11:40 – 12:10 hrs.
     Morbilidad y mortalidad perinatal en américa latina: ¿Dónde estamos?
     Dra. Wendy Cárcamo
     
     12:10 – 12:40 hrs.
     RECESO
          
-    12:40 a 13:10 hrs.
+    12:40 – 13:10 hrs.
     Estrategias del control prenatal para mejorar la salud neonatal.
-    Dr. Héctor Bollatti
+    Dr. Héctor Bolatti
     
-    13:10 a 13:40 hrs.
-    Estrategias exitosas para la reducción de la mortalidad materna FLASOG: Manejo de la HPP, experiencia exitosa: Alto - Bolivia - Guatemala
+    13:10 – 13:40 hrs.
+    Estrategias para la reducción de la mortalidad materna FLASOG: experiencia exitosa
     Dr. Carlos Füchtner
     
-    13:40 a 14:00 hrs.
+    13:40 – 14:00 hrs.
     Preguntas y conclusiones
     """
     
@@ -1481,7 +1587,8 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     8:10 – 8:40 hrs.
     Enfoque actual de la pareja infértil
-    Dr.  Ricardo Pommer  
+    Dra. Ivonne Díaz
+    
     8:40 – 9:10 hrs.
     Evaluación de la reserva ovárica
     Dr. Roberto Epifanio
@@ -1498,10 +1605,10 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
      
     10:40 – 11:10 hrs.
     Hidrosalpinx evaluación y manejo.
-    Dr.  Henry Mateo Sanez 
+    Dr.  Henry Mateo Sánez 
     11:10 – 11:40 hrs.
     Uso de medicamentos coadyudantes en inducción de ovulación y su utilidad actual.
-    Dr.  Ricardo Pommer
+    Dr. Roberto Epifanio
     
     11:40 – 12:10 hrs.
     Utilidad de la progesterona en fertilidad.
@@ -1512,7 +1619,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
          
     12:40 – 13:10 hrs.
     Inducción de ovulación en SOP en baja complejidad.
-    Dr.  Ricardo Pommer
+    Dr. Roberto Epifanio
     
     13:10 – 13:40 hrs.
     Inducción de ovulación en bajas respondedoras.
@@ -1583,6 +1690,9 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     13:40 – 14:00 hrs.
     Preguntas y conclusiones
+    Dr. Pío Iván Gómez
+    Dr. Leonel Briozzo
+    Dr. Octavio Miranda
     
     
     """
@@ -1658,6 +1768,8 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     13:50 – 14:00 hrs.
     Preguntas y conclusiones
     Dra. Margarita Castro
+    Dr. Jorge Peláez
+    Dra. Angélica Vargas
     """
     
     items[0].items[8].desc = """
@@ -1735,7 +1847,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     El asistente conocerá el alcance del ultrasonido como herramienta en el área de la obstetricia, para realizar diagnóstico oportuno y determinar el pronóstico puntual de las diversas complicaciones del embarazo y la repercusión de la morbimortalidad perinatal.
     
     » Objetivos Específicos:
-    • Identificar las imágenes y conceptos relevantes en la predicción de alteraciones génicas, estructurales y complicaciones del embarazo   en las etapas iniciales del embarazo.
+    • Identificar las imágenes y conceptos relevantes en la predicción de alteraciones génicas, estructurales y complicaciones en las etapas iniciales del embarazo.
     • Determinar el manejo integral de las diferentes complicaciones del embarazo basado en el seguimiento sonográfico para disminuir los riesgos de morbimortalidad perinatal.
     
     » Profesor Titular:
@@ -1825,7 +1937,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dr. Eduardo Barragán Curiel
     
     ▼ Primer día (lunes, 6 de noviembre) ▼
-    SESIÓN INTERACTIVA “COLPOSCOPIA DIAGNOSTICA”
+     PATOLOGÍA DEL TGI SESIÓN INTERACTIVA "COLPOSCOPÍA DIAGNÓSTICA"
     
     7:00 – 7:05 hrs. Introducción – Dr. David E. Muñoz González.
     
@@ -1837,10 +1949,10 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     8:20 – 8:45 hrs. Inmunomoduladores, ¿vigentes? – Dr. Víctor Vargas Hernández
     
-    8:45 – 9:00 Preguntas y conclusiones – Dr. Rafael Bedolla
+    8:45 – 9:00 Preguntas y conclusiones – Dr. Rafael Bedoya
     
     ▼ Segundo día (martes, 7 de noviembre) ▼
-    SESIÓN INTERACTIVA “COLPOSCOPIA DIAGNOSTICA”
+    PATOLOGÍA DEL TGI SESIÓN INTERACTIVA “COLPOSCOPIA DIAGNOSTICA”
     
     7:00 – 7:05 hrs. Introducción y bienvenida – Dr. David E. Muñoz González.
     
@@ -1855,7 +1967,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Preguntas y conclusiones – Dr. David Eduardo Muñoz González
     
     ▼ Tercer día (miércoles, 8 de noviembre) ▼
-    SESIÓN INTERACTIVA “COLPOSCOPIA QUIRÚRGICA”
+    PATOLOGÍA DEL TGI SESIÓN INTERACTIVA “COLPOSCOPIA QUIRÚRGICA”
     
     7:00 – 7:05 hrs. Introducción – Dr. David E. Muñoz González
     
@@ -1870,7 +1982,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Preguntas y conclusiones – Dr. Eduardo Barragán Curiel
     
     ▼ Cuarto día (jueves, 9 de noviembre) ▼
-    SESIÓN INTERACTIVA “COLPOSCOPIA SITUACIONES ESPECIALES”
+    PATOLOGÍA DEL TGI SESIÓN INTERACTIVA “COLPOSCOPIA SITUACIONES ESPECIALES”
     
     7:00 – 7:05 hrs. Introducción – Dr. David E. Muñoz González.
     
@@ -1903,6 +2015,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dr. Pedro Mario Grimaldo Valenzuela
     
     ▼ Primer día (lunes, 6 de noviembre) ▼
+    "DIAGNÓSTICO PRENATAL Y ABORDAJE GENÉTICO"
     
     7:00 – 7:05 hrs. Introducción y bienvenida – Dra. Nancy Sierra Lozada
     
@@ -1917,6 +2030,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs.  Preguntas y conclusiones – Dra. Nancy Sierra Lozada
     
     ▼ Segundo día (martes, 7 de noviembre) ▼
+    "DIAGNÓSTICO PRENATAL Y ABORDAJE GENÉTICO"
 
     7:00 – 7:05 hrs. Introducción y presentación – Dr. Pedro Mario Grimaldo Valenzuela
     
@@ -1931,6 +2045,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Preguntas y conclusiones – Dr. Pedro Mario Grimaldo Valenzuela
     
     ▼ Tercer día (miércoles, 8 de noviembre) ▼
+    "DIAGNÓSTICO PRENATAL Y ABORDAJE GENÉTICO"
     
     7:00 – 7:05 hrs. Introducción y presentación – Dra. Nancy Sierra Lozada
     
@@ -1945,6 +2060,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Preguntas y conclusiones – Dra. Nancy Sierra Lozada
     
     ▼ Cuarto día (jueves, 9 de noviembre) ▼
+    "DIAGNÓSTICO PRENATAL Y ABORDAJE GENÉTICO"
 
     7:00 – 7:05 hrs. Introducción y presentación – Dr. Pedro Mario Grimaldo Valenzuela
     
@@ -1983,7 +2099,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:05 – 7:30 hrs. Evaluación clínica y pruebas de consultorio – Dr. Luis G. Sentíes Cortina
     
-    7:30 – 7:55 hrs. Urodinamia ¿a quién? ¿cuándo y qué? – Dr. Pablo Gutiérrez Escoto
+    7:30 – 7:55 hrs. Urodinamia ¿a quién? ¿Cuándo y por qué? – Dr. Pablo Gutiérrez Escoto
     
     7:55 – 8:20 hrs. Ultrasonido y estudios de imagen – Dr. Kristian Navarro Salomón
     
@@ -2045,7 +2161,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     • Establecer al consultorio médico como una empresa de servicios, regulado por procesos y supervisión continua, así como medición de indicadores de calidad del servicio.
     • Importancia de los recursos humanos, selección, motivación y aspectos de relación laboral.
     • Impacto de la mercadotecnia en el ejercicio médico.
-    Definición de costos de un consultorio como unidad de negocio.
+    • Definición de costos de un consultorio como unidad de negocio.
     
     » Profesor Titular:
     Dra. Elsa Díaz López
@@ -2055,6 +2171,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dr. Luis Uribe
     
     ▼ Primer día (lunes, 6 de noviembre) ▼
+    EJERCICIO PROFESIONAL / VISIÓN EMPRESARIAL
     
     7:00 – 7:05 hrs. Bienvenida e introducción – Dra. Elsa Díaz López
     
@@ -2069,6 +2186,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Preguntas – Dr. Luis Uribe
     
     ▼ Segundo día (martes, 7 de noviembre) ▼
+    EJERCICIO PROFESIONAL / VISIÓN EMPRESARIAL
     
     7:00 – 7:05 hrs. Introducción - Dr. Álvaro Erramuspe
 
@@ -2083,6 +2201,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Preguntas – Dra. Elsa Díaz López
     
     ▼ Tercer día (miércoles, 8 de noviembre) ▼
+    EJERCICIO PROFESIONAL / VISIÓN EMPRESARIAL
     
     7:00 – 7:05 hrs. Introducción – Dr. Luis Uribe
     
@@ -2092,11 +2211,12 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:55 – 8:20 hrs. Comunicación efectiva y relacionamiento con los pacientes y el público objetivo – Dr. Miguel Ruoti
     
-    8:20 – 8:45 hrs. ¿Qué tan a largo plazo he visualizado mi futuro profesional? – Dr. Paulino Vigil De Gracia
+    8:20 – 8:45 hrs. ¿Qué tan a largo plazo he visualizado mi futuro profesional? – Dr. Paulino Vigil-De Gracia
     
     8:45 – 9:00 hrs. Preguntas – Dra. Elsa Díaz López
     
     ▼ Cuarto Día (jueves, 9 de noviembre) ▼
+    EJERCICIO PROFESIONAL / VISIÓN EMPRESARIAL
     
     7:00 – 7:05 hrs. Introducción – Dr. Luis Uribe
     
@@ -2203,6 +2323,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dr. Luis Hernández
     
     ▼ Primer día (lunes, 6 de noviembre) ▼
+    “AVANCES EN ANTICONCEPCIÓN”
     
     7:00 – 7:05 hrs. Introducción y objetivos – Dr. Pío Iván Gómez
     
@@ -2360,50 +2481,50 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     » Profesores Adjuntos:
     Dr. Jack Ludmir
-    Dr. Héctor Bollatti
+    Dr. Héctor Bolatti
     
     ▼ Primer día (lunes, 6 de noviembre) ▼
     “CONDICIONANTES DEL MANEJO EN PREECLAMPSIA SEVERA”
     
-    7:00 – 7:05 hrs. Introducción y presentación – Dr. Paulino Vigil De Gracia
+    7:00 – 7:05 hrs. Introducción y presentación – Dr. Paulino Vigil-De Gracia
     
     7:05 – 7:30 hrs. Morbilidad y mortalidad asociado a preeclampsia – Dr. Jack Ludmir
     
-    7:30 – 7:55 hrs. Criterios de severidad en preeclampsia – Dr. Paulino Vigil De Gracia
+    7:30 – 7:55 hrs. Criterios de severidad en preeclampsia – Dr. Paulino Vigil-De Gracia
     
     7:55 – 8:20 hrs. Evidencia para el manejo de preeclampsia por edades gestacionales – Dr. Jack Ludmir
     
-    8:20 – 8:45 hrs. Condiciones para el manejo expectante lejos del termino con preeclampsia severa – Dr. Paulino Vigil De Gracia
+    8:20 – 8:45 hrs. Condiciones para el manejo expectante lejos del termino con preeclampsia severa – Dr. Paulino Vigil-De Gracia
     
-    8:45 – 9:00 hrs. Preguntas y conclusiones – Dr. Paulino Vigil De Gracia
+    8:45 – 9:00 hrs. Preguntas y conclusiones – Dr. Paulino Vigil-De Gracia
     
     ▼ Segundo día (martes, 7 de noviembre) ▼
     “EL FETO EN PACIENTES CON PREECLAMPSIA”
     
-    7:00 – 7:05 hrs. Introducción y presentación – Dra. Wendy Carcamo
+    7:00 – 7:05 hrs. Introducción y presentación – Dra. Wendy Cárcamo
     
     7:05 – 7:30 hrs. Fisiopatología de la placenta en preeclampsia – Dr. Freddy González Arias
     
-    7:30 – 7:55 hrs. Manejo del RCIU asociado a preeclampsia – Dra. Wendy Carcamo
+    7:30 – 7:55 hrs. Manejo del RCIU asociado a preeclampsia – Dra. Wendy Cárcamo
     
     7:55 – 8:20 Pruebas de bienestar fetal en pacientes con preeclampsia en manejo expectante – Dr. Freddy González Arias
     
-    8:20 – 8:45 hrs. Tiempo y vía de finalización del embarazo en preeclampsia – Dra. Wendy Carcamo
+    8:20 – 8:45 hrs. Tiempo y vía de finalización del embarazo en preeclampsia – Dra. Wendy Cárcamo
     
     8:45 – 9: 00 hrs. Preguntas y conclusiones – Dr. Freddy González Arias
     
     ▼ Tercer día (miércoles, 8 de noviembre) ▼
     “PREDICCIÓN Y PREVENCIÓN DE PREECLAMPSIA”
     
-    7:00 – 7:05 hrs. Introducción y presentación – Dr. Héctor Bollati
+    7:00 – 7:05 hrs. Introducción y presentación – Dr. Héctor Bolatti
     
     7:05 – 7:30 hrs. Modelos predictivos en preeclampsia – Dr. José Alfredo Fernández Lára
     
-    7:30 – 7:55 hrs. Estrategias efectivas de prevención de preeclampsia – Dr. Héctor Bollati
+    7:30 – 7:55 hrs. Estrategias efectivas de prevención de preeclampsia – Dr. Héctor Bolatti
     
     7:55 – 8:20 hrs. Modelos de control prenatal para manejo ambulatorio de preeclampsia – Dr. Paulo Meade Treviño
     
-    8:20 – 8:45 hrs. Condiciones de seguridad para el manejo intrahospitalario de preeclampsia – Dr. Héctor Bollati
+    8:20 – 8:45 hrs. Condiciones de seguridad para el manejo intrahospitalario de preeclampsia – Dr. Héctor Bolatti
     
     8:45 – 9: 00 hrs. Preguntas y conclusiones – Dr. Paulo Meade Treviño
     
@@ -2440,6 +2561,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dr. Saulo Molina
     
     ▼ Primer día (lunes, 6 de noviembre) ▼
+    PATOLOGÍAS INFECCIOSAS DURANTE EL EMBARAZO
     
     7:00 – 7:05 hrs. Introducción y bienvenida – Dr. Freddy González Arias
     
@@ -2454,6 +2576,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Preguntas – Dr. Freddy González Arias
     
     ▼ Segundo día (martes, 7 de noviembre) ▼
+    PATOLOGÍAS INFECCIOSAS DURANTE EL EMBARAZO
     
     7:00 – 7:05 hrs. Introducción y bienvenida – Dr. Erasmo Huerta
     
@@ -2468,6 +2591,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Preguntas – Dr. Erasmo Huerta
     
     ▼ Tercer día (jueves, 9 de noviembre) ▼
+    PATOLOGÍAS INFECCIOSAS DURANTE EL EMBARAZO
     
     7:00 – 7:05 hrs. Introducción y bienvenida – Dr. Juan Pérez Wulff
     
@@ -2482,6 +2606,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     8:45 – 9:00 hrs. Preguntas – Dr. Juan Pérez Wulffk
     
     ▼ Cuarto día (jueves, 9 de noviembre) ▼
+    PATOLOGÍAS INFECCIOSAS DURANTE EL EMBARAZO
     
     7:00 – 7:05 hrs. Introducción y bienvenida – Dr. Saulo Molina
     
@@ -2543,13 +2668,13 @@ Impartido por: Dra. Carin Huysner
 """
 items[3].items[2].desc = """
 » Dra. Alexandra Grazziottin
-Presidente: Dr. Rafael Bedolla Torres
+Presidente: Dr. Rafael Bedoya Torres
 
 Impartido por: Dra. Alexandra Grazziottin
 """
 items[3].items[3].desc = """
 » Dra. Cynthia Stuenkel
-Presidente: Dr. Manuel Saénz cabrera
+Presidente: Dr. Manuel Saénz Cabrera
 
 Impartido por: Dra. Cynthia Stuenkel 
 """
@@ -2573,7 +2698,7 @@ Impartido por: Dr. Samuel Karchmer K.
 """
 items[3].items[7].desc = """
 » Dra. Jeanne Conry
-Presidente: Dr. Cesar Enrique Favela Heredia
+Presidente: Dr. César Enrique Favela Heredia
 
 Impartido por: Dra. Jeanne Conry
 """
@@ -2634,36 +2759,56 @@ items[4].items[4].desc = """
     
     //****************      Simposios Especiales   ********************
 items[5].items[0].desc = """
-DEMESA
+Consenso Latinoamericano para el manejo de la deficiencia de hierro y anemia por deficiencia de hierro en ginecología
 """
+
 items[5].items[1].desc = """
+DEMESA
+
+- Técnicas de maduración cervical – Dr. Juan Carlos de la Cerda Ángeles
+"""
+items[5].items[2].desc = """
 Rompiendo barreras en la prevención VPH
 
 Dra. Elsa Díaz
 Dr. Carlos Aranda
-Dr. Aurelio Cruz 
-"""
-items[5].items[2].desc = """
-Manejo actual de miomatosis y vinculación a infertilidad. Experiencia clínica con UPA. Coordinador: Jesús Barron Vallejo  - De la patogenesis al manejo moderno  Dr. Jacques Donnez  - Miomatosis e infertilidad  Dr. Antonio La Marca  - Casos clínicos de miomatosis manejo clínico en mujer mexicana Dra. Elsa Díaz
-
 """
 items[5].items[3].desc = """
-Terapia Estrogenica transdermica en Spay. Nueva opción en América Latina Coordinador: Dr. Leopoldo Vázquez Estrada  - Terapia hormonal oral vs no oral Dr. Santiago Palacios  - Experiencia clínica con Bomba de Estradiol Dr. Buster  - Guías Internacionales actualizadas de manejo de TMH *Por definir
+- Manejo actual de miomatosis y vinculación a infertilidad. Experiencia clínica con UPA. Coordinador: Jesús Barrón Vallejo  - De la patogenesis al manejo moderno  Dr. Jacques Donnez  - Miomatosis e infertilidad  Dr. Antonio La Marca  - Casos clínicos de miomatosis manejo clínico en mujer mexicana Dra. Elsa Díaz
+
+"""
+items[5].items[4].desc = """
+- Terapia Estrogenica transdermica en Spray. Nueva opción en América Latina Coordinador: Dr. Leopoldo Vázquez Estrada  - Terapia hormonal oral vs no oral Dr. Santiago Palacios  - Experiencia clínica con Bomba de Estradiol Dr. John Buster  - Guías Internacionales actualizadas de manejo de TMH 
 """
 
-items[5].items[4].desc = """
-OMEGA 3, Suplementación inteligente en la gestación, embarazo y lactancia.
+items[5].items[5].desc = """
+- OMEGA 3, Suplementación inteligente en la gestación, embarazo y lactancia.
 
 Dra. Elizabeth Tejero Barrera
 Dr. Alfredo Perales Marín 
 """
 
-items[5].items[5].desc = """
+items[5].items[6].desc = """
     ROCHE
+    
+    - Detección prenatal de cromosomopatías fetales con ADN libre en sangre materna: Estado del Arte
+    Dr. Juan Manuel Acuña
 """
 
-items[5].items[6].desc = """
+items[5].items[7].desc = """
     IPAS
+    
+    Aborto en el segundo trimestre – retos técnicos, éticos y legales.
+    Coordinador: Dr. Guillermo Ortiz
+    
+    - Contexto legal latinoamericano sobre el aborto en el segundo trimestre. – Lic. María Fernanda Díaz
+    De León
+    - Importancia de la interrupción del embarazo en el segundo trimestre de la gestación: técnicas y
+    retos para los programas locales. – Dra. Nathalie Kapp
+    - Aborto del segundo trimestre por causal:
+    o Malformación fetal: Experiencia del INPER en México – Dr. Juan Manuel Grosso Espinosa
+    o Violación: Experiencia y retos en Argentina – Dra. Graciela Lukin
+    o Salud: Experiencia en el sistema de salud de Bolivia – Dr. Igor Pardo
 """
 
     //****************      Simposios simultáneos   ********************
@@ -2704,7 +2849,7 @@ items[6].items[2].desc = """
 
 9:55 – 10:15 hrs. Obesidad y embarazo ¿Cuál es el reto? – Dr. Giancarlo Mari
 
-10:15 – 10:35 hrs. El manejo farmacológico y la vigilancia fetal: ¿mejoran el resultado del embarazo? – Dr. Cesar Favela Heredia
+10:15 – 10:35 hrs. El manejo farmacológico y la vigilancia fetal: ¿mejoran el resultado del embarazo? – Dr. César Favela Heredia
 
 10:35 – 10:55 hrs. Programación metabólica fetal y el futuro despues de la DMG – Dr. José Antonio Ayala Méndez
 
@@ -2748,7 +2893,7 @@ items[6].items[5].desc = """
 
 9:55 – 10:15 hrs. Optimizando roles de los prestadores de atención en salud materna y salud reproductiva. – Dr. Paulo Joao Souza
 
-10:15 – 10:35 hrs. La anticoncepción dentro del marco integral de los derechos reproductivos. – Dra. Mónica Roa
+10:15 – 10:35 hrs. La anticoncepción dentro del marco integral de los derechos reproductivos. – Dra. Silvia Oizerovich
 
 10:35 – 10:55 hrs. Necesidades insatisfechas de anticoncepción en tiempos de zika en América latina y el Caribe. – Dr. Rodolfo Gómez Ponce De León.
 
@@ -2770,7 +2915,7 @@ items[6].items[6].desc = """
 """
 
 items[6].items[8].desc = """
-9:30 – 9:35 hrs. Introducción y presentación – Dr. Paulino Vigil De Gracia
+9:30 – 9:35 hrs. Introducción y presentación – Dr. Paulino Vigil-De Gracia
 
 9:35 – 9:55 hrs. Prevención de preeclampsia: mitos y realidades – Dr. Fernando Romero Arauz
 
@@ -2778,20 +2923,20 @@ items[6].items[8].desc = """
 
 10:15 – 10:35 hrs. Puntos criticos en el manejo del sindrome de HELLP – Dr. James N. Martin Jr.
 
-10:35 – 10:55 hrs. Avances en el manejo de la eclampsia – Dr. Paulino Vigil De Gracia
+10:35 – 10:55 hrs. Avances en el manejo de la eclampsia – Dr. Paulino Vigil-De Gracia
 
-10:55 – 11:00 hrs. Conclusiones – Dr. Paulino Vigil De Gracia
+10:55 – 11:00 hrs. Conclusiones – Dr. Paulino Vigil-De Gracia
 
 """
 
 items[6].items[7].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dr. José Tiran
 
-9:35 – 9:55 hrs. Implicaciones en la reproducción de las parejas infectadas con zika, dengue, chinkinguya y malaria – Dra. Karin Huyser
+9:35 – 9:55 hrs. Implicaciones en la reproducción de las parejas infectadas con zika, dengue, chinkinguya y malaria – Dra. Carin Huyser
 
 9:55 – 10:15 hrs. Diagnóstico y manejo de la mujer embarazada residente en zona endémica o con historia de viaje a zonas endémicas. – Dr. José Tiran
 
-10:15 – 10:35 hrs. Proyeto praca onze: nuevas lecciones y retos futuros provenientes de un área endémica de zika. – Dr. Mauro Schechter
+10:15 – 10:35 hrs. Zika el nuevo reto perinatal. – Dr. Javier Ortiz Ibarra
 
 10:35 – 10:55 hrs. Recomendaciones para hombres y sus parejas embarazadas, asi como a mujeres buscando embarazo con posibilidad de tener zika, malaria, dengue o chikingunya. – Dra. Catalina Valencia
 
@@ -2828,7 +2973,7 @@ items[6].items[11].desc = """
 """
 
 items[6].items[9].desc = """
-9:30 – 9:35 hrs. Introducción – Dr. José Ramón Serrano Navarro
+9:30 – 9:35 hrs. Introducción – Dr. Pío Iván Gómez
 
 9:35 – 9:55 hrs. Escala de calidad de vida – Dr. Ezequiel Pérez Campos
 
@@ -2838,7 +2983,7 @@ items[6].items[9].desc = """
 
 10:35 – 10:55 hrs. SEC Y FLASOG. Una alianza estratégica. Presente y futuro. – Dr. José Ramón Serrano Navarro
 
-10:55 – 11:00 hrs. Conclusiones – Dr. José Ramón Serrano Navarro
+10:55 – 11:00 hrs. Conclusiones – Dr. Pío Iván Gómez
 """
 
 items[6].items[17].desc = """
@@ -2892,7 +3037,7 @@ Introducción y presentación – Dr. Luis Cabero
 Orígenes en el desarrollo de la salud y enfermedad: eres lo que tu madre come. – Dr. Shane Norris
     
 10:00 – 10:20 hrs.
-Enfermedades no transmisibles: La creciente pandemia en América Latina
+Enfermedades no transmisibles: La creciente pandemia en América Latina. - Dr. Edgar Iván Ortíz
     
 10:20 – 10:40 hrs.
 Abordando las enfermedades no transmisibles en América Latina: ejemplo político y práctico. – Dr. Francisco Mordones y Dr. Dalton Ávila Gamboa
@@ -2906,7 +3051,7 @@ items[6].items[16].desc = """
 
 9:35 – 9:55 hrs. Aborto recurrente. Algo por hacer – Dra. Ivonne Díaz
 
-9:55 – 10:10 hrs. Conservación de la fertilidad. ¿Ficción o realidad? – Dr. Ricardo Pommer
+9:55 – 10:10 hrs. Criopreservación de la fertilidad. ¿Ficción o realidad? – Dr. Jorge Campos
 
 10:15 – 10:35 hrs. Ovario androgénico: Enfoque diagnóstico y tratamiento – Dr. Roberto Epifanio
 
@@ -2935,7 +3080,7 @@ items[6].items[19].desc = """
 
 9:35 – 9:55 hrs. Potencial evolutivo de las lesiones Hiperplasicas – Dr. Néstor Garello
 
-9:55 – 10:15 hrs. Papiloma intraductal… ¿Qué tanto aumenta el riesgo? – Dra. Paola Iturralde Rosas Priego
+9:55 – 10:15 hrs. Consideraciones prácticas en lesiones papilares – Dra. Paola Iturralde Rosas Priego
 
 10:15 – 10:35 hrs. Neoplasia Ductual INSITU – Dr. Javier Gómezpedroso Rea
 
@@ -2949,9 +3094,11 @@ items[6].items[21].desc = """
 
 9:35 – 9:55 hrs. Epidemiologia de la enfermedad pélvica. Un status quo al año 2017 – Dr. Alfredo Celis
 
-9:55 – 10:15 hrs. Enfermedad pélvica subclínica e infertilidad. – Dr. Juan Carlos Hinojosa Cruz
-
-10:15 – 10:35 hrs. De la tinción de gram a la biología molecular, en el diagnóstico etiológico de la enfermedad pélvica. – Dr. Federico Javier Ortiz Ibarra
+9:55 – 10:15 hrs. 
+    De la tinción de gram a la biología molecular, en el diagnóstico etiológico de la enfermedad pélvica. – Dr. Federico Javier Ortiz Ibarra
+    
+10:15 – 10:35 hrs.
+    Enfermedad pélvica subclínica e infertilidad. – Dr. Juan Carlos Hinojosa Cruz 
 
 10:35 – 10:55 hrs. Actualidades en el tratamiento de la enfermedad pélvica. – Dr. Emilio Valerio Castro
 
@@ -2991,22 +3138,22 @@ items[6].items[20].desc = """
 
 """
 
-items[6].items[23].desc = """
+items[6].items[22].desc = """
 9:30 – 9:35 hrs. Introducción y presentación – Dr. Douglas Jarquín
 
 9:35 – 9:55 hrs. Implementacion de listas de chequeo en emergencia obstetricas – Dr. Paulo Meade Treviño
 
-9:55 – 10:15 hrs. Manejo avanzados en acretismo placentario – Dr. Wendy Carcamo
+9:55 – 10:15 hrs. Manejo avanzados en acretismo placentario – Dr. Wendy Cárcamo
 
-10:15 – 10:35 hrs. Preeclampsia severa lejos del termino – Dr. Héctor Bollatti
+10:15 – 10:35 hrs. Preeclampsia severa lejos del termino – Dr. Héctor Bolatti
 
-10:35 – 10:55 hrs. Trauma obstétrico: implicaciones del cuidado intraparto – Dr. Cesar Favela Heredia
+10:35 – 10:55 hrs. Trauma obstétrico: implicaciones del cuidado intraparto – Dr. César Favela Heredia
 
 10:55 – 11:00 hrs. Conclusiones – Dr. Douglas Jarquín
 
 """
 
-items[6].items[22].desc = """
+items[6].items[23].desc = """
 9:30 – 9:35 hrs. Introducción – Dr. Jimmy Castañeda
 
 9:35 – 9:55 hrs. ¿cuál debe ser la vía de la histerectomía en nuestra región? – Dr. Jimmy Castañeda
@@ -3115,7 +3262,7 @@ items[6].items[22].desc = """
     """
     
     items[7].items[8].desc = """
-    11:15 – 11:20 hrs. Introducción y presentación – Dr. Héctor Bollati
+    11:15 – 11:20 hrs. Introducción y presentación – Dr. Héctor Bolatti
     
     11:20 – 11:40 hrs. Monitoreo y seguimiento de “Near Miss” como indicador de la calidad de atención obstétrica. – Dr. Douglas Jarquín
     
@@ -3123,14 +3270,14 @@ items[6].items[22].desc = """
     
     12:00 -12:25 hrs. Foro de discusión coordinada – Dr. Raúl bravo
     
-    12:25 – 12:30 hrs. Conclusiones – Dr. Héctor Bollati
+    12:25 – 12:30 hrs. Conclusiones – Dr. Héctor Bolatti
     
     """
     
     items[7].items[5].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Freddy González A.
     
-    11:20 – 11:40 hrs. Biopsia de vellosidades coriales y amniocentesis – Dr. Juan Pérez Wulff
+    11:20 – 11:40 hrs. Biopsia de vellosidades coriales y amniocentesis – Dr. Freddy González Arias
     
     11:40 – 12:00 hrs. Laparoscopia una nueva opción – Dr. Rogelio Cruz
     
@@ -3156,7 +3303,7 @@ items[6].items[22].desc = """
     items[7].items[13].desc = """
     11:15 – 11:20 hrs. Introducción y presentación – Dr. Eduardo Sirahuen Neri Ruz
     
-    11:20 – 11:40 hrs. Pros de la cirugia tradicional y riesgos de las mallas – Dr. Pablo Gutierrez Escoto
+    11:20 – 11:40 hrs. Pros de la cirugia tradicional y riesgos de las mallas – Dr. Pablo Gutiérrez Escoto
     
     11:40 – 12:00 hrs. Ventajas de las mallas y contras de la cirugia tradicional – Dr. Willy Dávila
     
