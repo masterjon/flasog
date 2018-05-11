@@ -27,7 +27,7 @@ func loadSchedule()->[ProgramCat]{
         cat.image = "pg\(index+1)"
         items.append(cat)
     }
-    items[0].schedule = "7:00 – 14:00 hrs"
+    items[0].schedule = "8:00 – 14:00 hrs"
     items[1].schedule = "7:00 – 9:00 hrs."
     items[2].schedule = "13:00 – 13:45 hrs."
     items[3].schedule = "11:15 – 12:30 hrs."
@@ -463,7 +463,7 @@ func loadSchedule()->[ProgramCat]{
     
     let item4_4 = ProgramItem()
     item4_4.catId = 4
-    item4_4.title = "Módulo 4: La salud materna y fetal despúes de la cesárea"
+    item4_4.title = "Módulo 4: La salud materna y fetal después de la cesárea"
     item4_4.room = "Bacalar"
     item4_4.duration = 60
     item4_4.schedule = "16:30hrs. – 17:30 hrs."
@@ -1818,7 +1818,7 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Diagnóstico clínico: Nuevas herramientas para evitar intervenciones innecesarias Dra. Juliana Esteves
     
     11:40 – 12:10 hrs.
-    Tocolísis y esteroides repetidos: Evaluación crítica Dr. Renato Moreira De Sá
+    Tocolísis y esteroides repetidos: Evaluación crítica Dr. Miguel Ruoti Cosp
     
     12:10 – 12:40 hrs.
     RECESO
@@ -2479,7 +2479,6 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     Dra. María Fernanda Escobar Vidarte
     
     » Profesores Adjuntos:
-    Dr. Jack Ludmir
     Dr. Héctor Bolatti
     
     ▼ Primer día (lunes, 6 de noviembre) ▼
@@ -2487,11 +2486,11 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     
     7:00 – 7:05 hrs. Introducción y presentación – Dr. Paulino Vigil-De Gracia
     
-    7:05 – 7:30 hrs. Morbilidad y mortalidad asociado a preeclampsia – Dr. Jack Ludmir
+    7:05 – 7:30 hrs. Morbilidad y mortalidad asociado a preeclampsia – Dra. María Fernanda Escobar Vidarte
     
     7:30 – 7:55 hrs. Criterios de severidad en preeclampsia – Dr. Paulino Vigil-De Gracia
     
-    7:55 – 8:20 hrs. Evidencia para el manejo de preeclampsia por edades gestacionales – Dr. Jack Ludmir
+    7:55 – 8:20 hrs. Evidencia para el manejo de preeclampsia por edades gestacionales – Dr. Paulino Vigil-De Gracia
     
     8:20 – 8:45 hrs. Condiciones para el manejo expectante lejos del término con preeclampsia severa – Dr. Paulino Vigil-De Gracia
     
@@ -2592,17 +2591,17 @@ func fillDesc(items:[ProgramCat]) -> [ProgramCat]{
     ▼ Tercer día (jueves, 9 de noviembre) ▼
     PATOLOGÍAS INFECCIOSAS DURANTE EL EMBARAZO
     
-    7:00 – 7:05 hrs. Introducción y bienvenida – Dr. Juan Pérez Wulff
+    7:00 – 7:05 hrs. Introducción y bienvenida – Dra. Mónica García
     
     7:05 – 7:30 hrs. Evaluación serológica de las infecciones perinatales de riesgo – Dr. Saulo Molina
     
-    7:30 – 7:55 hrs. Virus que producen compromiso fetal (Citomegalovirus rubeola) – Dr. Juan Pérez Wulff
+    7:30 – 7:55 hrs. Virus que producen compromiso fetal (Citomegalovirus rubeola) – Dra. Mónica García
     
     7:55 – 8:20 hrs. Virus con compromiso fetal-neonatal periparto (herpes, hepatitis, HIV) – Dr. Erasmo Huerta
     
     8:20 – 8:45 hrs. Infecciones emergentes: chikungunya, dengue y zika – Dr. Freddy González Arias
     
-    8:45 – 9:00 hrs. Preguntas – Dr. Juan Pérez Wulffk
+    8:45 – 9:00 hrs. Preguntas – Dra. Mónica García
     
     ▼ Cuarto día (jueves, 9 de noviembre) ▼
     PATOLOGÍAS INFECCIOSAS DURANTE EL EMBARAZO
@@ -2660,10 +2659,10 @@ Presidente: Dr. Horacio Ortega Clavero
 Impartido por: Dr. Andrea Genazzani 
 """
 items[3].items[1].desc = """
-» Dra. Carin Huysner
+» Dra. Carin Huyser
 Presidente: Dr. José Manuel González Martínez
 
-Impartido por: Dra. Carin Huysner
+Impartido por: Dra. Carin Huyser
 """
 items[3].items[2].desc = """
 » Dra. Alessandra Graziottin
@@ -2708,9 +2707,9 @@ items[4].items[0].desc = """
 
 • Infección por dengue, durante el embarazo y efectos sobre el feto (México)
 
-• Infección por chikungunya, durante el embarazo y efectos sobre el feto (Haití)
+• Infección por chikungunya, durante el embarazo y efectos sobre el feto (México)
 
-• Infección por zika, durante el embarazo y efectos sobre el feto (Brasil)
+• Infección por zika, durante el embarazo y efectos sobre el feto (México)
 """
 
 items[4].items[1].desc = """
@@ -2718,18 +2717,18 @@ items[4].items[1].desc = """
 
 • Pubertad precoz (Panamá)
 
-• Ovario poliquístico (R. Dominicana)
+• Ovario poliquístico (México)
 
 • Síndrome metabólico (El salvador)
 
 """
 
 items[4].items[2].desc = """
-• De la infertilidad social a la infertilidad médica (Argentina)
+• De la infertilidad social a la infertilidad médica (México)
 
 • Endometriosis una patología sobre tratada (Paraguay)
 
-• La evolución de los resultados de la fertilización asistida (Chile)
+• La evolución de los resultados de la fertilización asistida (México)
 
 • Postergación de la maternidad en forma responsable (Bolivia)
 
@@ -2740,7 +2739,7 @@ items[4].items[3].desc = """
 
 • Incremento de alergias y asma en el R.N. (Guatemala)
 
-• IQ bajo y autismo (Nicaragua)
+• IQ bajo y autismo (México)
 
 • Obesidad y sobrepeso en la etapa adulta con el antecedente de nacer vía cesárea (Colombia)
 
@@ -2753,7 +2752,7 @@ items[4].items[4].desc = """
 
 • Hiperestimulación ovárica y cáncer de ovario (Perú)
 
-• Cáncer cervico-uterino y libertad sexual. ¿Mito o realidad? (Venezuela)
+• Cáncer cervico-uterino y libertad sexual. ¿Mito o realidad? (México)
 """
     
     //****************      Simposios Especiales   ********************
@@ -3205,11 +3204,11 @@ items[6].items[23].desc = """
     """
     
     items[7].items[1].desc = """
-    11:15 – 11:20 hrs. Introducción y presentación – Dr. Juan F. Romero Arauz
+    11:15 – 11:20 hrs. Introducción y presentación – Dr. Vicente Yu Chong
     
     11:20 – 11:40 hrs. Manejo conservador de preclampsia severa: se justifica – Dr. James N. Martin Jr.
     
-    11:40 – 12:00 hrs. Manejo conservador de preclampsia severa: no se justifica – Dr. Jack Ludmir
+    11:40 – 12:00 hrs. Manejo conservador de preclampsia severa: no se justifica – Dr. Juan F. Romero Arauz
     
     12:00 – 12:30 hrs. Preguntas y conclusiones – Dr. Vicente Yu Chong y Dr. Juan F. Romero Arauz 
     """
@@ -3244,7 +3243,7 @@ items[6].items[23].desc = """
     
     11:20 – 11:40 hrs. Cesárea porque si: justificaciones – Dr. Ricardo Fescina
     
-    11:40 – 12:00 hrs. Cesárea porque no: justificaciones – Dr. Jack Ludmir
+    11:40 – 12:00 hrs. Cesárea porque no: justificaciones – Dr. Jaime Sánchez
     
     12:00 – 12:25 hrs. Foro de discusión coordinada – Dra. María Teresa Figueroa
     
@@ -3423,7 +3422,7 @@ items[6].items[23].desc = """
     
     11:20 – 11:40 hrs. Utilidad de progesterona en evitar prematuridad – Dr. José Antonio Ayala Méndez
     
-    11:40 – 12:00 hrs. Pesarios para evitar el parto prematuro – Dr. Jack Ludmir
+    11:40 – 12:00 hrs. Pesarios para evitar el parto prematuro – Dra. Dahyana Gallo
     
     12:00-12:30 preguntas y conclusiones – Dr. Miguel Ruoti y Dr. Alfredo Beitia
     
